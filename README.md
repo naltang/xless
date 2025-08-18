@@ -1,1 +1,8 @@
 # xless
+
+
+
+
+numpy
+PIL
+argparse
