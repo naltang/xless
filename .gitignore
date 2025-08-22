@@ -207,7 +207,11 @@ marimo/_lsp/
 __marimo__/
 
 
-
 #All data files
 data/
 *.raw
+
+#All C intermediate files
+*.o
+*.d
+*.exe

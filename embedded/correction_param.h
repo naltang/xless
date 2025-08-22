@@ -1,0 +1,17 @@
+#ifndef __CORRECTION_PARAM_H__
+#define __CORRECTION_PARAM_H__
+
+// Define any necessary constants or function prototypes here
+
+#define CORRECTION_IMAGE_WIDTH	2048
+#define CORRECTION_IMAGE_HEIGHT	2560
+
+#define CORRECTION_TRIM_LEFT	12
+#define CORRECTION_TRIM_RIGHT	450
+#define CORRECTION_TRIM_TOP		12
+#define CORRECTION_TRIM_BOTTOM	12
+
+#define CORRECTION_CORNER_WIDTH		100
+#define CORRECTION_CORNER_HEIGHT	100
+
+#endif // __CORRECTION_PARAM_H__
