@@ -22,10 +22,11 @@ class XIntensity:
 	FILENAME_CORRECTION_LOW = "correction_low.csv"
 	FILENAME_CORRECTION_HIGH = "correction_high.csv"
 
-	dic_pair = {}
+	dic = {}
 
 	array_correction_low = None
 	array_correction_high = None
+	array_ratio = None
 
 	def __init__(self, filename_low=FILENAME_CORRECTION_LOW, filename_high=FILENAME_CORRECTION_HIGH):
 		self.read_correction_files(filename_low, filename_high)
@@ -46,8 +47,8 @@ class XIntensity:
 	def read_raw_file_pair(self, filename_low, filename_high):
 		array_low = XIntensity.read_raw_file(filename_low)
 		array_high = XIntensity.read_raw_file(filename_high)
-		self.dic_pair["low"] = array_low
-		self.dic_pair["high"] = array_high
+		self.dic["low"] = array_low
+		self.dic["high"] = array_high
 
 	@staticmethod
 	def denoise(array):
@@ -101,19 +102,27 @@ class XIntensity:
 		return top_half.mean()
 
 	def intensity_correction(self):
-		self.dic_pair["low_crop"] = XIntensity.crop(self.dic_pair["low"])
-		self.dic_pair["low_denoise"] = XIntensity.denoise(self.dic_pair["low_crop"])
-		self.dic_pair["low_flatten"] = self.dic_pair["low_denoise"] * self.array_correction_low
-		self.dic_pair["low_corrected"] = self.dic_pair["low_flatten"] / XIntensity.mean_of_top_half(self.dic_pair["low_flatten"]) * XIntensity.INTENSITY_LOW
-		self.dic_pair["high_crop"] = XIntensity.crop(self.dic_pair["high"])
-		self.dic_pair["high_denoise"] = XIntensity.denoise(self.dic_pair["high_crop"])
-		self.dic_pair["high_flatten"] = self.dic_pair["high_denoise"] * self.array_correction_high
-		self.dic_pair["high_corrected"] = self.dic_pair["high_flatten"] / XIntensity.mean_of_top_half(self.dic_pair["high_flatten"]) * XIntensity.INTENSITY_HIGH
+		self.dic["low_crop"] = self.crop(self.dic["low"])
+		self.dic["low_denoise"] = self.denoise(self.dic["low_crop"])
+		self.dic["low_flatten"] = self.dic["low_denoise"] * self.array_correction_low
+		self.dic["low_corrected"] = self.dic["low_flatten"] / self.mean_of_top_half(self.dic["low_flatten"]) * XIntensity.INTENSITY_LOW
+		self.dic["high_crop"] = self.crop(self.dic["high"])
+		self.dic["high_denoise"] = self.denoise(self.dic["high_crop"])
+		self.dic["high_flatten"] = self.dic["high_denoise"] * self.array_correction_high
+		self.dic["high_corrected"] = self.dic["high_flatten"] / self.mean_of_top_half(self.dic["high_flatten"]) * XIntensity.INTENSITY_HIGH
+
+	def set_ratio(self, high="high", low="low"):
+		#self.dic["ratio"] = self.dic[high] / (self.dic[low] + 1e-8)
+		array_ratio = self.dic[high] / (self.dic[low] + 1e-8)
+
+	def get_ratio(self):
+		#return self.dic["ratio"]
+		return array_ratio
 
 if __name__ == "__main__":
-	x_intensity = XIntensity()
-	x_intensity.read_raw_file_pair("data/sample_low.raw", "data/sample_high.raw")
-	x_intensity.intensity_correction()
-	mean_low = XIntensity.mean_of_top_half(x_intensity.dic_pair["low_corrected"])
-	mean_high = XIntensity.mean_of_top_half(x_intensity.dic_pair["high_corrected"])
-	print(f"mean low = {mean_low}, mean high = {mean_high}, ratio H/L = {mean_high / mean_low if mean_low != 0 else 0}")
+	xi = XIntensity()
+	xi.read_raw_file_pair("data/sample_low.raw", "data/sample_high.raw")
+	xi.intensity_correction()
+	mean_low = xi.mean_of_top_half(xi.dic["low_corrected"])
+	mean_high = xi.mean_of_top_half(xi.dic["high_corrected"])
+	print(f"mean low = {mean_low:<.2f}, mean high = {mean_high:<.2f}, ratio H/L = {xi.ratio():<.4f}")
