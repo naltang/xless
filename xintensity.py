@@ -15,9 +15,10 @@ class XIntensity:
 	TRIM_BOTTOM = 12
 
 	# these intensity values came from the calibration process
-	INTENSITY_RATIO_HIGH_OVER_LOW = 1.6858
-	INTENSITY_LOW = 15260
-	INTENSITY_HIGH = 25726
+	#INTENSITY_RATIO_HIGH_OVER_LOW = 1.6858
+	#INTENSITY_LOW = 15260
+	#INTENSITY_HIGH = 25726
+	INTENSITY_TARGET = 50000
 
 	FILENAME_CORRECTION_LOW = "correction_low.csv"
 	FILENAME_CORRECTION_HIGH = "correction_high.csv"
@@ -105,19 +106,19 @@ class XIntensity:
 		self.dic["low_crop"] = self.crop(self.dic["low"])
 		self.dic["low_denoise"] = self.denoise(self.dic["low_crop"])
 		self.dic["low_flatten"] = self.dic["low_denoise"] * self.array_correction_low
-		self.dic["low_corrected"] = self.dic["low_flatten"] / self.mean_of_top_half(self.dic["low_flatten"]) * XIntensity.INTENSITY_LOW
+		self.dic["low_corrected"] = self.dic["low_flatten"] / self.mean_of_top_half(self.dic["low_flatten"]) * XIntensity.INTENSITY_TARGET
 		self.dic["high_crop"] = self.crop(self.dic["high"])
 		self.dic["high_denoise"] = self.denoise(self.dic["high_crop"])
 		self.dic["high_flatten"] = self.dic["high_denoise"] * self.array_correction_high
-		self.dic["high_corrected"] = self.dic["high_flatten"] / self.mean_of_top_half(self.dic["high_flatten"]) * XIntensity.INTENSITY_HIGH
+		self.dic["high_corrected"] = self.dic["high_flatten"] / self.mean_of_top_half(self.dic["high_flatten"]) * XIntensity.INTENSITY_TARGET
 
 	def set_ratio(self, high="high", low="low"):
 		#self.dic["ratio"] = self.dic[high] / (self.dic[low] + 1e-8)
-		array_ratio = self.dic[high] / (self.dic[low] + 1e-8)
+		self.array_ratio = self.dic[high] / (self.dic[low] + 1e-8)
 
 	def get_ratio(self):
 		#return self.dic["ratio"]
-		return array_ratio
+		return self.array_ratio
 
 if __name__ == "__main__":
 	xi = XIntensity()
@@ -125,4 +126,36 @@ if __name__ == "__main__":
 	xi.intensity_correction()
 	mean_low = xi.mean_of_top_half(xi.dic["low_corrected"])
 	mean_high = xi.mean_of_top_half(xi.dic["high_corrected"])
-	print(f"mean low = {mean_low:<.2f}, mean high = {mean_high:<.2f}, ratio H/L = {xi.ratio():<.4f}")
+	mean_ratio = mean_high / (mean_low + 1e-8)
+	xi.set_ratio(high="high_corrected", low="low_corrected")
+	array_ratio = xi.get_ratio()
+	print(f"mean low = {mean_low:<.2f}, mean high = {mean_high:<.2f}, ratio H/L = {mean_ratio:<.4f}")
+	std_low = xi.dic["low_corrected"].std()
+	std_high = xi.dic["high_corrected"].std()
+	print(f"std low = {std_low:<.2f}, std high = {std_high:<.2f}")
+
+	xi = XIntensity(XIntensity.FILENAME_CORRECTION_LOW, XIntensity.FILENAME_CORRECTION_LOW)
+	xi.read_raw_file_pair("data/sample_low.raw", "data/sample_high.raw")
+	xi.intensity_correction()
+	mean_low = xi.mean_of_top_half(xi.dic["low_corrected"])
+	mean_high = xi.mean_of_top_half(xi.dic["high_corrected"])
+	mean_ratio = mean_high / (mean_low + 1e-8)
+	xi.set_ratio(high="high_corrected", low="low_corrected")
+	array_ratio = xi.get_ratio()
+	print(f"mean low = {mean_low:<.2f}, mean high = {mean_high:<.2f}, ratio H/L = {mean_ratio:<.4f}")
+	std_low = xi.dic["low_corrected"].std()
+	std_high = xi.dic["high_corrected"].std()
+	print(f"std low = {std_low:<.2f}, std high = {std_high:<.2f}")
+
+	xi = XIntensity(XIntensity.FILENAME_CORRECTION_HIGH, XIntensity.FILENAME_CORRECTION_HIGH)
+	xi.read_raw_file_pair("data/sample_low.raw", "data/sample_high.raw")
+	xi.intensity_correction()
+	mean_low = xi.mean_of_top_half(xi.dic["low_corrected"])
+	mean_high = xi.mean_of_top_half(xi.dic["high_corrected"])
+	mean_ratio = mean_high / (mean_low + 1e-8)
+	xi.set_ratio(high="high_corrected", low="low_corrected")
+	array_ratio = xi.get_ratio()
+	print(f"mean low = {mean_low:<.2f}, mean high = {mean_high:<.2f}, ratio H/L = {mean_ratio:<.4f}")
+	std_low = xi.dic["low_corrected"].std()
+	std_high = xi.dic["high_corrected"].std()
+	print(f"std low = {std_low:<.2f}, std high = {std_high:<.2f}")
