@@ -208,7 +208,8 @@ __marimo__/
 
 
 #All data files
-data/
+data
+output
 *.raw
 
 #All C intermediate files

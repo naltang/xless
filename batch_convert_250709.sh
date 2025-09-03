@@ -1,13 +1,11 @@
-#!/usr/bin/bash 
+#!/usr/bin/env bash
 
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/left_down_off
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/left_down_on
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/left_up_off
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/left_up_on
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/right_down_off
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/right_down_on
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/right_up_off
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/right_up_on
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/right_up_on
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/left_down_off_longterm
-python3 batch_convert_raw_to_png.py --input-dir=data/250709/left_down_on_longterm
+mkdir output
+
+python3 batch_convert_raw_to_png.py --input-dir=data/center --output-dir=output/center
+python3 batch_convert_raw_to_png.py --input-dir=data/empty --output-dir=output/empty
+python3 batch_convert_raw_to_png.py --input-dir=data/leftdown --output-dir=output/leftdown
+python3 batch_convert_raw_to_png.py --input-dir=data/leftdown-longterm --output-dir=output/leftdown-longterm
+python3 batch_convert_raw_to_png.py --input-dir=data/leftup --output-dir=output/leftup
+python3 batch_convert_raw_to_png.py --input-dir=data/rightdown --output-dir=output/rightdown
+python3 batch_convert_raw_to_png.py --input-dir=data/rightup --output-dir=output/rightup

@@ -13,7 +13,6 @@ the raw files.
 """
 
 import argparse
-import os
 import subprocess
 import sys
 from pathlib import Path
@@ -39,7 +38,7 @@ def convert_file(raw_path: Path, png_path: Path):
     except subprocess.CalledProcessError as exc:
         print(f"❌ Failed to convert {raw_path.name}: {exc.stderr.decode()}", file=sys.stderr)
 
-def run_in_pool(raw_files, output_dir):
+def run_in_pool(raw_files:list[Path], output_dir: Path):
     with multiprocessing.Pool() as pool:
         for raw_file in raw_files:
             png_file = output_dir / (raw_file.stem + ".png")

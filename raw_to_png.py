@@ -21,6 +21,7 @@ import sys
 
 import numpy as np
 from PIL import Image
+from typing import Any, cast
 
 
 def _dtype_for_endianness(endianness: str):
