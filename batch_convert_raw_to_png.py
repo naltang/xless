@@ -67,7 +67,7 @@ def main():
         print(f"No .raw files found in {input_dir}.", file=sys.stderr)
         sys.exit(0)
 
-    run_in_pool(raw_files, output_dir)
+    run_in_pool(input_dir, output_dir)
 
 if __name__ == "__main__":
     main()

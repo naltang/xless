@@ -20,21 +20,18 @@ class XIntensity:
 	#INTENSITY_HIGH = 25726
 	INTENSITY_TARGET = 50000
 
-	FILENAME_CORRECTION_LOW = "correction_low.csv"
-	FILENAME_CORRECTION_HIGH = "correction_high.csv"
+	FILENAME_DISTORTION = "d_matrix.csv"
 
 	dic = {}
 
-	array_correction_low = None
-	array_correction_high = None
+	array_distortion : np.ndarray(dtype=np.float32) = None
 	array_ratio = None
 
-	def __init__(self, filename_low=FILENAME_CORRECTION_LOW, filename_high=FILENAME_CORRECTION_HIGH):
-		self.read_correction_files(filename_low, filename_high)
+	def __init__(self, filename=FILENAME_DISTORTION):
+		self.read_distortion_file(filename)
 
-	def read_correction_files(self, filename_low, filename_high):
-		self.array_correction_low = np.loadtxt(filename_low, delimiter=",", dtype=np.float32)
-		self.array_correction_high = np.loadtxt(filename_high, delimiter=",", dtype=np.float32)
+	def read_distortion_file(self, filename):
+		self.array_distortion = np.loadtxt(filename, delimiter=",", dtype=np.float32)
 
 	@staticmethod
 	def read_raw_file(filename):
@@ -105,7 +102,7 @@ class XIntensity:
 	def intensity_correction(self):
 		self.dic["low_crop"] = self.crop(self.dic["low"])
 		self.dic["low_denoise"] = self.denoise(self.dic["low_crop"])
-		self.dic["low_flatten"] = self.dic["low_denoise"] * self.array_correction_low
+		self.dic["low_flatten"] = self.dic["low_denoise"] * self.array_distortion
 		self.dic["low_corrected"] = self.dic["low_flatten"] / self.mean_of_top_half(self.dic["low_flatten"]) * XIntensity.INTENSITY_TARGET
 		self.dic["high_crop"] = self.crop(self.dic["high"])
 		self.dic["high_denoise"] = self.denoise(self.dic["high_crop"])
