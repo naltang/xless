@@ -46,8 +46,8 @@ def process_single_image(args):
 def main():
     # Create argument parser
     parser = argparse.ArgumentParser(description='Process raw images with median filter and cropping')
-    parser.add_argument('input_folder', required=True, help='Input folder containing .raw files')
-    parser.add_argument('output_folder', required=True, help='Output folder for processed images')
+    parser.add_argument('--input', required=True, help='Input folder containing .raw files')
+    parser.add_argument('--output', required=True, help='Output folder for processed images')
     parser.add_argument('--top', type=int, default=20, help='Top crop amount')
     parser.add_argument('--bottom', type=int, default=20, help='Bottom crop amount')
     parser.add_argument('--left', type=int, default=20, help='Left crop amount')
@@ -55,10 +55,11 @@ def main():
     
     # Parse arguments
     args = parser.parse_args()
+    print(args)
     
     # Assign arguments to variables
-    input_folder = args.input_folder
-    output_folder = args.output_folder
+    input_folder = args.input
+    output_folder = args.output
     top_crop = args.top
     bottom_crop = args.bottom
     left_crop = args.left

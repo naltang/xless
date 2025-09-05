@@ -174,17 +174,17 @@ def main():
     parser = argparse.ArgumentParser(
         description="Estimate per‑pixel correction factors and per‑file gains."
     )
-    parser.add_argument("--folder", required=True, help="Folder containing raw files")
+    parser.add_argument("--input", required=True, help="Folder containing raw files")
     parser.add_argument("--ext", required=True, help="file extension to process (.high or .low)")
     parser.add_argument("--csv", required=True, help="output containing correction csv")
     args = parser.parse_args()
 
-    folder = args.folder
-    if not os.path.isdir(folder):
-        raise NotADirectoryError(f"'{folder}' is not a directory.")
+    input_folder = args.input
+    if not os.path.isdir(input_folder):
+        raise NotADirectoryError(f"'{input_folder}' is not a directory.")
 
-    print(f"Loading raw files from '{folder}' …")
-    raw_arrays, filenames = load_raw_files(folder, args.ext)
+    print(f"Loading raw files from '{input_folder}' …")
+    raw_arrays, filenames = load_raw_files(input_folder, args.ext)
     print(f"Loaded {len(raw_arrays)} files, each with {raw_arrays[0].size} pixels.")
 
     print("Estimating correction factors and gains …")
