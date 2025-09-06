@@ -191,9 +191,9 @@ def main():
     Cp, Gi = fit_correction_factors(raw_arrays)
 
     # Print Gi values
-    print("\nEstimated gains (Gi) for each file:")
-    for fn, gi in zip(filenames, Gi):
-        print(f"  {fn:20s} : {gi:.6f}")
+    #print("\nEstimated gains (Gi) for each file:")
+    #for fn, gi in zip(filenames, Gi):
+    #    print(f"  {fn:20s} : {gi:.6f}")
 
     # Save Cp to CSV
     save_correction_factors_csv(Cp, args.csv)
