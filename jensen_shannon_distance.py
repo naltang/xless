@@ -1,0 +1,60 @@
+import numpy as np
+from scipy.spatial.distance import jensenshannon
+import sys
+from typing import List, Tuple
+
+def jensen_shannon_distance(array1, array2):
+    """
+    Calculate Jensen-Shannon divergence between histograms of two uint16 grayscale images.
+    
+    Parameters:
+    array1, array2 (np.uint16): uint16 grayscale images
+    
+    Returns:
+    float: Jensen-Shannon divergence value
+    """
+    try:
+        # Load and process first image
+        pixels1 = array1.flatten().astype(float)
+        hist1, _ = np.histogram(pixels1, bins=65536, range=(0, 65536))
+        
+        # Normalize first histogram
+        hist1 = hist1.astype(float)
+        if np.sum(hist1) > 0:
+            hist1 = hist1 / np.sum(hist1)
+        else:
+            raise ValueError("No pixels found in first image")
+        
+        # Load and process second image
+        
+        pixels2 = array2.flatten().astype(float)
+        hist2, _ = np.histogram(pixels2, bins=65536, range=(0, 65536))
+        
+        # Normalize second histogram
+        hist2 = hist2.astype(float)
+        if np.sum(hist2) > 0:
+            hist2 = hist2 / np.sum(hist2)
+        else:
+            raise ValueError("No pixels found in second image")
+        
+        # Calculate Jensen-Shannon divergence
+        jsd = jensenshannon(hist1, hist2)
+        
+        return jsd
+    
+    except Exception as e:
+        print(f"Error processing images: {e}")
+        raise
+
+def jensen_shannon_distance_of_two_images(param : Tuple[str, str]):
+    array1 = np.fromfile(param[0], dtype=np.uint16)
+    array2 = np.fromfile(param[1], dtype=np.uint16)
+    return jensen_shannon_distance(array1, array2)
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Please provide two RAW format image filenames as arguments.")
+        print("Example: jensen_shannon_distance.py ex1.raw ex2.raw")
+        sys.exit(1)
+    jsd = jensen_shannon_distance_of_two_images((sys.argv[1], sys.argv[2]))
+    print(f"{jsd:.6f}")
