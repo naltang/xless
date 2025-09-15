@@ -46,9 +46,50 @@ def jensen_shannon_distance(array1, array2):
         print(f"Error processing images: {e}")
         raise
 
+def float_to_uint16(arr, min_val=0.5, max_val=1.5):
+    """
+    Map a float array in [min_val, max_val] to uint16 in [0, 65535].
+
+    Parameters
+    ----------
+    arr : np.ndarray
+        Input array of floats.
+    min_val : float, optional
+        Minimum value expected in the input (default 0.5).
+    max_val : float, optional
+        Maximum value expected in the input (default 1.5).
+
+    Returns
+    -------
+    uint16_arr : np.ndarray
+        Output array of type np.uint16.
+    """
+    # Ensure we work with a numpy array
+    arr = np.asarray(arr)
+
+    # Clip to [min_val, max_val] – remove out‑of‑range values
+    arr_clipped = np.clip(arr, min_val, max_val)
+
+    # Normalise to 0…1
+    norm = (arr_clipped - min_val) / (max_val - min_val)
+
+    # Scale to the full uint16 range and round
+    scaled = np.round(norm * np.iinfo(np.uint16).max)
+
+    # Convert to uint16
+    return scaled.astype(np.uint16)
+
 def jensen_shannon_distance_of_two_images(param : Tuple[str, str]):
     array1 = np.fromfile(param[0], dtype=np.uint16)
     array2 = np.fromfile(param[1], dtype=np.uint16)
+    return jensen_shannon_distance(array1, array2)
+
+def jensen_shannon_distance_of_two_images_float(param : Tuple[str, str]):
+    array1_float = np.fromfile(param[0], dtype=np.float32)
+    array2_float = np.fromfile(param[1], dtype=np.float32)
+    array1 = float_to_uint16(array1_float)
+    array2 = float_to_uint16(array2_float)
+
     return jensen_shannon_distance(array1, array2)
 
 if __name__ == "__main__":

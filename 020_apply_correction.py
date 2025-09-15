@@ -75,6 +75,11 @@ def process_single_image(args):
         filepath_high_cor = filepath_out + ".high.cor"
         filepath_ratio = filepath_out + ".ratio"
 
+        filepath_on = os.path.join(input_folder, "on/", filename)
+        filepath_on_low = filepath_on + ".low"
+        filepath_on_high = filepath_on + ".high"
+        filepath_on_ratio = filepath_on + ".ratios"
+
         # Read 16-bit grayscale raw data. We do not need 2d reshaping
         image_low = np.fromfile(filepath_low, dtype=np.uint16)
         image_high = np.fromfile(filepath_high, dtype=np.uint16)
@@ -88,6 +93,13 @@ def process_single_image(args):
         image_low_corrected.astype(np.uint16).tofile(filepath_low_cor)    # np.uint16
         image_high_corrected.astype(np.uint16).tofile(filepath_high_cor)  # np.uint16
         image_ratio_corrected.astype(np.float32).tofile(filepath_ratio)    # np.float32
+
+        # save ratio file for ON folder
+        image_on_low = np.fromfile(filepath_on_low, dtype=np.uint16)
+        image_on_high = np.fromfile(filepath_on_high, dtype=np.uint16)
+        image_on_ratio = image_on_low / (image_on_high + 1e-10)
+        image_on_ratio.astype(np.float32).tofile(filepath_on_ratio)    # np.float32
+
 
         msg = f"✅ Processed: {input_folder} {filename}.low (and high) -> {output_folder}"
         print(msg)

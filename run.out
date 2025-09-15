@@ -1,0 +1,2099 @@
+Namespace(input='data/empty', output='output/empty', top=20, bottom=20, left=20, right=460)
+Processing 400 raw files...
+✅ Processed: data/empty/IMG0101_0602.182947.530.raw -> output/empty/50.raw.low
+✅ Processed: data/empty/IMG0102_0602.183000.871.raw -> output/empty/50.raw.high
+✅ Processed: data/empty/IMG0103_0602.183104.435.raw -> output/empty/51.raw.low
+✅ Processed: data/empty/IMG0104_0602.183117.776.raw -> output/empty/51.raw.high
+✅ Processed: data/empty/IMG0141_0602.185525.976.raw -> output/empty/70.raw.low
+✅ Processed: data/empty/IMG0142_0602.185539.333.raw -> output/empty/70.raw.high
+✅ Processed: data/empty/IMG0143_0602.185642.881.raw -> output/empty/71.raw.low
+✅ Processed: data/empty/IMG0144_0602.185656.222.raw -> output/empty/71.raw.high
+✅ Processed: data/empty/IMG0277_0602.202236.607.raw -> output/empty/138.raw.low
+✅ Processed: data/empty/IMG0278_0602.202249.948.raw -> output/empty/138.raw.high
+✅ Processed: data/empty/IMG0279_0602.202353.511.raw -> output/empty/139.raw.low
+✅ Processed: data/empty/IMG0280_0602.202406.852.raw -> output/empty/139.raw.high
+✅ Processed: data/empty/IMG0057_0602.180135.323.raw -> output/empty/28.raw.low
+✅ Processed: data/empty/IMG0058_0602.180148.663.raw -> output/empty/28.raw.high
+✅ Processed: data/empty/IMG0059_0602.180252.227.raw -> output/empty/29.raw.low
+✅ Processed: data/empty/IMG0060_0602.180305.568.raw -> output/empty/29.raw.high
+✅ Processed: data/empty/IMG0133_0602.185018.326.raw -> output/empty/66.raw.low
+✅ Processed: data/empty/IMG0134_0602.185031.666.raw -> output/empty/66.raw.high
+✅ Processed: data/empty/IMG0135_0602.185135.231.raw -> output/empty/67.raw.low
+✅ Processed: data/empty/IMG0136_0602.185148.571.raw -> output/empty/67.raw.high
+✅ Processed: data/empty/IMG0265_0602.201455.010.raw -> output/empty/132.raw.low
+✅ Processed: data/empty/IMG0266_0602.201508.351.raw -> output/empty/132.raw.high
+✅ Processed: data/empty/IMG0267_0602.201611.930.raw -> output/empty/133.raw.low
+✅ Processed: data/empty/IMG0268_0602.201625.271.raw -> output/empty/133.raw.high
+✅ Processed: data/empty/IMG0045_0602.175353.851.raw -> output/empty/22.raw.low
+✅ Processed: data/empty/IMG0046_0602.175407.192.raw -> output/empty/22.raw.high
+✅ Processed: data/empty/IMG0047_0602.175510.771.raw -> output/empty/23.raw.low
+✅ Processed: data/empty/IMG0048_0602.175524.111.raw -> output/empty/23.raw.high
+✅ Processed: data/empty/IMG0165_0602.191049.031.raw -> output/empty/82.raw.low
+✅ Processed: data/empty/IMG0166_0602.191102.371.raw -> output/empty/82.raw.high
+✅ Processed: data/empty/IMG0167_0602.191205.967.raw -> output/empty/83.raw.low
+✅ Processed: data/empty/IMG0168_0602.191219.308.raw -> output/empty/83.raw.high
+✅ Processed: data/empty/IMG0281_0602.202510.446.raw -> output/empty/140.raw.low
+✅ Processed: data/empty/IMG0282_0602.202523.787.raw -> output/empty/140.raw.high
+✅ Processed: data/empty/IMG0283_0602.202627.351.raw -> output/empty/141.raw.low
+✅ Processed: data/empty/IMG0284_0602.202640.691.raw -> output/empty/141.raw.high
+✅ Processed: data/empty/IMG0097_0602.182713.722.raw -> output/empty/48.raw.low
+✅ Processed: data/empty/IMG0098_0602.182727.063.raw -> output/empty/48.raw.high
+✅ Processed: data/empty/IMG0099_0602.182830.610.raw -> output/empty/49.raw.low
+✅ Processed: data/empty/IMG0100_0602.182843.967.raw -> output/empty/49.raw.high
+✅ Processed: data/empty/IMG0161_0602.190815.175.raw -> output/empty/80.raw.low
+✅ Processed: data/empty/IMG0162_0602.190828.516.raw -> output/empty/80.raw.high
+✅ Processed: data/empty/IMG0163_0602.190932.080.raw -> output/empty/81.raw.low
+✅ Processed: data/empty/IMG0164_0602.190945.436.raw -> output/empty/81.raw.high
+✅ Processed: data/empty/IMG0273_0602.202002.753.raw -> output/empty/136.raw.low
+✅ Processed: data/empty/IMG0274_0602.202016.109.raw -> output/empty/136.raw.high
+✅ Processed: data/empty/IMG0275_0602.202119.672.raw -> output/empty/137.raw.low
+✅ Processed: data/empty/IMG0276_0602.202133.013.raw -> output/empty/137.raw.high
+✅ Processed: data/empty/IMG0081_0602.181658.347.raw -> output/empty/40.raw.low
+✅ Processed: data/empty/IMG0082_0602.181711.687.raw -> output/empty/40.raw.high
+✅ Processed: data/empty/IMG0083_0602.181815.235.raw -> output/empty/41.raw.low
+✅ Processed: data/empty/IMG0084_0602.181828.591.raw -> output/empty/41.raw.high
+✅ Processed: data/empty/IMG0149_0602.190033.656.raw -> output/empty/74.raw.low
+✅ Processed: data/empty/IMG0150_0602.190046.997.raw -> output/empty/74.raw.high
+✅ Processed: data/empty/IMG0151_0602.190150.561.raw -> output/empty/75.raw.low
+✅ Processed: data/empty/IMG0152_0602.190203.901.raw -> output/empty/75.raw.high
+✅ Processed: data/empty/IMG0289_0602.203018.125.raw -> output/empty/144.raw.low
+✅ Processed: data/empty/IMG0290_0602.203031.482.raw -> output/empty/144.raw.high
+✅ Processed: data/empty/IMG0291_0602.203135.061.raw -> output/empty/145.raw.low
+✅ Processed: data/empty/IMG0292_0602.203148.402.raw -> output/empty/145.raw.high
+✅ Processed: data/empty/IMG0077_0602.181424.508.raw -> output/empty/38.raw.low
+✅ Processed: data/empty/IMG0078_0602.181437.848.raw -> output/empty/38.raw.high
+✅ Processed: data/empty/IMG0079_0602.181541.427.raw -> output/empty/39.raw.low
+✅ Processed: data/empty/IMG0080_0602.181554.768.raw -> output/empty/39.raw.high
+✅ Processed: data/empty/IMG0169_0602.191322.887.raw -> output/empty/84.raw.low
+✅ Processed: data/empty/IMG0170_0602.191336.227.raw -> output/empty/84.raw.high
+✅ Processed: data/empty/IMG0171_0602.191439.806.raw -> output/empty/85.raw.low
+✅ Processed: data/empty/IMG0172_0602.191453.147.raw -> output/empty/85.raw.high
+✅ Processed: data/empty/IMG0293_0602.203251.981.raw -> output/empty/146.raw.low
+✅ Processed: data/empty/IMG0294_0602.203305.321.raw -> output/empty/146.raw.high
+✅ Processed: data/empty/IMG0295_0602.203408.916.raw -> output/empty/147.raw.low
+✅ Processed: data/empty/IMG0296_0602.203422.273.raw -> output/empty/147.raw.high
+✅ Processed: data/empty/IMG0001_0602.172541.622.raw -> output/empty/0.raw.low
+✅ Processed: data/empty/IMG0002_0602.172554.948.raw -> output/empty/0.raw.high
+✅ Processed: data/empty/IMG0003_0602.172658.547.raw -> output/empty/1.raw.low
+✅ Processed: data/empty/IMG0004_0602.172711.888.raw -> output/empty/1.raw.high
+✅ Processed: data/empty/IMG0177_0602.191830.551.raw -> output/empty/88.raw.low
+✅ Processed: data/empty/IMG0178_0602.191843.891.raw -> output/empty/88.raw.high
+✅ Processed: data/empty/IMG0179_0602.191947.470.raw -> output/empty/89.raw.low
+✅ Processed: data/empty/IMG0180_0602.192000.827.raw -> output/empty/89.raw.high
+✅ Processed: data/empty/IMG0301_0602.203759.691.raw -> output/empty/150.raw.low
+✅ Processed: data/empty/IMG0302_0602.203813.031.raw -> output/empty/150.raw.high
+✅ Processed: data/empty/IMG0303_0602.203916.595.raw -> output/empty/151.raw.low
+✅ Processed: data/empty/IMG0304_0602.203929.951.raw -> output/empty/151.raw.high
+✅ Processed: data/empty/IMG0117_0602.184002.951.raw -> output/empty/58.raw.low
+✅ Processed: data/empty/IMG0118_0602.184016.292.raw -> output/empty/58.raw.high
+✅ Processed: data/empty/IMG0119_0602.184119.856.raw -> output/empty/59.raw.low
+✅ Processed: data/empty/IMG0120_0602.184133.196.raw -> output/empty/59.raw.high
+✅ Processed: data/empty/IMG0185_0602.192338.293.raw -> output/empty/92.raw.low
+✅ Processed: data/empty/IMG0186_0602.192351.634.raw -> output/empty/92.raw.high
+✅ Processed: data/empty/IMG0187_0602.192455.197.raw -> output/empty/93.raw.low
+✅ Processed: data/empty/IMG0188_0602.192508.537.raw -> output/empty/93.raw.high
+✅ Processed: data/empty/IMG0313_0602.204541.179.raw -> output/empty/156.raw.low
+✅ Processed: data/empty/IMG0314_0602.204554.520.raw -> output/empty/156.raw.high
+✅ Processed: data/empty/IMG0315_0602.204658.132.raw -> output/empty/157.raw.low
+✅ Processed: data/empty/IMG0316_0602.204711.472.raw -> output/empty/157.raw.high
+✅ Processed: data/empty/IMG0009_0602.173049.259.raw -> output/empty/4.raw.low
+✅ Processed: data/empty/IMG0010_0602.173102.600.raw -> output/empty/4.raw.high
+✅ Processed: data/empty/IMG0011_0602.173206.195.raw -> output/empty/5.raw.low
+✅ Processed: data/empty/IMG0012_0602.173219.535.raw -> output/empty/5.raw.high
+✅ Processed: data/empty/IMG0153_0602.190307.465.raw -> output/empty/76.raw.low
+✅ Processed: data/empty/IMG0154_0602.190320.806.raw -> output/empty/76.raw.high
+✅ Processed: data/empty/IMG0155_0602.190424.416.raw -> output/empty/77.raw.low
+✅ Processed: data/empty/IMG0156_0602.190437.757.raw -> output/empty/77.raw.high
+✅ Processed: data/empty/IMG0297_0602.203525.836.raw -> output/empty/148.raw.low
+✅ Processed: data/empty/IMG0298_0602.203539.176.raw -> output/empty/148.raw.high
+✅ Processed: data/empty/IMG0299_0602.203642.756.raw -> output/empty/149.raw.low
+✅ Processed: data/empty/IMG0300_0602.203656.096.raw -> output/empty/149.raw.high
+✅ Processed: data/empty/IMG0037_0602.174846.200.raw -> output/empty/18.raw.low
+✅ Processed: data/empty/IMG0038_0602.174859.541.raw -> output/empty/18.raw.high
+✅ Processed: data/empty/IMG0039_0602.175003.105.raw -> output/empty/19.raw.low
+✅ Processed: data/empty/IMG0040_0602.175016.446.raw -> output/empty/19.raw.high
+✅ Processed: data/empty/IMG0181_0602.192104.422.raw -> output/empty/90.raw.low
+✅ Processed: data/empty/IMG0182_0602.192117.763.raw -> output/empty/90.raw.high
+✅ Processed: data/empty/IMG0183_0602.192221.342.raw -> output/empty/91.raw.low
+✅ Processed: data/empty/IMG0184_0602.192234.683.raw -> output/empty/91.raw.high
+✅ Processed: data/empty/IMG0305_0602.204033.515.raw -> output/empty/152.raw.low
+✅ Processed: data/empty/IMG0306_0602.204046.856.raw -> output/empty/152.raw.high
+✅ Processed: data/empty/IMG0307_0602.204150.419.raw -> output/empty/153.raw.low
+✅ Processed: data/empty/IMG0308_0602.204203.775.raw -> output/empty/153.raw.high
+✅ Processed: data/empty/IMG0049_0602.175627.675.raw -> output/empty/24.raw.low
+✅ Processed: data/empty/IMG0050_0602.175641.016.raw -> output/empty/24.raw.high
+✅ Processed: data/empty/IMG0051_0602.175744.564.raw -> output/empty/25.raw.low
+✅ Processed: data/empty/IMG0052_0602.175757.921.raw -> output/empty/25.raw.high
+✅ Processed: data/empty/IMG0173_0602.191556.726.raw -> output/empty/86.raw.low
+✅ Processed: data/empty/IMG0174_0602.191610.066.raw -> output/empty/86.raw.high
+✅ Processed: data/empty/IMG0175_0602.191713.630.raw -> output/empty/87.raw.low
+✅ Processed: data/empty/IMG0176_0602.191726.971.raw -> output/empty/87.raw.high
+✅ Processed: data/empty/IMG0309_0602.204307.355.raw -> output/empty/154.raw.low
+✅ Processed: data/empty/IMG0310_0602.204320.696.raw -> output/empty/154.raw.high
+✅ Processed: data/empty/IMG0311_0602.204424.260.raw -> output/empty/155.raw.low
+✅ Processed: data/empty/IMG0312_0602.204437.600.raw -> output/empty/155.raw.high
+✅ Processed: data/empty/IMG0053_0602.175901.499.raw -> output/empty/26.raw.low
+✅ Processed: data/empty/IMG0054_0602.175914.840.raw -> output/empty/26.raw.high
+✅ Processed: data/empty/IMG0055_0602.180018.419.raw -> output/empty/27.raw.low
+✅ Processed: data/empty/IMG0056_0602.180031.744.raw -> output/empty/27.raw.high
+✅ Processed: data/empty/IMG0189_0602.192612.101.raw -> output/empty/94.raw.low
+✅ Processed: data/empty/IMG0190_0602.192625.441.raw -> output/empty/94.raw.high
+✅ Processed: data/empty/IMG0191_0602.192729.036.raw -> output/empty/95.raw.low
+✅ Processed: data/empty/IMG0192_0602.192742.377.raw -> output/empty/95.raw.high
+✅ Processed: data/empty/IMG0317_0602.204815.036.raw -> output/empty/158.raw.low
+✅ Processed: data/empty/IMG0318_0602.204828.392.raw -> output/empty/158.raw.high
+✅ Processed: data/empty/IMG0319_0602.204932.002.raw -> output/empty/159.raw.low
+✅ Processed: data/empty/IMG0320_0602.204945.359.raw -> output/empty/159.raw.high
+✅ Processed: data/empty/IMG0017_0602.173556.970.raw -> output/empty/8.raw.low
+✅ Processed: data/empty/IMG0018_0602.173610.326.raw -> output/empty/8.raw.high
+✅ Processed: data/empty/IMG0019_0602.173713.889.raw -> output/empty/9.raw.low
+✅ Processed: data/empty/IMG0020_0602.173727.230.raw -> output/empty/9.raw.high
+✅ Processed: data/empty/IMG0193_0602.192845.957.raw -> output/empty/96.raw.low
+✅ Processed: data/empty/IMG0194_0602.192859.297.raw -> output/empty/96.raw.high
+✅ Processed: data/empty/IMG0195_0602.193002.847.raw -> output/empty/97.raw.low
+✅ Processed: data/empty/IMG0196_0602.193016.187.raw -> output/empty/97.raw.high
+✅ Processed: data/empty/IMG0321_0602.205048.907.raw -> output/empty/160.raw.low
+✅ Processed: data/empty/IMG0322_0602.205102.264.raw -> output/empty/160.raw.high
+✅ Processed: data/empty/IMG0323_0602.205205.827.raw -> output/empty/161.raw.low
+✅ Processed: data/empty/IMG0324_0602.205219.168.raw -> output/empty/161.raw.high
+✅ Processed: data/empty/IMG0005_0602.172815.451.raw -> output/empty/2.raw.low
+✅ Processed: data/empty/IMG0006_0602.172828.792.raw -> output/empty/2.raw.high
+✅ Processed: data/empty/IMG0007_0602.172932.355.raw -> output/empty/3.raw.low
+✅ Processed: data/empty/IMG0008_0602.172945.696.raw -> output/empty/3.raw.high
+✅ Processed: data/empty/IMG0205_0602.193627.476.raw -> output/empty/102.raw.low
+✅ Processed: data/empty/IMG0206_0602.193640.817.raw -> output/empty/102.raw.high
+✅ Processed: data/empty/IMG0207_0602.193744.380.raw -> output/empty/103.raw.low
+✅ Processed: data/empty/IMG0208_0602.193757.721.raw -> output/empty/103.raw.high
+✅ Processed: data/empty/IMG0325_0602.205322.731.raw -> output/empty/162.raw.low
+✅ Processed: data/empty/IMG0326_0602.205336.072.raw -> output/empty/162.raw.high
+✅ Processed: data/empty/IMG0327_0602.205439.636.raw -> output/empty/163.raw.low
+✅ Processed: data/empty/IMG0328_0602.205452.977.raw -> output/empty/163.raw.high
+✅ Processed: data/empty/IMG0073_0602.181150.684.raw -> output/empty/36.raw.low
+✅ Processed: data/empty/IMG0074_0602.181204.024.raw -> output/empty/36.raw.high
+✅ Processed: data/empty/IMG0075_0602.181307.604.raw -> output/empty/37.raw.low
+✅ Processed: data/empty/IMG0076_0602.181320.944.raw -> output/empty/37.raw.high
+✅ Processed: data/empty/IMG0209_0602.193901.285.raw -> output/empty/104.raw.low
+✅ Processed: data/empty/IMG0210_0602.193914.625.raw -> output/empty/104.raw.high
+✅ Processed: data/empty/IMG0211_0602.194018.189.raw -> output/empty/105.raw.low
+✅ Processed: data/empty/IMG0212_0602.194031.545.raw -> output/empty/105.raw.high
+✅ Processed: data/empty/IMG0337_0602.210104.252.raw -> output/empty/168.raw.low
+✅ Processed: data/empty/IMG0338_0602.210117.655.raw -> output/empty/168.raw.high
+✅ Processed: data/empty/IMG0339_0602.210221.188.raw -> output/empty/169.raw.low
+✅ Processed: data/empty/IMG0340_0602.210234.528.raw -> output/empty/169.raw.high
+✅ Processed: data/empty/IMG0109_0602.183455.226.raw -> output/empty/54.raw.low
+✅ Processed: data/empty/IMG0110_0602.183508.566.raw -> output/empty/54.raw.high
+✅ Processed: data/empty/IMG0111_0602.183612.177.raw -> output/empty/55.raw.low
+✅ Processed: data/empty/IMG0112_0602.183625.517.raw -> output/empty/55.raw.high
+✅ Processed: data/empty/IMG0217_0602.194408.919.raw -> output/empty/108.raw.low
+✅ Processed: data/empty/IMG0218_0602.194422.259.raw -> output/empty/108.raw.high
+✅ Processed: data/empty/IMG0219_0602.194525.838.raw -> output/empty/109.raw.low
+✅ Processed: data/empty/IMG0220_0602.194539.179.raw -> output/empty/109.raw.high
+✅ Processed: data/empty/IMG0345_0602.210612.040.raw -> output/empty/172.raw.low
+✅ Processed: data/empty/IMG0346_0602.210625.381.raw -> output/empty/172.raw.high
+✅ Processed: data/empty/IMG0347_0602.210728.944.raw -> output/empty/173.raw.low
+✅ Processed: data/empty/IMG0348_0602.210742.285.raw -> output/empty/173.raw.high
+✅ Processed: data/empty/IMG0125_0602.184510.616.raw -> output/empty/62.raw.low
+✅ Processed: data/empty/IMG0126_0602.184523.957.raw -> output/empty/62.raw.high
+✅ Processed: data/empty/IMG0127_0602.184627.536.raw -> output/empty/63.raw.low
+✅ Processed: data/empty/IMG0128_0602.184640.876.raw -> output/empty/63.raw.high
+✅ Processed: data/empty/IMG0213_0602.194135.109.raw -> output/empty/106.raw.low
+✅ Processed: data/empty/IMG0214_0602.194148.450.raw -> output/empty/106.raw.high
+✅ Processed: data/empty/IMG0215_0602.194252.013.raw -> output/empty/107.raw.low
+✅ Processed: data/empty/IMG0216_0602.194305.354.raw -> output/empty/107.raw.high
+✅ Processed: data/empty/IMG0329_0602.205556.556.raw -> output/empty/164.raw.low
+✅ Processed: data/empty/IMG0330_0602.205609.912.raw -> output/empty/164.raw.high
+✅ Processed: data/empty/IMG0331_0602.205713.507.raw -> output/empty/165.raw.low
+✅ Processed: data/empty/IMG0332_0602.205726.848.raw -> output/empty/165.raw.high
+✅ Processed: data/empty/IMG0061_0602.180409.178.raw -> output/empty/30.raw.low
+✅ Processed: data/empty/IMG0062_0602.180422.519.raw -> output/empty/30.raw.high
+✅ Processed: data/empty/IMG0063_0602.180526.083.raw -> output/empty/31.raw.low
+✅ Processed: data/empty/IMG0064_0602.180539.424.raw -> output/empty/31.raw.high
+✅ Processed: data/empty/IMG0201_0602.193353.637.raw -> output/empty/100.raw.low
+✅ Processed: data/empty/IMG0202_0602.193406.978.raw -> output/empty/100.raw.high
+✅ Processed: data/empty/IMG0203_0602.193510.557.raw -> output/empty/101.raw.low
+✅ Processed: data/empty/IMG0204_0602.193523.897.raw -> output/empty/101.raw.high
+✅ Processed: data/empty/IMG0341_0602.210338.123.raw -> output/empty/170.raw.low
+✅ Processed: data/empty/IMG0342_0602.210351.479.raw -> output/empty/170.raw.high
+✅ Processed: data/empty/IMG0343_0602.210455.120.raw -> output/empty/171.raw.low
+✅ Processed: data/empty/IMG0344_0602.210508.461.raw -> output/empty/171.raw.high
+✅ Processed: data/empty/IMG0013_0602.173323.099.raw -> output/empty/6.raw.low
+✅ Processed: data/empty/IMG0014_0602.173336.439.raw -> output/empty/6.raw.high
+✅ Processed: data/empty/IMG0015_0602.173440.034.raw -> output/empty/7.raw.low
+✅ Processed: data/empty/IMG0016_0602.173453.390.raw -> output/empty/7.raw.high
+✅ Processed: data/empty/IMG0197_0602.193119.751.raw -> output/empty/98.raw.low
+✅ Processed: data/empty/IMG0198_0602.193133.107.raw -> output/empty/98.raw.high
+✅ Processed: data/empty/IMG0199_0602.193236.687.raw -> output/empty/99.raw.low
+✅ Processed: data/empty/IMG0200_0602.193250.027.raw -> output/empty/99.raw.high
+✅ Processed: data/empty/IMG0333_0602.205830.427.raw -> output/empty/166.raw.low
+✅ Processed: data/empty/IMG0334_0602.205843.783.raw -> output/empty/166.raw.high
+✅ Processed: data/empty/IMG0335_0602.205947.347.raw -> output/empty/167.raw.low
+✅ Processed: data/empty/IMG0336_0602.210000.703.raw -> output/empty/167.raw.high
+✅ Processed: data/empty/IMG0069_0602.180916.797.raw -> output/empty/34.raw.low
+✅ Processed: data/empty/IMG0070_0602.180930.153.raw -> output/empty/34.raw.high
+✅ Processed: data/empty/IMG0071_0602.181033.732.raw -> output/empty/35.raw.low
+✅ Processed: data/empty/IMG0072_0602.181047.074.raw -> output/empty/35.raw.high
+✅ Processed: data/empty/IMG0229_0602.195150.468.raw -> output/empty/114.raw.low
+✅ Processed: data/empty/IMG0230_0602.195203.809.raw -> output/empty/114.raw.high
+✅ Processed: data/empty/IMG0231_0602.195307.388.raw -> output/empty/115.raw.low
+✅ Processed: data/empty/IMG0232_0602.195320.728.raw -> output/empty/115.raw.high
+✅ Processed: data/empty/IMG0353_0602.211119.673.raw -> output/empty/176.raw.low
+✅ Processed: data/empty/IMG0354_0602.211133.029.raw -> output/empty/176.raw.high
+✅ Processed: data/empty/IMG0355_0602.211236.608.raw -> output/empty/177.raw.low
+✅ Processed: data/empty/IMG0356_0602.211249.964.raw -> output/empty/177.raw.high
+✅ Processed: data/empty/IMG0121_0602.184236.760.raw -> output/empty/60.raw.low
+✅ Processed: data/empty/IMG0122_0602.184250.101.raw -> output/empty/60.raw.high
+✅ Processed: data/empty/IMG0123_0602.184353.681.raw -> output/empty/61.raw.low
+✅ Processed: data/empty/IMG0124_0602.184407.022.raw -> output/empty/61.raw.high
+✅ Processed: data/empty/IMG0225_0602.194916.629.raw -> output/empty/112.raw.low
+✅ Processed: data/empty/IMG0226_0602.194929.970.raw -> output/empty/112.raw.high
+✅ Processed: data/empty/IMG0227_0602.195033.533.raw -> output/empty/113.raw.low
+✅ Processed: data/empty/IMG0228_0602.195046.889.raw -> output/empty/113.raw.high
+✅ Processed: data/empty/IMG0349_0602.210845.864.raw -> output/empty/174.raw.low
+✅ Processed: data/empty/IMG0350_0602.210859.204.raw -> output/empty/174.raw.high
+✅ Processed: data/empty/IMG0351_0602.211002.768.raw -> output/empty/175.raw.low
+✅ Processed: data/empty/IMG0352_0602.211016.124.raw -> output/empty/175.raw.high
+✅ Processed: data/empty/IMG0065_0602.180642.988.raw -> output/empty/32.raw.low
+✅ Processed: data/empty/IMG0066_0602.180656.328.raw -> output/empty/32.raw.high
+✅ Processed: data/empty/IMG0067_0602.180759.878.raw -> output/empty/33.raw.low
+✅ Processed: data/empty/IMG0068_0602.180813.234.raw -> output/empty/33.raw.high
+✅ Processed: data/empty/IMG0221_0602.194642.758.raw -> output/empty/110.raw.low
+✅ Processed: data/empty/IMG0222_0602.194656.099.raw -> output/empty/110.raw.high
+✅ Processed: data/empty/IMG0223_0602.194759.678.raw -> output/empty/111.raw.low
+✅ Processed: data/empty/IMG0224_0602.194813.018.raw -> output/empty/111.raw.high
+✅ Processed: data/empty/IMG0357_0602.211353.543.raw -> output/empty/178.raw.low
+✅ Processed: data/empty/IMG0358_0602.211406.883.raw -> output/empty/178.raw.high
+✅ Processed: data/empty/IMG0359_0602.211510.478.raw -> output/empty/179.raw.low
+✅ Processed: data/empty/IMG0360_0602.211523.819.raw -> output/empty/179.raw.high
+✅ Processed: data/empty/IMG0025_0602.174104.680.raw -> output/empty/12.raw.low
+✅ Processed: data/empty/IMG0026_0602.174118.020.raw -> output/empty/12.raw.high
+✅ Processed: data/empty/IMG0027_0602.174221.584.raw -> output/empty/13.raw.low
+✅ Processed: data/empty/IMG0028_0602.174234.925.raw -> output/empty/13.raw.high
+✅ Processed: data/empty/IMG0233_0602.195424.291.raw -> output/empty/116.raw.low
+✅ Processed: data/empty/IMG0234_0602.195437.632.raw -> output/empty/116.raw.high
+✅ Processed: data/empty/IMG0235_0602.195541.195.raw -> output/empty/117.raw.low
+✅ Processed: data/empty/IMG0236_0602.195554.536.raw -> output/empty/117.raw.high
+✅ Processed: data/empty/IMG0361_0602.211627.383.raw -> output/empty/180.raw.low
+✅ Processed: data/empty/IMG0362_0602.211640.723.raw -> output/empty/180.raw.high
+✅ Processed: data/empty/IMG0363_0602.211744.349.raw -> output/empty/181.raw.low
+✅ Processed: data/empty/IMG0364_0602.211757.690.raw -> output/empty/181.raw.high
+✅ Processed: data/empty/IMG0041_0602.175120.026.raw -> output/empty/20.raw.low
+✅ Processed: data/empty/IMG0042_0602.175133.366.raw -> output/empty/20.raw.high
+✅ Processed: data/empty/IMG0043_0602.175236.931.raw -> output/empty/21.raw.low
+✅ Processed: data/empty/IMG0044_0602.175250.271.raw -> output/empty/21.raw.high
+✅ Processed: data/empty/IMG0253_0602.200713.505.raw -> output/empty/126.raw.low
+✅ Processed: data/empty/IMG0254_0602.200726.845.raw -> output/empty/126.raw.high
+✅ Processed: data/empty/IMG0255_0602.200830.425.raw -> output/empty/127.raw.low
+✅ Processed: data/empty/IMG0256_0602.200843.766.raw -> output/empty/127.raw.high
+✅ Processed: data/empty/IMG0377_0602.212642.866.raw -> output/empty/188.raw.low
+✅ Processed: data/empty/IMG0378_0602.212656.207.raw -> output/empty/188.raw.high
+✅ Processed: data/empty/IMG0379_0602.212759.817.raw -> output/empty/189.raw.low
+✅ Processed: data/empty/IMG0380_0602.212813.173.raw -> output/empty/189.raw.high
+✅ Processed: data/empty/IMG0113_0602.183729.096.raw -> output/empty/56.raw.low
+✅ Processed: data/empty/IMG0114_0602.183742.452.raw -> output/empty/56.raw.high
+✅ Processed: data/empty/IMG0115_0602.183846.032.raw -> output/empty/57.raw.low
+✅ Processed: data/empty/IMG0116_0602.183859.388.raw -> output/empty/57.raw.high
+✅ Processed: data/empty/IMG0249_0602.200439.696.raw -> output/empty/124.raw.low
+✅ Processed: data/empty/IMG0250_0602.200453.037.raw -> output/empty/124.raw.high
+✅ Processed: data/empty/IMG0251_0602.200556.601.raw -> output/empty/125.raw.low
+✅ Processed: data/empty/IMG0252_0602.200609.942.raw -> output/empty/125.raw.high
+✅ Processed: data/empty/IMG0369_0602.212135.125.raw -> output/empty/184.raw.low
+✅ Processed: data/empty/IMG0370_0602.212148.481.raw -> output/empty/184.raw.high
+✅ Processed: data/empty/IMG0371_0602.212252.060.raw -> output/empty/185.raw.low
+✅ Processed: data/empty/IMG0372_0602.212305.401.raw -> output/empty/185.raw.high
+✅ Processed: data/empty/IMG0105_0602.183221.386.raw -> output/empty/52.raw.low
+✅ Processed: data/empty/IMG0106_0602.183234.727.raw -> output/empty/52.raw.high
+✅ Processed: data/empty/IMG0107_0602.183338.290.raw -> output/empty/53.raw.low
+✅ Processed: data/empty/IMG0108_0602.183351.631.raw -> output/empty/53.raw.high
+✅ Processed: data/empty/IMG0241_0602.195932.002.raw -> output/empty/120.raw.low
+✅ Processed: data/empty/IMG0242_0602.195945.358.raw -> output/empty/120.raw.high
+✅ Processed: data/empty/IMG0243_0602.200048.906.raw -> output/empty/121.raw.low
+✅ Processed: data/empty/IMG0244_0602.200102.247.raw -> output/empty/121.raw.high
+✅ Processed: data/empty/IMG0365_0602.211901.301.raw -> output/empty/182.raw.low
+✅ Processed: data/empty/IMG0366_0602.211914.641.raw -> output/empty/182.raw.high
+✅ Processed: data/empty/IMG0367_0602.212018.204.raw -> output/empty/183.raw.low
+✅ Processed: data/empty/IMG0368_0602.212031.561.raw -> output/empty/183.raw.high
+✅ Processed: data/empty/IMG0029_0602.174338.505.raw -> output/empty/14.raw.low
+✅ Processed: data/empty/IMG0030_0602.174351.845.raw -> output/empty/14.raw.high
+✅ Processed: data/empty/IMG0031_0602.174455.408.raw -> output/empty/15.raw.low
+✅ Processed: data/empty/IMG0032_0602.174508.765.raw -> output/empty/15.raw.high
+✅ Processed: data/empty/IMG0237_0602.195658.115.raw -> output/empty/118.raw.low
+✅ Processed: data/empty/IMG0238_0602.195711.471.raw -> output/empty/118.raw.high
+✅ Processed: data/empty/IMG0239_0602.195815.066.raw -> output/empty/119.raw.low
+✅ Processed: data/empty/IMG0240_0602.195828.407.raw -> output/empty/119.raw.high
+✅ Processed: data/empty/IMG0373_0602.212408.980.raw -> output/empty/186.raw.low
+✅ Processed: data/empty/IMG0374_0602.212422.336.raw -> output/empty/186.raw.high
+✅ Processed: data/empty/IMG0375_0602.212525.947.raw -> output/empty/187.raw.low
+✅ Processed: data/empty/IMG0376_0602.212539.287.raw -> output/empty/187.raw.high
+✅ Processed: data/empty/IMG0021_0602.173830.856.raw -> output/empty/10.raw.low
+✅ Processed: data/empty/IMG0022_0602.173844.197.raw -> output/empty/10.raw.high
+✅ Processed: data/empty/IMG0023_0602.173947.760.raw -> output/empty/11.raw.low
+✅ Processed: data/empty/IMG0024_0602.174001.101.raw -> output/empty/11.raw.high
+✅ Processed: data/empty/IMG0245_0602.200205.810.raw -> output/empty/122.raw.low
+✅ Processed: data/empty/IMG0246_0602.200219.151.raw -> output/empty/122.raw.high
+✅ Processed: data/empty/IMG0247_0602.200322.730.raw -> output/empty/123.raw.low
+✅ Processed: data/empty/IMG0248_0602.200336.086.raw -> output/empty/123.raw.high
+✅ Processed: data/empty/IMG0381_0602.212916.753.raw -> output/empty/190.raw.low
+✅ Processed: data/empty/IMG0382_0602.212930.109.raw -> output/empty/190.raw.high
+✅ Processed: data/empty/IMG0383_0602.213033.672.raw -> output/empty/191.raw.low
+✅ Processed: data/empty/IMG0384_0602.213047.044.raw -> output/empty/191.raw.high
+✅ Processed: data/empty/IMG0033_0602.174612.345.raw -> output/empty/16.raw.low
+✅ Processed: data/empty/IMG0034_0602.174625.701.raw -> output/empty/16.raw.high
+✅ Processed: data/empty/IMG0035_0602.174729.264.raw -> output/empty/17.raw.low
+✅ Processed: data/empty/IMG0036_0602.174742.605.raw -> output/empty/17.raw.high
+✅ Processed: data/empty/IMG0137_0602.185252.135.raw -> output/empty/68.raw.low
+✅ Processed: data/empty/IMG0138_0602.185305.475.raw -> output/empty/68.raw.high
+✅ Processed: data/empty/IMG0139_0602.185409.055.raw -> output/empty/69.raw.low
+✅ Processed: data/empty/IMG0140_0602.185422.443.raw -> output/empty/69.raw.high
+✅ Processed: data/empty/IMG0257_0602.200947.346.raw -> output/empty/128.raw.low
+✅ Processed: data/empty/IMG0258_0602.201000.702.raw -> output/empty/128.raw.high
+✅ Processed: data/empty/IMG0259_0602.201104.250.raw -> output/empty/129.raw.low
+✅ Processed: data/empty/IMG0260_0602.201117.590.raw -> output/empty/129.raw.high
+✅ Processed: data/empty/IMG0389_0602.213424.556.raw -> output/empty/194.raw.low
+✅ Processed: data/empty/IMG0390_0602.213437.913.raw -> output/empty/194.raw.high
+✅ Processed: data/empty/IMG0391_0602.213541.476.raw -> output/empty/195.raw.low
+✅ Processed: data/empty/IMG0392_0602.213554.817.raw -> output/empty/195.raw.high
+✅ Processed: data/empty/IMG0085_0602.181932.218.raw -> output/empty/42.raw.low
+✅ Processed: data/empty/IMG0086_0602.181945.559.raw -> output/empty/42.raw.high
+✅ Processed: data/empty/IMG0087_0602.182049.122.raw -> output/empty/43.raw.low
+✅ Processed: data/empty/IMG0088_0602.182102.463.raw -> output/empty/43.raw.high
+✅ Processed: data/empty/IMG0129_0602.184744.471.raw -> output/empty/64.raw.low
+✅ Processed: data/empty/IMG0130_0602.184757.827.raw -> output/empty/64.raw.high
+✅ Processed: data/empty/IMG0131_0602.184901.422.raw -> output/empty/65.raw.low
+✅ Processed: data/empty/IMG0132_0602.184914.762.raw -> output/empty/65.raw.high
+✅ Processed: data/empty/IMG0285_0602.202744.301.raw -> output/empty/142.raw.low
+✅ Processed: data/empty/IMG0286_0602.202757.642.raw -> output/empty/142.raw.high
+✅ Processed: data/empty/IMG0287_0602.202901.221.raw -> output/empty/143.raw.low
+✅ Processed: data/empty/IMG0288_0602.202914.577.raw -> output/empty/143.raw.high
+✅ Processed: data/empty/IMG0397_0602.213932.220.raw -> output/empty/198.raw.low
+✅ Processed: data/empty/IMG0398_0602.213945.592.raw -> output/empty/198.raw.high
+✅ Processed: data/empty/IMG0399_0602.214049.171.raw -> output/empty/199.raw.low
+✅ Processed: data/empty/IMG0400_0602.214102.527.raw -> output/empty/199.raw.high
+✅ Processed: data/empty/IMG0089_0602.182206.074.raw -> output/empty/44.raw.low
+✅ Processed: data/empty/IMG0090_0602.182219.415.raw -> output/empty/44.raw.high
+✅ Processed: data/empty/IMG0091_0602.182322.978.raw -> output/empty/45.raw.low
+✅ Processed: data/empty/IMG0092_0602.182336.319.raw -> output/empty/45.raw.high
+✅ Processed: data/empty/IMG0145_0602.185759.801.raw -> output/empty/72.raw.low
+✅ Processed: data/empty/IMG0146_0602.185813.142.raw -> output/empty/72.raw.high
+✅ Processed: data/empty/IMG0147_0602.185916.721.raw -> output/empty/73.raw.low
+✅ Processed: data/empty/IMG0148_0602.185930.077.raw -> output/empty/73.raw.high
+✅ Processed: data/empty/IMG0261_0602.201221.169.raw -> output/empty/130.raw.low
+✅ Processed: data/empty/IMG0262_0602.201234.510.raw -> output/empty/130.raw.high
+✅ Processed: data/empty/IMG0263_0602.201338.090.raw -> output/empty/131.raw.low
+✅ Processed: data/empty/IMG0264_0602.201351.431.raw -> output/empty/131.raw.high
+✅ Processed: data/empty/IMG0385_0602.213150.639.raw -> output/empty/192.raw.low
+✅ Processed: data/empty/IMG0386_0602.213203.995.raw -> output/empty/192.raw.high
+✅ Processed: data/empty/IMG0387_0602.213307.590.raw -> output/empty/193.raw.low
+✅ Processed: data/empty/IMG0388_0602.213320.946.raw -> output/empty/193.raw.high
+✅ Processed: data/empty/IMG0093_0602.182439.883.raw -> output/empty/46.raw.low
+✅ Processed: data/empty/IMG0094_0602.182453.223.raw -> output/empty/46.raw.high
+✅ Processed: data/empty/IMG0095_0602.182556.818.raw -> output/empty/47.raw.low
+✅ Processed: data/empty/IMG0096_0602.182610.158.raw -> output/empty/47.raw.high
+✅ Processed: data/empty/IMG0157_0602.190541.320.raw -> output/empty/78.raw.low
+✅ Processed: data/empty/IMG0158_0602.190554.661.raw -> output/empty/78.raw.high
+✅ Processed: data/empty/IMG0159_0602.190658.271.raw -> output/empty/79.raw.low
+✅ Processed: data/empty/IMG0160_0602.190711.612.raw -> output/empty/79.raw.high
+✅ Processed: data/empty/IMG0269_0602.201728.866.raw -> output/empty/134.raw.low
+✅ Processed: data/empty/IMG0270_0602.201742.206.raw -> output/empty/134.raw.high
+✅ Processed: data/empty/IMG0271_0602.201845.848.raw -> output/empty/135.raw.low
+✅ Processed: data/empty/IMG0272_0602.201859.189.raw -> output/empty/135.raw.high
+✅ Processed: data/empty/IMG0393_0602.213658.396.raw -> output/empty/196.raw.low
+✅ Processed: data/empty/IMG0394_0602.213711.736.raw -> output/empty/196.raw.high
+✅ Processed: data/empty/IMG0395_0602.213815.316.raw -> output/empty/197.raw.low
+✅ Processed: data/empty/IMG0396_0602.213828.657.raw -> output/empty/197.raw.high
+Processing completed in 9.43 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/empty/on', output='output/empty/on', top=20, bottom=20, left=20, right=460)
+Processing 400 raw files...
+✅ Processed: data/empty/on/IMG0069_0604.102140.673.raw -> output/empty/on/34.raw.low
+✅ Processed: data/empty/on/IMG0070_0604.102154.029.raw -> output/empty/on/34.raw.high
+✅ Processed: data/empty/on/IMG0071_0604.102257.608.raw -> output/empty/on/35.raw.low
+✅ Processed: data/empty/on/IMG0072_0604.102310.948.raw -> output/empty/on/35.raw.high
+✅ Processed: data/empty/on/IMG0165_0604.112313.243.raw -> output/empty/on/82.raw.low
+✅ Processed: data/empty/on/IMG0166_0604.112326.583.raw -> output/empty/on/82.raw.high
+✅ Processed: data/empty/on/IMG0167_0604.112430.194.raw -> output/empty/on/83.raw.low
+✅ Processed: data/empty/on/IMG0168_0604.112443.534.raw -> output/empty/on/83.raw.high
+✅ Processed: data/empty/on/IMG0281_0604.123735.731.raw -> output/empty/on/140.raw.low
+✅ Processed: data/empty/on/IMG0282_0604.123749.072.raw -> output/empty/on/140.raw.high
+✅ Processed: data/empty/on/IMG0283_0604.123852.651.raw -> output/empty/on/141.raw.low
+✅ Processed: data/empty/on/IMG0284_0604.123905.992.raw -> output/empty/on/141.raw.high
+✅ Processed: data/empty/on/IMG0073_0604.102414.527.raw -> output/empty/on/36.raw.low
+✅ Processed: data/empty/on/IMG0074_0604.102427.868.raw -> output/empty/on/36.raw.high
+✅ Processed: data/empty/on/IMG0075_0604.102531.447.raw -> output/empty/on/37.raw.low
+✅ Processed: data/empty/on/IMG0076_0604.102544.787.raw -> output/empty/on/37.raw.high
+✅ Processed: data/empty/on/IMG0129_0604.110008.469.raw -> output/empty/on/64.raw.low
+✅ Processed: data/empty/on/IMG0130_0604.110021.809.raw -> output/empty/on/64.raw.high
+✅ Processed: data/empty/on/IMG0131_0604.110125.388.raw -> output/empty/on/65.raw.low
+✅ Processed: data/empty/on/IMG0132_0604.110138.729.raw -> output/empty/on/65.raw.high
+✅ Processed: data/empty/on/IMG0257_0604.122212.458.raw -> output/empty/on/128.raw.low
+✅ Processed: data/empty/on/IMG0258_0604.122225.799.raw -> output/empty/on/128.raw.high
+✅ Processed: data/empty/on/IMG0259_0604.122329.394.raw -> output/empty/on/129.raw.low
+✅ Processed: data/empty/on/IMG0260_0604.122342.734.raw -> output/empty/on/129.raw.high
+✅ Processed: data/empty/on/IMG0093_0604.103703.836.raw -> output/empty/on/46.raw.low
+✅ Processed: data/empty/on/IMG0094_0604.103717.176.raw -> output/empty/on/46.raw.high
+✅ Processed: data/empty/on/IMG0095_0604.103820.756.raw -> output/empty/on/47.raw.low
+✅ Processed: data/empty/on/IMG0096_0604.103834.096.raw -> output/empty/on/47.raw.high
+✅ Processed: data/empty/on/IMG0145_0604.111023.936.raw -> output/empty/on/72.raw.low
+✅ Processed: data/empty/on/IMG0146_0604.111037.276.raw -> output/empty/on/72.raw.high
+✅ Processed: data/empty/on/IMG0147_0604.111140.856.raw -> output/empty/on/73.raw.low
+✅ Processed: data/empty/on/IMG0148_0604.111154.197.raw -> output/empty/on/73.raw.high
+✅ Processed: data/empty/on/IMG0265_0604.122720.185.raw -> output/empty/on/132.raw.low
+✅ Processed: data/empty/on/IMG0266_0604.122733.525.raw -> output/empty/on/132.raw.high
+✅ Processed: data/empty/on/IMG0267_0604.122837.104.raw -> output/empty/on/133.raw.low
+✅ Processed: data/empty/on/IMG0268_0604.122850.445.raw -> output/empty/on/133.raw.high
+✅ Processed: data/empty/on/IMG0029_0604.095602.167.raw -> output/empty/on/14.raw.low
+✅ Processed: data/empty/on/IMG0030_0604.095615.507.raw -> output/empty/on/14.raw.high
+✅ Processed: data/empty/on/IMG0031_0604.095719.070.raw -> output/empty/on/15.raw.low
+✅ Processed: data/empty/on/IMG0032_0604.095732.411.raw -> output/empty/on/15.raw.high
+✅ Processed: data/empty/on/IMG0161_0604.112039.387.raw -> output/empty/on/80.raw.low
+✅ Processed: data/empty/on/IMG0162_0604.112052.728.raw -> output/empty/on/80.raw.high
+✅ Processed: data/empty/on/IMG0163_0604.112156.307.raw -> output/empty/on/81.raw.low
+✅ Processed: data/empty/on/IMG0164_0604.112209.648.raw -> output/empty/on/81.raw.high
+✅ Processed: data/empty/on/IMG0297_0604.124751.277.raw -> output/empty/on/148.raw.low
+✅ Processed: data/empty/on/IMG0298_0604.124804.618.raw -> output/empty/on/148.raw.high
+✅ Processed: data/empty/on/IMG0299_0604.124908.228.raw -> output/empty/on/149.raw.low
+✅ Processed: data/empty/on/IMG0300_0604.124921.600.raw -> output/empty/on/149.raw.high
+✅ Processed: data/empty/on/IMG0037_0604.100109.798.raw -> output/empty/on/18.raw.low
+✅ Processed: data/empty/on/IMG0038_0604.100123.155.raw -> output/empty/on/18.raw.high
+✅ Processed: data/empty/on/IMG0039_0604.100226.719.raw -> output/empty/on/19.raw.low
+✅ Processed: data/empty/on/IMG0040_0604.100240.075.raw -> output/empty/on/19.raw.high
+✅ Processed: data/empty/on/IMG0153_0604.111531.677.raw -> output/empty/on/76.raw.low
+✅ Processed: data/empty/on/IMG0154_0604.111545.018.raw -> output/empty/on/76.raw.high
+✅ Processed: data/empty/on/IMG0155_0604.111648.597.raw -> output/empty/on/77.raw.low
+✅ Processed: data/empty/on/IMG0156_0604.111701.938.raw -> output/empty/on/77.raw.high
+✅ Processed: data/empty/on/IMG0289_0604.124243.473.raw -> output/empty/on/144.raw.low
+✅ Processed: data/empty/on/IMG0290_0604.124256.813.raw -> output/empty/on/144.raw.high
+✅ Processed: data/empty/on/IMG0291_0604.124400.423.raw -> output/empty/on/145.raw.low
+✅ Processed: data/empty/on/IMG0292_0604.124413.795.raw -> output/empty/on/145.raw.high
+✅ Processed: data/empty/on/IMG0013_0604.094546.700.raw -> output/empty/on/6.raw.low
+✅ Processed: data/empty/on/IMG0014_0604.094600.040.raw -> output/empty/on/6.raw.high
+✅ Processed: data/empty/on/IMG0015_0604.094703.635.raw -> output/empty/on/7.raw.low
+✅ Processed: data/empty/on/IMG0016_0604.094716.976.raw -> output/empty/on/7.raw.high
+✅ Processed: data/empty/on/IMG0149_0604.111257.807.raw -> output/empty/on/74.raw.low
+✅ Processed: data/empty/on/IMG0150_0604.111311.148.raw -> output/empty/on/74.raw.high
+✅ Processed: data/empty/on/IMG0151_0604.111414.758.raw -> output/empty/on/75.raw.low
+✅ Processed: data/empty/on/IMG0152_0604.111428.098.raw -> output/empty/on/75.raw.high
+✅ Processed: data/empty/on/IMG0293_0604.124517.405.raw -> output/empty/on/146.raw.low
+✅ Processed: data/empty/on/IMG0294_0604.124530.746.raw -> output/empty/on/146.raw.high
+✅ Processed: data/empty/on/IMG0295_0604.124634.342.raw -> output/empty/on/147.raw.low
+✅ Processed: data/empty/on/IMG0296_0604.124647.698.raw -> output/empty/on/147.raw.high
+✅ Processed: data/empty/on/IMG0109_0604.104719.224.raw -> output/empty/on/54.raw.low
+✅ Processed: data/empty/on/IMG0110_0604.104732.565.raw -> output/empty/on/54.raw.high
+✅ Processed: data/empty/on/IMG0111_0604.104836.159.raw -> output/empty/on/55.raw.low
+✅ Processed: data/empty/on/IMG0112_0604.104849.500.raw -> output/empty/on/55.raw.high
+✅ Processed: data/empty/on/IMG0141_0604.110750.018.raw -> output/empty/on/70.raw.low
+✅ Processed: data/empty/on/IMG0142_0604.110803.390.raw -> output/empty/on/70.raw.high
+✅ Processed: data/empty/on/IMG0143_0604.110906.954.raw -> output/empty/on/71.raw.low
+✅ Processed: data/empty/on/IMG0144_0604.110920.310.raw -> output/empty/on/71.raw.high
+✅ Processed: data/empty/on/IMG0285_0604.124009.586.raw -> output/empty/on/142.raw.low
+✅ Processed: data/empty/on/IMG0286_0604.124022.927.raw -> output/empty/on/142.raw.high
+✅ Processed: data/empty/on/IMG0287_0604.124126.506.raw -> output/empty/on/143.raw.low
+✅ Processed: data/empty/on/IMG0288_0604.124139.878.raw -> output/empty/on/143.raw.high
+✅ Processed: data/empty/on/IMG0001_0604.093805.213.raw -> output/empty/on/0.raw.low
+✅ Processed: data/empty/on/IMG0002_0604.093818.553.raw -> output/empty/on/0.raw.high
+✅ Processed: data/empty/on/IMG0003_0604.093922.132.raw -> output/empty/on/1.raw.low
+✅ Processed: data/empty/on/IMG0004_0604.093935.473.raw -> output/empty/on/1.raw.high
+✅ Processed: data/empty/on/IMG0173_0604.112820.985.raw -> output/empty/on/86.raw.low
+✅ Processed: data/empty/on/IMG0174_0604.112834.341.raw -> output/empty/on/86.raw.high
+✅ Processed: data/empty/on/IMG0175_0604.112937.921.raw -> output/empty/on/87.raw.low
+✅ Processed: data/empty/on/IMG0176_0604.112951.261.raw -> output/empty/on/87.raw.high
+✅ Processed: data/empty/on/IMG0305_0604.125259.096.raw -> output/empty/on/152.raw.low
+✅ Processed: data/empty/on/IMG0306_0604.125312.468.raw -> output/empty/on/152.raw.high
+✅ Processed: data/empty/on/IMG0307_0604.125416.063.raw -> output/empty/on/153.raw.low
+✅ Processed: data/empty/on/IMG0308_0604.125429.403.raw -> output/empty/on/153.raw.high
+✅ Processed: data/empty/on/IMG0025_0604.095328.312.raw -> output/empty/on/12.raw.low
+✅ Processed: data/empty/on/IMG0026_0604.095341.653.raw -> output/empty/on/12.raw.high
+✅ Processed: data/empty/on/IMG0027_0604.095445.231.raw -> output/empty/on/13.raw.low
+✅ Processed: data/empty/on/IMG0028_0604.095458.572.raw -> output/empty/on/13.raw.high
+✅ Processed: data/empty/on/IMG0181_0604.113328.712.raw -> output/empty/on/90.raw.low
+✅ Processed: data/empty/on/IMG0182_0604.113342.052.raw -> output/empty/on/90.raw.high
+✅ Processed: data/empty/on/IMG0183_0604.113445.647.raw -> output/empty/on/91.raw.low
+✅ Processed: data/empty/on/IMG0184_0604.113458.987.raw -> output/empty/on/91.raw.high
+✅ Processed: data/empty/on/IMG0301_0604.125025.241.raw -> output/empty/on/150.raw.low
+✅ Processed: data/empty/on/IMG0302_0604.125038.582.raw -> output/empty/on/150.raw.high
+✅ Processed: data/empty/on/IMG0303_0604.125142.176.raw -> output/empty/on/151.raw.low
+✅ Processed: data/empty/on/IMG0304_0604.125155.533.raw -> output/empty/on/151.raw.high
+✅ Processed: data/empty/on/IMG0005_0604.094039.052.raw -> output/empty/on/2.raw.low
+✅ Processed: data/empty/on/IMG0006_0604.094052.392.raw -> output/empty/on/2.raw.high
+✅ Processed: data/empty/on/IMG0007_0604.094155.956.raw -> output/empty/on/3.raw.low
+✅ Processed: data/empty/on/IMG0008_0604.094209.297.raw -> output/empty/on/3.raw.high
+✅ Processed: data/empty/on/IMG0177_0604.113054.856.raw -> output/empty/on/88.raw.low
+✅ Processed: data/empty/on/IMG0178_0604.113108.197.raw -> output/empty/on/88.raw.high
+✅ Processed: data/empty/on/IMG0179_0604.113211.776.raw -> output/empty/on/89.raw.low
+✅ Processed: data/empty/on/IMG0180_0604.113225.117.raw -> output/empty/on/89.raw.high
+✅ Processed: data/empty/on/IMG0309_0604.125533.014.raw -> output/empty/on/154.raw.low
+✅ Processed: data/empty/on/IMG0310_0604.125546.371.raw -> output/empty/on/154.raw.high
+✅ Processed: data/empty/on/IMG0311_0604.125649.981.raw -> output/empty/on/155.raw.low
+✅ Processed: data/empty/on/IMG0312_0604.125703.337.raw -> output/empty/on/155.raw.high
+✅ Processed: data/empty/on/IMG0097_0604.103937.676.raw -> output/empty/on/48.raw.low
+✅ Processed: data/empty/on/IMG0098_0604.103951.016.raw -> output/empty/on/48.raw.high
+✅ Processed: data/empty/on/IMG0099_0604.104054.595.raw -> output/empty/on/49.raw.low
+✅ Processed: data/empty/on/IMG0100_0604.104107.951.raw -> output/empty/on/49.raw.high
+✅ Processed: data/empty/on/IMG0189_0604.113836.484.raw -> output/empty/on/94.raw.low
+✅ Processed: data/empty/on/IMG0190_0604.113849.840.raw -> output/empty/on/94.raw.high
+✅ Processed: data/empty/on/IMG0191_0604.113953.435.raw -> output/empty/on/95.raw.low
+✅ Processed: data/empty/on/IMG0192_0604.114006.775.raw -> output/empty/on/95.raw.high
+✅ Processed: data/empty/on/IMG0317_0604.130040.865.raw -> output/empty/on/158.raw.low
+✅ Processed: data/empty/on/IMG0318_0604.130054.206.raw -> output/empty/on/158.raw.high
+✅ Processed: data/empty/on/IMG0319_0604.130157.801.raw -> output/empty/on/159.raw.low
+✅ Processed: data/empty/on/IMG0320_0604.130211.141.raw -> output/empty/on/159.raw.high
+✅ Processed: data/empty/on/IMG0021_0604.095054.425.raw -> output/empty/on/10.raw.low
+✅ Processed: data/empty/on/IMG0022_0604.095107.766.raw -> output/empty/on/10.raw.high
+✅ Processed: data/empty/on/IMG0023_0604.095211.392.raw -> output/empty/on/11.raw.low
+✅ Processed: data/empty/on/IMG0024_0604.095224.732.raw -> output/empty/on/11.raw.high
+✅ Processed: data/empty/on/IMG0185_0604.113602.597.raw -> output/empty/on/92.raw.low
+✅ Processed: data/empty/on/IMG0186_0604.113615.938.raw -> output/empty/on/92.raw.high
+✅ Processed: data/empty/on/IMG0187_0604.113719.565.raw -> output/empty/on/93.raw.low
+✅ Processed: data/empty/on/IMG0188_0604.113732.921.raw -> output/empty/on/93.raw.high
+✅ Processed: data/empty/on/IMG0313_0604.125806.932.raw -> output/empty/on/156.raw.low
+✅ Processed: data/empty/on/IMG0314_0604.125820.303.raw -> output/empty/on/156.raw.high
+✅ Processed: data/empty/on/IMG0315_0604.125923.883.raw -> output/empty/on/157.raw.low
+✅ Processed: data/empty/on/IMG0316_0604.125937.239.raw -> output/empty/on/157.raw.high
+✅ Processed: data/empty/on/IMG0121_0604.105500.789.raw -> output/empty/on/60.raw.low
+✅ Processed: data/empty/on/IMG0122_0604.105514.130.raw -> output/empty/on/60.raw.high
+✅ Processed: data/empty/on/IMG0123_0604.105617.740.raw -> output/empty/on/61.raw.low
+✅ Processed: data/empty/on/IMG0124_0604.105631.050.raw -> output/empty/on/61.raw.high
+✅ Processed: data/empty/on/IMG0193_0604.114110.354.raw -> output/empty/on/96.raw.low
+✅ Processed: data/empty/on/IMG0194_0604.114123.695.raw -> output/empty/on/96.raw.high
+✅ Processed: data/empty/on/IMG0195_0604.114227.275.raw -> output/empty/on/97.raw.low
+✅ Processed: data/empty/on/IMG0196_0604.114240.615.raw -> output/empty/on/97.raw.high
+✅ Processed: data/empty/on/IMG0321_0604.130314.751.raw -> output/empty/on/160.raw.low
+✅ Processed: data/empty/on/IMG0322_0604.130328.108.raw -> output/empty/on/160.raw.high
+✅ Processed: data/empty/on/IMG0323_0604.130431.733.raw -> output/empty/on/161.raw.low
+✅ Processed: data/empty/on/IMG0324_0604.130445.074.raw -> output/empty/on/161.raw.high
+✅ Processed: data/empty/on/IMG0057_0604.101359.092.raw -> output/empty/on/28.raw.low
+✅ Processed: data/empty/on/IMG0058_0604.101412.432.raw -> output/empty/on/28.raw.high
+✅ Processed: data/empty/on/IMG0059_0604.101516.011.raw -> output/empty/on/29.raw.low
+✅ Processed: data/empty/on/IMG0060_0604.101529.352.raw -> output/empty/on/29.raw.high
+✅ Processed: data/empty/on/IMG0205_0604.114851.952.raw -> output/empty/on/102.raw.low
+✅ Processed: data/empty/on/IMG0206_0604.114905.292.raw -> output/empty/on/102.raw.high
+✅ Processed: data/empty/on/IMG0207_0604.115008.918.raw -> output/empty/on/103.raw.low
+✅ Processed: data/empty/on/IMG0208_0604.115022.275.raw -> output/empty/on/103.raw.high
+✅ Processed: data/empty/on/IMG0329_0604.130822.618.raw -> output/empty/on/164.raw.low
+✅ Processed: data/empty/on/IMG0330_0604.130835.959.raw -> output/empty/on/164.raw.high
+✅ Processed: data/empty/on/IMG0331_0604.130939.569.raw -> output/empty/on/165.raw.low
+✅ Processed: data/empty/on/IMG0332_0604.130952.910.raw -> output/empty/on/165.raw.high
+✅ Processed: data/empty/on/IMG0117_0604.105226.934.raw -> output/empty/on/58.raw.low
+✅ Processed: data/empty/on/IMG0118_0604.105240.274.raw -> output/empty/on/58.raw.high
+✅ Processed: data/empty/on/IMG0119_0604.105343.869.raw -> output/empty/on/59.raw.low
+✅ Processed: data/empty/on/IMG0120_0604.105357.288.raw -> output/empty/on/59.raw.high
+✅ Processed: data/empty/on/IMG0201_0604.114618.081.raw -> output/empty/on/100.raw.low
+✅ Processed: data/empty/on/IMG0202_0604.114631.422.raw -> output/empty/on/100.raw.high
+✅ Processed: data/empty/on/IMG0203_0604.114734.985.raw -> output/empty/on/101.raw.low
+✅ Processed: data/empty/on/IMG0204_0604.114748.341.raw -> output/empty/on/101.raw.high
+✅ Processed: data/empty/on/IMG0325_0604.130548.684.raw -> output/empty/on/162.raw.low
+✅ Processed: data/empty/on/IMG0326_0604.130602.040.raw -> output/empty/on/162.raw.high
+✅ Processed: data/empty/on/IMG0327_0604.130705.651.raw -> output/empty/on/163.raw.low
+✅ Processed: data/empty/on/IMG0328_0604.130718.991.raw -> output/empty/on/163.raw.high
+✅ Processed: data/empty/on/IMG0113_0604.104953.063.raw -> output/empty/on/56.raw.low
+✅ Processed: data/empty/on/IMG0114_0604.105006.419.raw -> output/empty/on/56.raw.high
+✅ Processed: data/empty/on/IMG0115_0604.105110.014.raw -> output/empty/on/57.raw.low
+✅ Processed: data/empty/on/IMG0116_0604.105123.355.raw -> output/empty/on/57.raw.high
+✅ Processed: data/empty/on/IMG0197_0604.114344.226.raw -> output/empty/on/98.raw.low
+✅ Processed: data/empty/on/IMG0198_0604.114357.566.raw -> output/empty/on/98.raw.high
+✅ Processed: data/empty/on/IMG0199_0604.114501.145.raw -> output/empty/on/99.raw.low
+✅ Processed: data/empty/on/IMG0200_0604.114514.486.raw -> output/empty/on/99.raw.high
+✅ Processed: data/empty/on/IMG0333_0604.131056.489.raw -> output/empty/on/166.raw.low
+✅ Processed: data/empty/on/IMG0334_0604.131109.829.raw -> output/empty/on/166.raw.high
+✅ Processed: data/empty/on/IMG0335_0604.131213.424.raw -> output/empty/on/167.raw.low
+✅ Processed: data/empty/on/IMG0336_0604.131226.796.raw -> output/empty/on/167.raw.high
+✅ Processed: data/empty/on/IMG0061_0604.101632.962.raw -> output/empty/on/30.raw.low
+✅ Processed: data/empty/on/IMG0062_0604.101646.303.raw -> output/empty/on/30.raw.high
+✅ Processed: data/empty/on/IMG0063_0604.101749.882.raw -> output/empty/on/31.raw.low
+✅ Processed: data/empty/on/IMG0064_0604.101803.222.raw -> output/empty/on/31.raw.high
+✅ Processed: data/empty/on/IMG0213_0604.115359.724.raw -> output/empty/on/106.raw.low
+✅ Processed: data/empty/on/IMG0214_0604.115413.064.raw -> output/empty/on/106.raw.high
+✅ Processed: data/empty/on/IMG0215_0604.115516.644.raw -> output/empty/on/107.raw.low
+✅ Processed: data/empty/on/IMG0216_0604.115529.985.raw -> output/empty/on/107.raw.high
+✅ Processed: data/empty/on/IMG0337_0604.131330.390.raw -> output/empty/on/168.raw.low
+✅ Processed: data/empty/on/IMG0338_0604.131343.747.raw -> output/empty/on/168.raw.high
+✅ Processed: data/empty/on/IMG0339_0604.131447.357.raw -> output/empty/on/169.raw.low
+✅ Processed: data/empty/on/IMG0340_0604.131500.697.raw -> output/empty/on/169.raw.high
+✅ Processed: data/empty/on/IMG0053_0604.101125.221.raw -> output/empty/on/26.raw.low
+✅ Processed: data/empty/on/IMG0054_0604.101138.577.raw -> output/empty/on/26.raw.high
+✅ Processed: data/empty/on/IMG0055_0604.101242.156.raw -> output/empty/on/27.raw.low
+✅ Processed: data/empty/on/IMG0056_0604.101255.497.raw -> output/empty/on/27.raw.high
+✅ Processed: data/empty/on/IMG0217_0604.115633.595.raw -> output/empty/on/108.raw.low
+✅ Processed: data/empty/on/IMG0218_0604.115646.951.raw -> output/empty/on/108.raw.high
+✅ Processed: data/empty/on/IMG0219_0604.115750.546.raw -> output/empty/on/109.raw.low
+✅ Processed: data/empty/on/IMG0220_0604.115803.887.raw -> output/empty/on/109.raw.high
+✅ Processed: data/empty/on/IMG0345_0604.131838.272.raw -> output/empty/on/172.raw.low
+✅ Processed: data/empty/on/IMG0346_0604.131851.612.raw -> output/empty/on/172.raw.high
+✅ Processed: data/empty/on/IMG0347_0604.131955.223.raw -> output/empty/on/173.raw.low
+✅ Processed: data/empty/on/IMG0348_0604.132008.579.raw -> output/empty/on/173.raw.high
+✅ Processed: data/empty/on/IMG0009_0604.094312.845.raw -> output/empty/on/4.raw.low
+✅ Processed: data/empty/on/IMG0010_0604.094326.201.raw -> output/empty/on/4.raw.high
+✅ Processed: data/empty/on/IMG0011_0604.094429.780.raw -> output/empty/on/5.raw.low
+✅ Processed: data/empty/on/IMG0012_0604.094443.121.raw -> output/empty/on/5.raw.high
+✅ Processed: data/empty/on/IMG0209_0604.115125.853.raw -> output/empty/on/104.raw.low
+✅ Processed: data/empty/on/IMG0210_0604.115139.210.raw -> output/empty/on/104.raw.high
+✅ Processed: data/empty/on/IMG0211_0604.115242.789.raw -> output/empty/on/105.raw.low
+✅ Processed: data/empty/on/IMG0212_0604.115256.129.raw -> output/empty/on/105.raw.high
+✅ Processed: data/empty/on/IMG0341_0604.131604.308.raw -> output/empty/on/170.raw.low
+✅ Processed: data/empty/on/IMG0342_0604.131617.664.raw -> output/empty/on/170.raw.high
+✅ Processed: data/empty/on/IMG0343_0604.131721.305.raw -> output/empty/on/171.raw.low
+✅ Processed: data/empty/on/IMG0344_0604.131734.662.raw -> output/empty/on/171.raw.high
+✅ Processed: data/empty/on/IMG0017_0604.094820.555.raw -> output/empty/on/8.raw.low
+✅ Processed: data/empty/on/IMG0018_0604.094833.896.raw -> output/empty/on/8.raw.high
+✅ Processed: data/empty/on/IMG0019_0604.094937.490.raw -> output/empty/on/9.raw.low
+✅ Processed: data/empty/on/IMG0020_0604.094950.831.raw -> output/empty/on/9.raw.high
+✅ Processed: data/empty/on/IMG0221_0604.115907.482.raw -> output/empty/on/110.raw.low
+✅ Processed: data/empty/on/IMG0222_0604.115920.822.raw -> output/empty/on/110.raw.high
+✅ Processed: data/empty/on/IMG0223_0604.120024.401.raw -> output/empty/on/111.raw.low
+✅ Processed: data/empty/on/IMG0224_0604.120037.742.raw -> output/empty/on/111.raw.high
+✅ Processed: data/empty/on/IMG0353_0604.132346.075.raw -> output/empty/on/176.raw.low
+✅ Processed: data/empty/on/IMG0354_0604.132359.416.raw -> output/empty/on/176.raw.high
+✅ Processed: data/empty/on/IMG0355_0604.132503.027.raw -> output/empty/on/177.raw.low
+✅ Processed: data/empty/on/IMG0356_0604.132516.368.raw -> output/empty/on/177.raw.high
+✅ Processed: data/empty/on/IMG0041_0604.100343.655.raw -> output/empty/on/20.raw.low
+✅ Processed: data/empty/on/IMG0042_0604.100356.996.raw -> output/empty/on/20.raw.high
+✅ Processed: data/empty/on/IMG0043_0604.100500.575.raw -> output/empty/on/21.raw.low
+✅ Processed: data/empty/on/IMG0044_0604.100513.916.raw -> output/empty/on/21.raw.high
+✅ Processed: data/empty/on/IMG0225_0604.120141.336.raw -> output/empty/on/112.raw.low
+✅ Processed: data/empty/on/IMG0226_0604.120154.677.raw -> output/empty/on/112.raw.high
+✅ Processed: data/empty/on/IMG0227_0604.120258.256.raw -> output/empty/on/113.raw.low
+✅ Processed: data/empty/on/IMG0228_0604.120311.613.raw -> output/empty/on/113.raw.high
+✅ Processed: data/empty/on/IMG0349_0604.132112.174.raw -> output/empty/on/174.raw.low
+✅ Processed: data/empty/on/IMG0350_0604.132125.546.raw -> output/empty/on/174.raw.high
+✅ Processed: data/empty/on/IMG0351_0604.132229.125.raw -> output/empty/on/175.raw.low
+✅ Processed: data/empty/on/IMG0352_0604.132242.481.raw -> output/empty/on/175.raw.high
+✅ Processed: data/empty/on/IMG0033_0604.095835.975.raw -> output/empty/on/16.raw.low
+✅ Processed: data/empty/on/IMG0034_0604.095849.316.raw -> output/empty/on/16.raw.high
+✅ Processed: data/empty/on/IMG0035_0604.095952.894.raw -> output/empty/on/17.raw.low
+✅ Processed: data/empty/on/IMG0036_0604.100006.235.raw -> output/empty/on/17.raw.high
+✅ Processed: data/empty/on/IMG0229_0604.120415.223.raw -> output/empty/on/114.raw.low
+✅ Processed: data/empty/on/IMG0230_0604.120428.595.raw -> output/empty/on/114.raw.high
+✅ Processed: data/empty/on/IMG0231_0604.120532.220.raw -> output/empty/on/115.raw.low
+✅ Processed: data/empty/on/IMG0232_0604.120545.577.raw -> output/empty/on/115.raw.high
+✅ Processed: data/empty/on/IMG0357_0604.132619.994.raw -> output/empty/on/178.raw.low
+✅ Processed: data/empty/on/IMG0358_0604.132633.335.raw -> output/empty/on/178.raw.high
+✅ Processed: data/empty/on/IMG0359_0604.132736.976.raw -> output/empty/on/179.raw.low
+✅ Processed: data/empty/on/IMG0360_0604.132750.317.raw -> output/empty/on/179.raw.high
+✅ Processed: data/empty/on/IMG0105_0604.104445.369.raw -> output/empty/on/52.raw.low
+✅ Processed: data/empty/on/IMG0106_0604.104458.710.raw -> output/empty/on/52.raw.high
+✅ Processed: data/empty/on/IMG0107_0604.104602.304.raw -> output/empty/on/53.raw.low
+✅ Processed: data/empty/on/IMG0108_0604.104615.645.raw -> output/empty/on/53.raw.high
+✅ Processed: data/empty/on/IMG0241_0604.121156.928.raw -> output/empty/on/120.raw.low
+✅ Processed: data/empty/on/IMG0242_0604.121210.284.raw -> output/empty/on/120.raw.high
+✅ Processed: data/empty/on/IMG0243_0604.121313.864.raw -> output/empty/on/121.raw.low
+✅ Processed: data/empty/on/IMG0244_0604.121327.205.raw -> output/empty/on/121.raw.high
+✅ Processed: data/empty/on/IMG0369_0604.133401.684.raw -> output/empty/on/184.raw.low
+✅ Processed: data/empty/on/IMG0370_0604.133415.056.raw -> output/empty/on/184.raw.high
+✅ Processed: data/empty/on/IMG0371_0604.133518.682.raw -> output/empty/on/185.raw.low
+✅ Processed: data/empty/on/IMG0372_0604.133532.023.raw -> output/empty/on/185.raw.high
+✅ Processed: data/empty/on/IMG0125_0604.105734.630.raw -> output/empty/on/62.raw.low
+✅ Processed: data/empty/on/IMG0126_0604.105747.970.raw -> output/empty/on/62.raw.high
+✅ Processed: data/empty/on/IMG0127_0604.105851.549.raw -> output/empty/on/63.raw.low
+✅ Processed: data/empty/on/IMG0128_0604.105904.905.raw -> output/empty/on/63.raw.high
+✅ Processed: data/empty/on/IMG0233_0604.120649.156.raw -> output/empty/on/116.raw.low
+✅ Processed: data/empty/on/IMG0234_0604.120702.497.raw -> output/empty/on/116.raw.high
+✅ Processed: data/empty/on/IMG0235_0604.120806.091.raw -> output/empty/on/117.raw.low
+✅ Processed: data/empty/on/IMG0236_0604.120819.432.raw -> output/empty/on/117.raw.high
+✅ Processed: data/empty/on/IMG0365_0604.133127.813.raw -> output/empty/on/182.raw.low
+✅ Processed: data/empty/on/IMG0366_0604.133141.185.raw -> output/empty/on/182.raw.high
+✅ Processed: data/empty/on/IMG0367_0604.133244.749.raw -> output/empty/on/183.raw.low
+✅ Processed: data/empty/on/IMG0368_0604.133258.106.raw -> output/empty/on/183.raw.high
+✅ Processed: data/empty/on/IMG0101_0604.104211.530.raw -> output/empty/on/50.raw.low
+✅ Processed: data/empty/on/IMG0102_0604.104224.871.raw -> output/empty/on/50.raw.high
+✅ Processed: data/empty/on/IMG0103_0604.104328.450.raw -> output/empty/on/51.raw.low
+✅ Processed: data/empty/on/IMG0104_0604.104341.790.raw -> output/empty/on/51.raw.high
+✅ Processed: data/empty/on/IMG0245_0604.121430.799.raw -> output/empty/on/122.raw.low
+✅ Processed: data/empty/on/IMG0246_0604.121444.155.raw -> output/empty/on/122.raw.high
+✅ Processed: data/empty/on/IMG0247_0604.121547.750.raw -> output/empty/on/123.raw.low
+✅ Processed: data/empty/on/IMG0248_0604.121601.090.raw -> output/empty/on/123.raw.high
+✅ Processed: data/empty/on/IMG0373_0604.133635.617.raw -> output/empty/on/186.raw.low
+✅ Processed: data/empty/on/IMG0374_0604.133648.974.raw -> output/empty/on/186.raw.high
+✅ Processed: data/empty/on/IMG0375_0604.133752.600.raw -> output/empty/on/187.raw.low
+✅ Processed: data/empty/on/IMG0376_0604.133805.940.raw -> output/empty/on/187.raw.high
+✅ Processed: data/empty/on/IMG0045_0604.100617.511.raw -> output/empty/on/22.raw.low
+✅ Processed: data/empty/on/IMG0046_0604.100630.851.raw -> output/empty/on/22.raw.high
+✅ Processed: data/empty/on/IMG0047_0604.100734.430.raw -> output/empty/on/23.raw.low
+✅ Processed: data/empty/on/IMG0048_0604.100747.771.raw -> output/empty/on/23.raw.high
+✅ Processed: data/empty/on/IMG0249_0604.121704.685.raw -> output/empty/on/124.raw.low
+✅ Processed: data/empty/on/IMG0250_0604.121718.026.raw -> output/empty/on/124.raw.high
+✅ Processed: data/empty/on/IMG0251_0604.121821.621.raw -> output/empty/on/125.raw.low
+✅ Processed: data/empty/on/IMG0252_0604.121834.977.raw -> output/empty/on/125.raw.high
+✅ Processed: data/empty/on/IMG0377_0604.133909.551.raw -> output/empty/on/188.raw.low
+✅ Processed: data/empty/on/IMG0378_0604.133922.892.raw -> output/empty/on/188.raw.high
+✅ Processed: data/empty/on/IMG0379_0604.134026.502.raw -> output/empty/on/189.raw.low
+✅ Processed: data/empty/on/IMG0380_0604.134039.858.raw -> output/empty/on/189.raw.high
+✅ Processed: data/empty/on/IMG0049_0604.100851.366.raw -> output/empty/on/24.raw.low
+✅ Processed: data/empty/on/IMG0050_0604.100904.706.raw -> output/empty/on/24.raw.high
+✅ Processed: data/empty/on/IMG0051_0604.101008.285.raw -> output/empty/on/25.raw.low
+✅ Processed: data/empty/on/IMG0052_0604.101021.626.raw -> output/empty/on/25.raw.high
+✅ Processed: data/empty/on/IMG0253_0604.121938.572.raw -> output/empty/on/126.raw.low
+✅ Processed: data/empty/on/IMG0254_0604.121951.913.raw -> output/empty/on/126.raw.high
+✅ Processed: data/empty/on/IMG0255_0604.122055.539.raw -> output/empty/on/127.raw.low
+✅ Processed: data/empty/on/IMG0256_0604.122108.879.raw -> output/empty/on/127.raw.high
+✅ Processed: data/empty/on/IMG0381_0604.134143.453.raw -> output/empty/on/190.raw.low
+✅ Processed: data/empty/on/IMG0382_0604.134156.794.raw -> output/empty/on/190.raw.high
+✅ Processed: data/empty/on/IMG0383_0604.134300.404.raw -> output/empty/on/191.raw.low
+✅ Processed: data/empty/on/IMG0384_0604.134313.745.raw -> output/empty/on/191.raw.high
+✅ Processed: data/empty/on/IMG0081_0604.102922.269.raw -> output/empty/on/40.raw.low
+✅ Processed: data/empty/on/IMG0082_0604.102935.610.raw -> output/empty/on/40.raw.high
+✅ Processed: data/empty/on/IMG0083_0604.103039.173.raw -> output/empty/on/41.raw.low
+✅ Processed: data/empty/on/IMG0084_0604.103052.529.raw -> output/empty/on/41.raw.high
+✅ Processed: data/empty/on/IMG0157_0604.111805.517.raw -> output/empty/on/78.raw.low
+✅ Processed: data/empty/on/IMG0158_0604.111818.873.raw -> output/empty/on/78.raw.high
+✅ Processed: data/empty/on/IMG0159_0604.111922.436.raw -> output/empty/on/79.raw.low
+✅ Processed: data/empty/on/IMG0160_0604.111935.777.raw -> output/empty/on/79.raw.high
+✅ Processed: data/empty/on/IMG0273_0604.123227.927.raw -> output/empty/on/136.raw.low
+✅ Processed: data/empty/on/IMG0274_0604.123241.283.raw -> output/empty/on/136.raw.high
+✅ Processed: data/empty/on/IMG0275_0604.123344.878.raw -> output/empty/on/137.raw.low
+✅ Processed: data/empty/on/IMG0276_0604.123358.219.raw -> output/empty/on/137.raw.high
+✅ Processed: data/empty/on/IMG0397_0604.135159.154.raw -> output/empty/on/198.raw.low
+✅ Processed: data/empty/on/IMG0398_0604.135212.494.raw -> output/empty/on/198.raw.high
+✅ Processed: data/empty/on/IMG0399_0604.135316.121.raw -> output/empty/on/199.raw.low
+✅ Processed: data/empty/on/IMG0400_0604.135329.461.raw -> output/empty/on/199.raw.high
+✅ Processed: data/empty/on/IMG0089_0604.103429.965.raw -> output/empty/on/44.raw.low
+✅ Processed: data/empty/on/IMG0090_0604.103443.306.raw -> output/empty/on/44.raw.high
+✅ Processed: data/empty/on/IMG0091_0604.103546.901.raw -> output/empty/on/45.raw.low
+✅ Processed: data/empty/on/IMG0092_0604.103600.241.raw -> output/empty/on/45.raw.high
+✅ Processed: data/empty/on/IMG0169_0604.112547.129.raw -> output/empty/on/84.raw.low
+✅ Processed: data/empty/on/IMG0170_0604.112600.470.raw -> output/empty/on/84.raw.high
+✅ Processed: data/empty/on/IMG0171_0604.112704.066.raw -> output/empty/on/85.raw.low
+✅ Processed: data/empty/on/IMG0172_0604.112717.406.raw -> output/empty/on/85.raw.high
+✅ Processed: data/empty/on/IMG0277_0604.123501.798.raw -> output/empty/on/138.raw.low
+✅ Processed: data/empty/on/IMG0278_0604.123515.185.raw -> output/empty/on/138.raw.high
+✅ Processed: data/empty/on/IMG0279_0604.123618.780.raw -> output/empty/on/139.raw.low
+✅ Processed: data/empty/on/IMG0280_0604.123632.137.raw -> output/empty/on/139.raw.high
+✅ Processed: data/empty/on/IMG0393_0604.134925.236.raw -> output/empty/on/196.raw.low
+✅ Processed: data/empty/on/IMG0394_0604.134938.608.raw -> output/empty/on/196.raw.high
+✅ Processed: data/empty/on/IMG0395_0604.135042.187.raw -> output/empty/on/197.raw.low
+✅ Processed: data/empty/on/IMG0396_0604.135055.544.raw -> output/empty/on/197.raw.high
+✅ Processed: data/empty/on/IMG0065_0604.101906.817.raw -> output/empty/on/32.raw.low
+✅ Processed: data/empty/on/IMG0066_0604.101920.157.raw -> output/empty/on/32.raw.high
+✅ Processed: data/empty/on/IMG0067_0604.102023.752.raw -> output/empty/on/33.raw.low
+✅ Processed: data/empty/on/IMG0068_0604.102037.109.raw -> output/empty/on/33.raw.high
+✅ Processed: data/empty/on/IMG0133_0604.110242.308.raw -> output/empty/on/66.raw.low
+✅ Processed: data/empty/on/IMG0134_0604.110255.648.raw -> output/empty/on/66.raw.high
+✅ Processed: data/empty/on/IMG0135_0604.110359.227.raw -> output/empty/on/67.raw.low
+✅ Processed: data/empty/on/IMG0136_0604.110412.568.raw -> output/empty/on/67.raw.high
+✅ Processed: data/empty/on/IMG0269_0604.122954.040.raw -> output/empty/on/134.raw.low
+✅ Processed: data/empty/on/IMG0270_0604.123007.381.raw -> output/empty/on/134.raw.high
+✅ Processed: data/empty/on/IMG0271_0604.123111.007.raw -> output/empty/on/135.raw.low
+✅ Processed: data/empty/on/IMG0272_0604.123124.348.raw -> output/empty/on/135.raw.high
+✅ Processed: data/empty/on/IMG0389_0604.134651.304.raw -> output/empty/on/194.raw.low
+✅ Processed: data/empty/on/IMG0390_0604.134704.660.raw -> output/empty/on/194.raw.high
+✅ Processed: data/empty/on/IMG0391_0604.134808.270.raw -> output/empty/on/195.raw.low
+✅ Processed: data/empty/on/IMG0392_0604.134821.610.raw -> output/empty/on/195.raw.high
+✅ Processed: data/empty/on/IMG0077_0604.102648.413.raw -> output/empty/on/38.raw.low
+✅ Processed: data/empty/on/IMG0078_0604.102701.754.raw -> output/empty/on/38.raw.high
+✅ Processed: data/empty/on/IMG0079_0604.102805.349.raw -> output/empty/on/39.raw.low
+✅ Processed: data/empty/on/IMG0080_0604.102818.689.raw -> output/empty/on/39.raw.high
+✅ Processed: data/empty/on/IMG0137_0604.110516.178.raw -> output/empty/on/68.raw.low
+✅ Processed: data/empty/on/IMG0138_0604.110529.519.raw -> output/empty/on/68.raw.high
+✅ Processed: data/empty/on/IMG0139_0604.110633.099.raw -> output/empty/on/69.raw.low
+✅ Processed: data/empty/on/IMG0140_0604.110646.439.raw -> output/empty/on/69.raw.high
+✅ Processed: data/empty/on/IMG0261_0604.122446.299.raw -> output/empty/on/130.raw.low
+✅ Processed: data/empty/on/IMG0262_0604.122459.671.raw -> output/empty/on/130.raw.high
+✅ Processed: data/empty/on/IMG0263_0604.122603.249.raw -> output/empty/on/131.raw.low
+✅ Processed: data/empty/on/IMG0264_0604.122616.590.raw -> output/empty/on/131.raw.high
+✅ Processed: data/empty/on/IMG0385_0604.134417.355.raw -> output/empty/on/192.raw.low
+✅ Processed: data/empty/on/IMG0386_0604.134430.696.raw -> output/empty/on/192.raw.high
+✅ Processed: data/empty/on/IMG0387_0604.134534.322.raw -> output/empty/on/193.raw.low
+✅ Processed: data/empty/on/IMG0388_0604.134547.662.raw -> output/empty/on/193.raw.high
+✅ Processed: data/empty/on/IMG0085_0604.103156.109.raw -> output/empty/on/42.raw.low
+✅ Processed: data/empty/on/IMG0086_0604.103209.449.raw -> output/empty/on/42.raw.high
+✅ Processed: data/empty/on/IMG0087_0604.103313.029.raw -> output/empty/on/43.raw.low
+✅ Processed: data/empty/on/IMG0088_0604.103326.370.raw -> output/empty/on/43.raw.high
+✅ Processed: data/empty/on/IMG0237_0604.120923.073.raw -> output/empty/on/118.raw.low
+✅ Processed: data/empty/on/IMG0238_0604.120936.414.raw -> output/empty/on/118.raw.high
+✅ Processed: data/empty/on/IMG0239_0604.121039.993.raw -> output/empty/on/119.raw.low
+✅ Processed: data/empty/on/IMG0240_0604.121053.349.raw -> output/empty/on/119.raw.high
+✅ Processed: data/empty/on/IMG0361_0604.132853.927.raw -> output/empty/on/180.raw.low
+✅ Processed: data/empty/on/IMG0362_0604.132907.283.raw -> output/empty/on/180.raw.high
+✅ Processed: data/empty/on/IMG0363_0604.133010.862.raw -> output/empty/on/181.raw.low
+✅ Processed: data/empty/on/IMG0364_0604.133024.219.raw -> output/empty/on/181.raw.high
+Processing completed in 8.92 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/center', output='output/center', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/center/IMG0019_0703.104642.807.raw -> output/center/9.raw.low
+✅ Processed: data/center/IMG0053_0703.110830.625.raw -> output/center/26.raw.low
+✅ Processed: data/center/IMG0011_0703.104135.129.raw -> output/center/5.raw.low
+✅ Processed: data/center/IMG0049_0703.110556.802.raw -> output/center/24.raw.low
+✅ Processed: data/center/IMG0022_0703.104813.067.raw -> output/center/10.raw.high
+✅ Processed: data/center/IMG0050_0703.110610.142.raw -> output/center/24.raw.high
+✅ Processed: data/center/IMG0020_0703.104656.147.raw -> output/center/9.raw.high
+✅ Processed: data/center/IMG0051_0703.110713.721.raw -> output/center/25.raw.low
+✅ Processed: data/center/IMG0026_0703.105046.921.raw -> output/center/12.raw.high
+✅ Processed: data/center/IMG0052_0703.110727.062.raw -> output/center/25.raw.high
+✅ Processed: data/center/IMG0029_0703.105307.435.raw -> output/center/14.raw.low
+✅ Processed: data/center/IMG0054_0703.110843.981.raw -> output/center/26.raw.high
+✅ Processed: data/center/IMG0017_0703.104525.887.raw -> output/center/8.raw.low
+✅ Processed: data/center/IMG0055_0703.110947.560.raw -> output/center/27.raw.low
+✅ Processed: data/center/IMG0003_0703.103627.405.raw -> output/center/1.raw.low
+✅ Processed: data/center/IMG0037_0703.105815.238.raw -> output/center/18.raw.low
+✅ Processed: data/center/IMG0062_0703.111351.722.raw -> output/center/30.raw.high
+✅ Processed: data/center/IMG0008_0703.103914.616.raw -> output/center/3.raw.high
+✅ Processed: data/center/IMG0058_0703.111117.820.raw -> output/center/28.raw.high
+✅ Processed: data/center/IMG0030_0703.105320.776.raw -> output/center/14.raw.high
+✅ Processed: data/center/IMG0060_0703.111234.787.raw -> output/center/29.raw.high
+✅ Processed: data/center/IMG0004_0703.103640.746.raw -> output/center/1.raw.high
+✅ Processed: data/center/IMG0033_0703.105541.336.raw -> output/center/16.raw.low
+✅ Processed: data/center/IMG0056_0703.111000.901.raw -> output/center/27.raw.high
+✅ Processed: data/center/IMG0032_0703.105437.758.raw -> output/center/15.raw.high
+✅ Processed: data/center/IMG0057_0703.111104.479.raw -> output/center/28.raw.low
+✅ Processed: data/center/IMG0028_0703.105203.840.raw -> output/center/13.raw.high
+✅ Processed: data/center/IMG0064_0703.111508.641.raw -> output/center/31.raw.high
+✅ Processed: data/center/IMG0015_0703.104408.968.raw -> output/center/7.raw.low
+✅ Processed: data/center/IMG0035_0703.105658.318.raw -> output/center/17.raw.low
+✅ Processed: data/center/IMG0061_0703.111338.381.raw -> output/center/30.raw.low
+✅ Processed: data/center/IMG0016_0703.104422.309.raw -> output/center/7.raw.high
+✅ Processed: data/center/IMG0059_0703.111221.446.raw -> output/center/29.raw.low
+✅ Processed: data/center/IMG0002_0703.103523.826.raw -> output/center/0.raw.high
+✅ Processed: data/center/IMG0036_0703.105711.659.raw -> output/center/17.raw.high
+✅ Processed: data/center/IMG0063_0703.111455.300.raw -> output/center/31.raw.low
+✅ Processed: data/center/IMG0001_0703.103510.485.raw -> output/center/0.raw.low
+✅ Processed: data/center/IMG0034_0703.105554.677.raw -> output/center/16.raw.high
+✅ Processed: data/center/IMG0065_0703.111612.220.raw -> output/center/32.raw.low
+✅ Processed: data/center/IMG0031_0703.105424.417.raw -> output/center/15.raw.low
+✅ Processed: data/center/IMG0042_0703.110102.464.raw -> output/center/20.raw.high
+✅ Processed: data/center/IMG0072_0703.112016.319.raw -> output/center/35.raw.high
+✅ Processed: data/center/IMG0014_0703.104305.405.raw -> output/center/6.raw.high
+✅ Processed: data/center/IMG0067_0703.111729.140.raw -> output/center/33.raw.low
+✅ Processed: data/center/IMG0023_0703.104916.645.raw -> output/center/11.raw.low
+✅ Processed: data/center/IMG0040_0703.105945.513.raw -> output/center/19.raw.high
+✅ Processed: data/center/IMG0069_0703.111846.060.raw -> output/center/34.raw.low
+✅ Processed: data/center/IMG0024_0703.104929.986.raw -> output/center/11.raw.high
+✅ Processed: data/center/IMG0039_0703.105932.157.raw -> output/center/19.raw.low
+✅ Processed: data/center/IMG0068_0703.111742.480.raw -> output/center/33.raw.high
+✅ Processed: data/center/IMG0027_0703.105150.484.raw -> output/center/13.raw.low
+✅ Processed: data/center/IMG0075_0703.112236.835.raw -> output/center/37.raw.low
+✅ Processed: data/center/IMG0021_0703.104759.726.raw -> output/center/10.raw.low
+✅ Processed: data/center/IMG0044_0703.110219.383.raw -> output/center/21.raw.high
+✅ Processed: data/center/IMG0076_0703.112250.176.raw -> output/center/37.raw.high
+✅ Processed: data/center/IMG0006_0703.103757.665.raw -> output/center/2.raw.high
+✅ Processed: data/center/IMG0038_0703.105828.578.raw -> output/center/18.raw.high
+✅ Processed: data/center/IMG0073_0703.112119.899.raw -> output/center/36.raw.low
+✅ Processed: data/center/IMG0012_0703.104148.470.raw -> output/center/5.raw.high
+✅ Processed: data/center/IMG0041_0703.110049.123.raw -> output/center/20.raw.low
+✅ Processed: data/center/IMG0074_0703.112133.240.raw -> output/center/36.raw.high
+✅ Processed: data/center/IMG0009_0703.104018.194.raw -> output/center/4.raw.low
+✅ Processed: data/center/IMG0043_0703.110206.043.raw -> output/center/21.raw.low
+✅ Processed: data/center/IMG0071_0703.112002.979.raw -> output/center/35.raw.low
+✅ Processed: data/center/IMG0018_0703.104539.228.raw -> output/center/8.raw.high
+✅ Processed: data/center/IMG0066_0703.111625.576.raw -> output/center/32.raw.high
+✅ Processed: data/center/IMG0007_0703.103901.275.raw -> output/center/3.raw.low
+✅ Processed: data/center/IMG0070_0703.111859.400.raw -> output/center/34.raw.high
+✅ Processed: data/center/IMG0013_0703.104252.049.raw -> output/center/6.raw.low
+✅ Processed: data/center/IMG0046_0703.110336.303.raw -> output/center/22.raw.high
+✅ Processed: data/center/IMG0078_0703.112407.095.raw -> output/center/38.raw.high
+✅ Processed: data/center/IMG0010_0703.104031.535.raw -> output/center/4.raw.high
+✅ Processed: data/center/IMG0045_0703.110322.963.raw -> output/center/22.raw.low
+✅ Processed: data/center/IMG0077_0703.112353.754.raw -> output/center/38.raw.low
+✅ Processed: data/center/IMG0005_0703.103744.325.raw -> output/center/2.raw.low
+✅ Processed: data/center/IMG0047_0703.110439.882.raw -> output/center/23.raw.low
+✅ Processed: data/center/IMG0079_0703.112510.705.raw -> output/center/39.raw.low
+✅ Processed: data/center/IMG0025_0703.105033.580.raw -> output/center/12.raw.low
+✅ Processed: data/center/IMG0048_0703.110453.223.raw -> output/center/23.raw.high
+✅ Processed: data/center/IMG0080_0703.112524.061.raw -> output/center/39.raw.high
+Processing completed in 2.15 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/leftup', output='output/leftup', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/leftup/IMG0016_0703.140243.687.raw -> output/leftup/7.raw.high
+✅ Processed: data/leftup/IMG0049_0703.142418.133.raw -> output/leftup/24.raw.low
+✅ Processed: data/leftup/IMG0014_0703.140126.752.raw -> output/leftup/6.raw.high
+✅ Processed: data/leftup/IMG0050_0703.142431.474.raw -> output/leftup/24.raw.high
+✅ Processed: data/leftup/IMG0019_0703.140504.186.raw -> output/leftup/9.raw.low
+✅ Processed: data/leftup/IMG0053_0703.142651.972.raw -> output/leftup/26.raw.low
+✅ Processed: data/leftup/IMG0017_0703.140347.251.raw -> output/leftup/8.raw.low
+✅ Processed: data/leftup/IMG0051_0703.142535.053.raw -> output/leftup/25.raw.low
+✅ Processed: data/leftup/IMG0015_0703.140230.347.raw -> output/leftup/7.raw.low
+✅ Processed: data/leftup/IMG0052_0703.142548.393.raw -> output/leftup/25.raw.high
+✅ Processed: data/leftup/IMG0024_0703.140751.381.raw -> output/leftup/11.raw.high
+✅ Processed: data/leftup/IMG0055_0703.142808.892.raw -> output/leftup/27.raw.low
+✅ Processed: data/leftup/IMG0029_0703.141128.829.raw -> output/leftup/14.raw.low
+✅ Processed: data/leftup/IMG0054_0703.142705.313.raw -> output/leftup/26.raw.high
+✅ Processed: data/leftup/IMG0027_0703.141011.894.raw -> output/leftup/13.raw.low
+✅ Processed: data/leftup/IMG0056_0703.142822.248.raw -> output/leftup/27.raw.high
+✅ Processed: data/leftup/IMG0028_0703.141025.235.raw -> output/leftup/13.raw.high
+✅ Processed: data/leftup/IMG0057_0703.142925.842.raw -> output/leftup/28.raw.low
+✅ Processed: data/leftup/IMG0010_0703.135852.882.raw -> output/leftup/4.raw.high
+✅ Processed: data/leftup/IMG0034_0703.141416.040.raw -> output/leftup/16.raw.high
+✅ Processed: data/leftup/IMG0062_0703.143213.037.raw -> output/leftup/30.raw.high
+✅ Processed: data/leftup/IMG0009_0703.135839.542.raw -> output/leftup/4.raw.low
+✅ Processed: data/leftup/IMG0058_0703.142939.183.raw -> output/leftup/28.raw.high
+✅ Processed: data/leftup/IMG0030_0703.141142.186.raw -> output/leftup/14.raw.high
+✅ Processed: data/leftup/IMG0059_0703.143042.762.raw -> output/leftup/29.raw.low
+✅ Processed: data/leftup/IMG0018_0703.140400.607.raw -> output/leftup/8.raw.high
+✅ Processed: data/leftup/IMG0040_0703.141806.814.raw -> output/leftup/19.raw.high
+✅ Processed: data/leftup/IMG0066_0703.143446.876.raw -> output/leftup/32.raw.high
+✅ Processed: data/leftup/IMG0008_0703.135735.947.raw -> output/leftup/3.raw.high
+✅ Processed: data/leftup/IMG0063_0703.143316.616.raw -> output/leftup/31.raw.low
+✅ Processed: data/leftup/IMG0032_0703.141259.105.raw -> output/leftup/15.raw.high
+✅ Processed: data/leftup/IMG0068_0703.143603.811.raw -> output/leftup/33.raw.high
+✅ Processed: data/leftup/IMG0021_0703.140621.105.raw -> output/leftup/10.raw.low
+✅ Processed: data/leftup/IMG0060_0703.143056.102.raw -> output/leftup/29.raw.high
+✅ Processed: data/leftup/IMG0026_0703.140908.316.raw -> output/leftup/12.raw.high
+✅ Processed: data/leftup/IMG0061_0703.143159.696.raw -> output/leftup/30.raw.low
+✅ Processed: data/leftup/IMG0004_0703.135502.046.raw -> output/leftup/1.raw.high
+✅ Processed: data/leftup/IMG0035_0703.141519.634.raw -> output/leftup/17.raw.low
+✅ Processed: data/leftup/IMG0065_0703.143433.535.raw -> output/leftup/32.raw.low
+✅ Processed: data/leftup/IMG0005_0703.135605.625.raw -> output/leftup/2.raw.low
+✅ Processed: data/leftup/IMG0045_0703.142144.295.raw -> output/leftup/22.raw.low
+✅ Processed: data/leftup/IMG0071_0703.143824.309.raw -> output/leftup/35.raw.low
+✅ Processed: data/leftup/IMG0001_0703.135331.771.raw -> output/leftup/0.raw.low
+✅ Processed: data/leftup/IMG0043_0703.142027.313.raw -> output/leftup/21.raw.low
+✅ Processed: data/leftup/IMG0072_0703.143837.649.raw -> output/leftup/35.raw.high
+✅ Processed: data/leftup/IMG0011_0703.135956.477.raw -> output/leftup/5.raw.low
+✅ Processed: data/leftup/IMG0033_0703.141402.684.raw -> output/leftup/16.raw.low
+✅ Processed: data/leftup/IMG0067_0703.143550.454.raw -> output/leftup/33.raw.low
+✅ Processed: data/leftup/IMG0003_0703.135448.706.raw -> output/leftup/1.raw.low
+✅ Processed: data/leftup/IMG0039_0703.141753.474.raw -> output/leftup/19.raw.low
+✅ Processed: data/leftup/IMG0069_0703.143707.374.raw -> output/leftup/34.raw.low
+✅ Processed: data/leftup/IMG0020_0703.140517.526.raw -> output/leftup/9.raw.high
+✅ Processed: data/leftup/IMG0036_0703.141532.975.raw -> output/leftup/17.raw.high
+✅ Processed: data/leftup/IMG0064_0703.143329.956.raw -> output/leftup/31.raw.high
+✅ Processed: data/leftup/IMG0031_0703.141245.764.raw -> output/leftup/15.raw.low
+✅ Processed: data/leftup/IMG0041_0703.141910.393.raw -> output/leftup/20.raw.low
+✅ Processed: data/leftup/IMG0075_0703.144058.147.raw -> output/leftup/37.raw.low
+✅ Processed: data/leftup/IMG0002_0703.135345.111.raw -> output/leftup/0.raw.high
+✅ Processed: data/leftup/IMG0038_0703.141649.894.raw -> output/leftup/18.raw.high
+✅ Processed: data/leftup/IMG0070_0703.143720.714.raw -> output/leftup/34.raw.high
+✅ Processed: data/leftup/IMG0022_0703.140634.446.raw -> output/leftup/10.raw.high
+✅ Processed: data/leftup/IMG0073_0703.143941.228.raw -> output/leftup/36.raw.low
+✅ Processed: data/leftup/IMG0025_0703.140854.975.raw -> output/leftup/12.raw.low
+✅ Processed: data/leftup/IMG0042_0703.141923.733.raw -> output/leftup/20.raw.high
+✅ Processed: data/leftup/IMG0076_0703.144111.488.raw -> output/leftup/37.raw.high
+✅ Processed: data/leftup/IMG0007_0703.135722.607.raw -> output/leftup/3.raw.low
+✅ Processed: data/leftup/IMG0044_0703.142040.669.raw -> output/leftup/21.raw.high
+✅ Processed: data/leftup/IMG0077_0703.144215.082.raw -> output/leftup/38.raw.low
+✅ Processed: data/leftup/IMG0013_0703.140113.412.raw -> output/leftup/6.raw.low
+✅ Processed: data/leftup/IMG0037_0703.141636.554.raw -> output/leftup/18.raw.low
+✅ Processed: data/leftup/IMG0074_0703.143954.569.raw -> output/leftup/36.raw.high
+✅ Processed: data/leftup/IMG0023_0703.140738.040.raw -> output/leftup/11.raw.low
+✅ Processed: data/leftup/IMG0046_0703.142157.635.raw -> output/leftup/22.raw.high
+✅ Processed: data/leftup/IMG0079_0703.144332.002.raw -> output/leftup/39.raw.low
+✅ Processed: data/leftup/IMG0012_0703.140009.817.raw -> output/leftup/5.raw.high
+✅ Processed: data/leftup/IMG0048_0703.142314.555.raw -> output/leftup/23.raw.high
+✅ Processed: data/leftup/IMG0080_0703.144345.358.raw -> output/leftup/39.raw.high
+✅ Processed: data/leftup/IMG0006_0703.135618.981.raw -> output/leftup/2.raw.high
+✅ Processed: data/leftup/IMG0047_0703.142301.214.raw -> output/leftup/23.raw.low
+✅ Processed: data/leftup/IMG0078_0703.144228.423.raw -> output/leftup/38.raw.high
+Processing completed in 2.05 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/leftdown', output='output/leftdown', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/leftdown/IMG0024_0707.141021.888.raw -> output/leftdown/11.raw.high
+✅ Processed: data/leftdown/IMG0049_0707.142648.672.raw -> output/leftdown/24.raw.low
+✅ Processed: data/leftdown/IMG0015_0707.140500.761.raw -> output/leftdown/7.raw.low
+✅ Processed: data/leftdown/IMG0050_0707.142702.028.raw -> output/leftdown/24.raw.high
+✅ Processed: data/leftdown/IMG0010_0707.140123.312.raw -> output/leftdown/4.raw.high
+✅ Processed: data/leftdown/IMG0051_0707.142805.607.raw -> output/leftdown/25.raw.low
+✅ Processed: data/leftdown/IMG0008_0707.140006.392.raw -> output/leftdown/3.raw.high
+✅ Processed: data/leftdown/IMG0052_0707.142818.947.raw -> output/leftdown/25.raw.high
+✅ Processed: data/leftdown/IMG0025_0707.141125.483.raw -> output/leftdown/12.raw.low
+✅ Processed: data/leftdown/IMG0053_0707.142922.557.raw -> output/leftdown/26.raw.low
+✅ Processed: data/leftdown/IMG0028_0707.141255.774.raw -> output/leftdown/13.raw.high
+✅ Processed: data/leftdown/IMG0054_0707.142935.898.raw -> output/leftdown/26.raw.high
+✅ Processed: data/leftdown/IMG0029_0707.141359.353.raw -> output/leftdown/14.raw.low
+✅ Processed: data/leftdown/IMG0056_0707.143052.833.raw -> output/leftdown/27.raw.high
+✅ Processed: data/leftdown/IMG0019_0707.140734.677.raw -> output/leftdown/9.raw.low
+✅ Processed: data/leftdown/IMG0055_0707.143039.492.raw -> output/leftdown/27.raw.low
+✅ Processed: data/leftdown/IMG0011_0707.140226.875.raw -> output/leftdown/5.raw.low
+✅ Processed: data/leftdown/IMG0059_0707.143313.347.raw -> output/leftdown/29.raw.low
+✅ Processed: data/leftdown/IMG0017_0707.140617.696.raw -> output/leftdown/8.raw.low
+✅ Processed: data/leftdown/IMG0060_0707.143326.687.raw -> output/leftdown/29.raw.high
+✅ Processed: data/leftdown/IMG0012_0707.140240.231.raw -> output/leftdown/5.raw.high
+✅ Processed: data/leftdown/IMG0057_0707.143156.427.raw -> output/leftdown/28.raw.low
+✅ Processed: data/leftdown/IMG0018_0707.140631.036.raw -> output/leftdown/8.raw.high
+✅ Processed: data/leftdown/IMG0058_0707.143209.768.raw -> output/leftdown/28.raw.high
+✅ Processed: data/leftdown/IMG0002_0707.135615.540.raw -> output/leftdown/0.raw.high
+✅ Processed: data/leftdown/IMG0061_0707.143430.266.raw -> output/leftdown/30.raw.low
+✅ Processed: data/leftdown/IMG0020_0707.140748.018.raw -> output/leftdown/9.raw.high
+✅ Processed: data/leftdown/IMG0036_0707.141803.483.raw -> output/leftdown/17.raw.high
+✅ Processed: data/leftdown/IMG0063_0707.143547.232.raw -> output/leftdown/31.raw.low
+✅ Processed: data/leftdown/IMG0004_0707.135732.553.raw -> output/leftdown/1.raw.high
+✅ Processed: data/leftdown/IMG0037_0707.141907.062.raw -> output/leftdown/18.raw.low
+✅ Processed: data/leftdown/IMG0062_0707.143443.622.raw -> output/leftdown/30.raw.high
+✅ Processed: data/leftdown/IMG0021_0707.140851.597.raw -> output/leftdown/10.raw.low
+✅ Processed: data/leftdown/IMG0042_0707.142154.272.raw -> output/leftdown/20.raw.high
+✅ Processed: data/leftdown/IMG0071_0707.144054.957.raw -> output/leftdown/35.raw.low
+✅ Processed: data/leftdown/IMG0032_0707.141529.628.raw -> output/leftdown/15.raw.high
+✅ Processed: data/leftdown/IMG0035_0707.141750.126.raw -> output/leftdown/17.raw.low
+✅ Processed: data/leftdown/IMG0067_0707.143821.103.raw -> output/leftdown/33.raw.low
+✅ Processed: data/leftdown/IMG0016_0707.140514.101.raw -> output/leftdown/7.raw.high
+✅ Processed: data/leftdown/IMG0069_0707.143938.022.raw -> output/leftdown/34.raw.low
+✅ Processed: data/leftdown/IMG0014_0707.140357.166.raw -> output/leftdown/6.raw.high
+✅ Processed: data/leftdown/IMG0039_0707.142023.981.raw -> output/leftdown/19.raw.low
+✅ Processed: data/leftdown/IMG0065_0707.143704.183.raw -> output/leftdown/32.raw.low
+✅ Processed: data/leftdown/IMG0007_0707.135953.051.raw -> output/leftdown/3.raw.low
+✅ Processed: data/leftdown/IMG0034_0707.141646.548.raw -> output/leftdown/16.raw.high
+✅ Processed: data/leftdown/IMG0064_0707.143600.588.raw -> output/leftdown/31.raw.high
+✅ Processed: data/leftdown/IMG0005_0707.135836.132.raw -> output/leftdown/2.raw.low
+✅ Processed: data/leftdown/IMG0045_0707.142414.817.raw -> output/leftdown/22.raw.low
+✅ Processed: data/leftdown/IMG0068_0707.143834.443.raw -> output/leftdown/33.raw.high
+✅ Processed: data/leftdown/IMG0026_0707.141138.823.raw -> output/leftdown/12.raw.high
+✅ Processed: data/leftdown/IMG0066_0707.143717.524.raw -> output/leftdown/32.raw.high
+✅ Processed: data/leftdown/IMG0030_0707.141412.693.raw -> output/leftdown/14.raw.high
+✅ Processed: data/leftdown/IMG0038_0707.141920.402.raw -> output/leftdown/18.raw.high
+✅ Processed: data/leftdown/IMG0072_0707.144108.297.raw -> output/leftdown/35.raw.high
+✅ Processed: data/leftdown/IMG0001_0707.135602.200.raw -> output/leftdown/0.raw.low
+✅ Processed: data/leftdown/IMG0040_0707.142037.322.raw -> output/leftdown/19.raw.high
+✅ Processed: data/leftdown/IMG0073_0707.144211.876.raw -> output/leftdown/36.raw.low
+✅ Processed: data/leftdown/IMG0003_0707.135719.213.raw -> output/leftdown/1.raw.low
+✅ Processed: data/leftdown/IMG0033_0707.141633.207.raw -> output/leftdown/16.raw.low
+✅ Processed: data/leftdown/IMG0070_0707.143951.362.raw -> output/leftdown/34.raw.high
+✅ Processed: data/leftdown/IMG0031_0707.141516.288.raw -> output/leftdown/15.raw.low
+✅ Processed: data/leftdown/IMG0041_0707.142140.932.raw -> output/leftdown/20.raw.low
+✅ Processed: data/leftdown/IMG0077_0707.144445.731.raw -> output/leftdown/38.raw.low
+✅ Processed: data/leftdown/IMG0006_0707.135849.473.raw -> output/leftdown/2.raw.high
+✅ Processed: data/leftdown/IMG0043_0707.142257.851.raw -> output/leftdown/21.raw.low
+✅ Processed: data/leftdown/IMG0075_0707.144328.811.raw -> output/leftdown/37.raw.low
+✅ Processed: data/leftdown/IMG0023_0707.141008.532.raw -> output/leftdown/11.raw.low
+✅ Processed: data/leftdown/IMG0046_0707.142428.158.raw -> output/leftdown/22.raw.high
+✅ Processed: data/leftdown/IMG0074_0707.144225.232.raw -> output/leftdown/36.raw.high
+✅ Processed: data/leftdown/IMG0027_0707.141242.433.raw -> output/leftdown/13.raw.low
+✅ Processed: data/leftdown/IMG0076_0707.144342.152.raw -> output/leftdown/37.raw.high
+✅ Processed: data/leftdown/IMG0013_0707.140343.826.raw -> output/leftdown/6.raw.low
+✅ Processed: data/leftdown/IMG0044_0707.142311.192.raw -> output/leftdown/21.raw.high
+✅ Processed: data/leftdown/IMG0078_0707.144459.072.raw -> output/leftdown/38.raw.high
+✅ Processed: data/leftdown/IMG0022_0707.140904.937.raw -> output/leftdown/10.raw.high
+✅ Processed: data/leftdown/IMG0047_0707.142531.752.raw -> output/leftdown/23.raw.low
+✅ Processed: data/leftdown/IMG0079_0707.144602.651.raw -> output/leftdown/39.raw.low
+✅ Processed: data/leftdown/IMG0009_0707.140109.971.raw -> output/leftdown/4.raw.low
+✅ Processed: data/leftdown/IMG0048_0707.142545.093.raw -> output/leftdown/23.raw.high
+✅ Processed: data/leftdown/IMG0080_0707.144615.991.raw -> output/leftdown/39.raw.high
+Processing completed in 2.04 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/rightup', output='output/rightup', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/rightup/IMG0027_0704.100518.730.raw -> output/rightup/13.raw.low
+✅ Processed: data/rightup/IMG0049_0704.101924.952.raw -> output/rightup/24.raw.low
+✅ Processed: data/rightup/IMG0019_0704.100010.881.raw -> output/rightup/9.raw.low
+✅ Processed: data/rightup/IMG0050_0704.101938.293.raw -> output/rightup/24.raw.high
+✅ Processed: data/rightup/IMG0020_0704.100024.221.raw -> output/rightup/9.raw.high
+✅ Processed: data/rightup/IMG0051_0704.102041.887.raw -> output/rightup/25.raw.low
+✅ Processed: data/rightup/IMG0022_0704.100141.188.raw -> output/rightup/10.raw.high
+✅ Processed: data/rightup/IMG0052_0704.102055.228.raw -> output/rightup/25.raw.high
+✅ Processed: data/rightup/IMG0029_0704.100635.649.raw -> output/rightup/14.raw.low
+✅ Processed: data/rightup/IMG0053_0704.102158.806.raw -> output/rightup/26.raw.low
+✅ Processed: data/rightup/IMG0017_0704.095853.962.raw -> output/rightup/8.raw.low
+✅ Processed: data/rightup/IMG0054_0704.102212.147.raw -> output/rightup/26.raw.high
+✅ Processed: data/rightup/IMG0032_0704.100805.909.raw -> output/rightup/15.raw.high
+✅ Processed: data/rightup/IMG0059_0704.102549.627.raw -> output/rightup/29.raw.low
+✅ Processed: data/rightup/IMG0025_0704.100401.811.raw -> output/rightup/12.raw.low
+✅ Processed: data/rightup/IMG0055_0704.102315.741.raw -> output/rightup/27.raw.low
+✅ Processed: data/rightup/IMG0028_0704.100532.071.raw -> output/rightup/13.raw.high
+✅ Processed: data/rightup/IMG0056_0704.102329.082.raw -> output/rightup/27.raw.high
+✅ Processed: data/rightup/IMG0026_0704.100415.151.raw -> output/rightup/12.raw.high
+✅ Processed: data/rightup/IMG0057_0704.102432.676.raw -> output/rightup/28.raw.low
+✅ Processed: data/rightup/IMG0007_0704.095229.303.raw -> output/rightup/3.raw.low
+✅ Processed: data/rightup/IMG0058_0704.102446.017.raw -> output/rightup/28.raw.high
+✅ Processed: data/rightup/IMG0030_0704.100648.990.raw -> output/rightup/14.raw.high
+✅ Processed: data/rightup/IMG0063_0704.102823.481.raw -> output/rightup/31.raw.low
+✅ Processed: data/rightup/IMG0014_0704.095633.448.raw -> output/rightup/6.raw.high
+✅ Processed: data/rightup/IMG0034_0704.100922.844.raw -> output/rightup/16.raw.high
+✅ Processed: data/rightup/IMG0060_0704.102602.999.raw -> output/rightup/29.raw.high
+✅ Processed: data/rightup/IMG0005_0704.095112.368.raw -> output/rightup/2.raw.low
+✅ Processed: data/rightup/IMG0036_0704.101039.810.raw -> output/rightup/17.raw.high
+✅ Processed: data/rightup/IMG0064_0704.102836.822.raw -> output/rightup/31.raw.high
+✅ Processed: data/rightup/IMG0010_0704.095359.562.raw -> output/rightup/4.raw.high
+✅ Processed: data/rightup/IMG0037_0704.101143.405.raw -> output/rightup/18.raw.low
+✅ Processed: data/rightup/IMG0070_0704.103227.627.raw -> output/rightup/34.raw.high
+✅ Processed: data/rightup/IMG0009_0704.095346.222.raw -> output/rightup/4.raw.low
+✅ Processed: data/rightup/IMG0035_0704.101026.454.raw -> output/rightup/17.raw.low
+✅ Processed: data/rightup/IMG0069_0704.103214.286.raw -> output/rightup/34.raw.low
+✅ Processed: data/rightup/IMG0021_0704.100127.847.raw -> output/rightup/10.raw.low
+✅ Processed: data/rightup/IMG0033_0704.100909.504.raw -> output/rightup/16.raw.low
+✅ Processed: data/rightup/IMG0066_0704.102953.772.raw -> output/rightup/32.raw.high
+✅ Processed: data/rightup/IMG0003_0704.094955.417.raw -> output/rightup/1.raw.low
+✅ Processed: data/rightup/IMG0061_0704.102706.562.raw -> output/rightup/30.raw.low
+✅ Processed: data/rightup/IMG0008_0704.095242.643.raw -> output/rightup/3.raw.high
+✅ Processed: data/rightup/IMG0062_0704.102719.902.raw -> output/rightup/30.raw.high
+✅ Processed: data/rightup/IMG0011_0704.095503.157.raw -> output/rightup/5.raw.low
+✅ Processed: data/rightup/IMG0042_0704.101430.600.raw -> output/rightup/20.raw.high
+✅ Processed: data/rightup/IMG0072_0704.103344.593.raw -> output/rightup/35.raw.high
+✅ Processed: data/rightup/IMG0002_0704.094851.838.raw -> output/rightup/0.raw.high
+✅ Processed: data/rightup/IMG0039_0704.101300.340.raw -> output/rightup/19.raw.low
+✅ Processed: data/rightup/IMG0067_0704.103057.351.raw -> output/rightup/33.raw.low
+✅ Processed: data/rightup/IMG0015_0704.095737.027.raw -> output/rightup/7.raw.low
+✅ Processed: data/rightup/IMG0038_0704.101156.745.raw -> output/rightup/18.raw.high
+✅ Processed: data/rightup/IMG0065_0704.102940.432.raw -> output/rightup/32.raw.low
+✅ Processed: data/rightup/IMG0001_0704.094838.497.raw -> output/rightup/0.raw.low
+✅ Processed: data/rightup/IMG0043_0704.101534.178.raw -> output/rightup/21.raw.low
+✅ Processed: data/rightup/IMG0073_0704.103448.156.raw -> output/rightup/36.raw.low
+✅ Processed: data/rightup/IMG0006_0704.095125.708.raw -> output/rightup/2.raw.high
+✅ Processed: data/rightup/IMG0041_0704.101417.259.raw -> output/rightup/20.raw.low
+✅ Processed: data/rightup/IMG0071_0704.103331.252.raw -> output/rightup/35.raw.low
+✅ Processed: data/rightup/IMG0024_0704.100258.185.raw -> output/rightup/11.raw.high
+✅ Processed: data/rightup/IMG0068_0704.103110.692.raw -> output/rightup/33.raw.high
+✅ Processed: data/rightup/IMG0023_0704.100244.829.raw -> output/rightup/11.raw.low
+✅ Processed: data/rightup/IMG0074_0704.103501.512.raw -> output/rightup/36.raw.high
+✅ Processed: data/rightup/IMG0018_0704.095907.302.raw -> output/rightup/8.raw.high
+✅ Processed: data/rightup/IMG0044_0704.101547.519.raw -> output/rightup/21.raw.high
+✅ Processed: data/rightup/IMG0075_0704.103605.107.raw -> output/rightup/37.raw.low
+✅ Processed: data/rightup/IMG0016_0704.095750.367.raw -> output/rightup/7.raw.high
+✅ Processed: data/rightup/IMG0040_0704.101313.680.raw -> output/rightup/19.raw.high
+✅ Processed: data/rightup/IMG0076_0704.103618.447.raw -> output/rightup/37.raw.high
+✅ Processed: data/rightup/IMG0004_0704.095008.757.raw -> output/rightup/1.raw.high
+✅ Processed: data/rightup/IMG0045_0704.101651.098.raw -> output/rightup/22.raw.low
+✅ Processed: data/rightup/IMG0077_0704.103722.026.raw -> output/rightup/38.raw.low
+✅ Processed: data/rightup/IMG0012_0704.095516.513.raw -> output/rightup/5.raw.high
+✅ Processed: data/rightup/IMG0046_0704.101704.438.raw -> output/rightup/22.raw.high
+✅ Processed: data/rightup/IMG0078_0704.103735.367.raw -> output/rightup/38.raw.high
+✅ Processed: data/rightup/IMG0013_0704.095620.107.raw -> output/rightup/6.raw.low
+✅ Processed: data/rightup/IMG0047_0704.101808.033.raw -> output/rightup/23.raw.low
+✅ Processed: data/rightup/IMG0079_0704.103838.945.raw -> output/rightup/39.raw.low
+✅ Processed: data/rightup/IMG0031_0704.100752.569.raw -> output/rightup/15.raw.low
+✅ Processed: data/rightup/IMG0048_0704.101821.389.raw -> output/rightup/23.raw.high
+✅ Processed: data/rightup/IMG0080_0704.103852.286.raw -> output/rightup/39.raw.high
+Processing completed in 2.08 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/rightdown', output='output/rightdown', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/rightdown/IMG0025_0704.141747.546.raw -> output/rightdown/12.raw.low
+✅ Processed: data/rightdown/IMG0049_0704.143310.657.raw -> output/rightdown/24.raw.low
+✅ Processed: data/rightdown/IMG0004_0704.140354.633.raw -> output/rightdown/1.raw.high
+✅ Processed: data/rightdown/IMG0050_0704.143324.013.raw -> output/rightdown/24.raw.high
+✅ Processed: data/rightdown/IMG0028_0704.141917.806.raw -> output/rightdown/13.raw.high
+✅ Processed: data/rightdown/IMG0051_0704.143427.593.raw -> output/rightdown/25.raw.low
+✅ Processed: data/rightdown/IMG0006_0704.140511.568.raw -> output/rightdown/2.raw.high
+✅ Processed: data/rightdown/IMG0052_0704.143440.933.raw -> output/rightdown/25.raw.high
+✅ Processed: data/rightdown/IMG0021_0704.141513.676.raw -> output/rightdown/10.raw.low
+✅ Processed: data/rightdown/IMG0053_0704.143544.512.raw -> output/rightdown/26.raw.low
+✅ Processed: data/rightdown/IMG0005_0704.140458.227.raw -> output/rightdown/2.raw.low
+✅ Processed: data/rightdown/IMG0054_0704.143557.852.raw -> output/rightdown/26.raw.high
+✅ Processed: data/rightdown/IMG0010_0704.140745.391.raw -> output/rightdown/4.raw.high
+✅ Processed: data/rightdown/IMG0055_0704.143701.447.raw -> output/rightdown/27.raw.low
+✅ Processed: data/rightdown/IMG0009_0704.140732.050.raw -> output/rightdown/4.raw.low
+✅ Processed: data/rightdown/IMG0056_0704.143714.787.raw -> output/rightdown/27.raw.high
+✅ Processed: data/rightdown/IMG0029_0704.142021.385.raw -> output/rightdown/14.raw.low
+✅ Processed: data/rightdown/IMG0033_0704.142255.224.raw -> output/rightdown/16.raw.low
+✅ Processed: data/rightdown/IMG0059_0704.143935.301.raw -> output/rightdown/29.raw.low
+✅ Processed: data/rightdown/IMG0022_0704.141527.017.raw -> output/rightdown/10.raw.high
+✅ Processed: data/rightdown/IMG0057_0704.143818.382.raw -> output/rightdown/28.raw.low
+✅ Processed: data/rightdown/IMG0026_0704.141800.887.raw -> output/rightdown/12.raw.high
+✅ Processed: data/rightdown/IMG0058_0704.143831.722.raw -> output/rightdown/28.raw.high
+✅ Processed: data/rightdown/IMG0019_0704.141356.710.raw -> output/rightdown/9.raw.low
+✅ Processed: data/rightdown/IMG0034_0704.142308.565.raw -> output/rightdown/16.raw.high
+✅ Processed: data/rightdown/IMG0064_0704.144222.559.raw -> output/rightdown/31.raw.high
+✅ Processed: data/rightdown/IMG0002_0704.140237.698.raw -> output/rightdown/0.raw.high
+✅ Processed: data/rightdown/IMG0037_0704.142529.078.raw -> output/rightdown/18.raw.low
+✅ Processed: data/rightdown/IMG0062_0704.144105.577.raw -> output/rightdown/30.raw.high
+✅ Processed: data/rightdown/IMG0007_0704.140615.131.raw -> output/rightdown/3.raw.low
+✅ Processed: data/rightdown/IMG0061_0704.144052.221.raw -> output/rightdown/30.raw.low
+✅ Processed: data/rightdown/IMG0001_0704.140224.357.raw -> output/rightdown/0.raw.low
+✅ Processed: data/rightdown/IMG0039_0704.142646.013.raw -> output/rightdown/19.raw.low
+✅ Processed: data/rightdown/IMG0066_0704.144339.479.raw -> output/rightdown/32.raw.high
+✅ Processed: data/rightdown/IMG0003_0704.140341.292.raw -> output/rightdown/1.raw.low
+✅ Processed: data/rightdown/IMG0035_0704.142412.143.raw -> output/rightdown/17.raw.low
+✅ Processed: data/rightdown/IMG0063_0704.144209.203.raw -> output/rightdown/31.raw.low
+✅ Processed: data/rightdown/IMG0030_0704.142034.726.raw -> output/rightdown/14.raw.high
+✅ Processed: data/rightdown/IMG0060_0704.143948.642.raw -> output/rightdown/29.raw.high
+✅ Processed: data/rightdown/IMG0023_0704.141630.627.raw -> output/rightdown/11.raw.low
+✅ Processed: data/rightdown/IMG0036_0704.142425.484.raw -> output/rightdown/17.raw.high
+✅ Processed: data/rightdown/IMG0067_0704.144443.073.raw -> output/rightdown/33.raw.low
+✅ Processed: data/rightdown/IMG0032_0704.142151.645.raw -> output/rightdown/15.raw.high
+✅ Processed: data/rightdown/IMG0071_0704.144716.927.raw -> output/rightdown/35.raw.low
+✅ Processed: data/rightdown/IMG0027_0704.141904.466.raw -> output/rightdown/13.raw.low
+✅ Processed: data/rightdown/IMG0042_0704.142816.273.raw -> output/rightdown/20.raw.high
+✅ Processed: data/rightdown/IMG0073_0704.144833.846.raw -> output/rightdown/36.raw.low
+✅ Processed: data/rightdown/IMG0018_0704.141253.131.raw -> output/rightdown/8.raw.high
+✅ Processed: data/rightdown/IMG0043_0704.142919.852.raw -> output/rightdown/21.raw.low
+✅ Processed: data/rightdown/IMG0072_0704.144730.268.raw -> output/rightdown/35.raw.high
+✅ Processed: data/rightdown/IMG0013_0704.141005.889.raw -> output/rightdown/6.raw.low
+✅ Processed: data/rightdown/IMG0040_0704.142659.354.raw -> output/rightdown/19.raw.high
+✅ Processed: data/rightdown/IMG0069_0704.144559.992.raw -> output/rightdown/34.raw.low
+✅ Processed: data/rightdown/IMG0016_0704.141136.181.raw -> output/rightdown/7.raw.high
+✅ Processed: data/rightdown/IMG0038_0704.142542.435.raw -> output/rightdown/18.raw.high
+✅ Processed: data/rightdown/IMG0068_0704.144456.413.raw -> output/rightdown/33.raw.high
+✅ Processed: data/rightdown/IMG0015_0704.141122.840.raw -> output/rightdown/7.raw.low
+✅ Processed: data/rightdown/IMG0065_0704.144326.138.raw -> output/rightdown/32.raw.low
+✅ Processed: data/rightdown/IMG0017_0704.141239.791.raw -> output/rightdown/8.raw.low
+✅ Processed: data/rightdown/IMG0075_0704.144950.750.raw -> output/rightdown/37.raw.low
+✅ Processed: data/rightdown/IMG0011_0704.140848.970.raw -> output/rightdown/5.raw.low
+✅ Processed: data/rightdown/IMG0044_0704.142933.193.raw -> output/rightdown/21.raw.high
+✅ Processed: data/rightdown/IMG0074_0704.144847.187.raw -> output/rightdown/36.raw.high
+✅ Processed: data/rightdown/IMG0012_0704.140902.326.raw -> output/rightdown/5.raw.high
+✅ Processed: data/rightdown/IMG0041_0704.142802.933.raw -> output/rightdown/20.raw.low
+✅ Processed: data/rightdown/IMG0070_0704.144613.333.raw -> output/rightdown/34.raw.high
+✅ Processed: data/rightdown/IMG0031_0704.142138.304.raw -> output/rightdown/15.raw.low
+✅ Processed: data/rightdown/IMG0076_0704.145004.106.raw -> output/rightdown/37.raw.high
+✅ Processed: data/rightdown/IMG0020_0704.141410.066.raw -> output/rightdown/9.raw.high
+✅ Processed: data/rightdown/IMG0046_0704.143050.128.raw -> output/rightdown/22.raw.high
+✅ Processed: data/rightdown/IMG0078_0704.145121.042.raw -> output/rightdown/38.raw.high
+✅ Processed: data/rightdown/IMG0024_0704.141643.983.raw -> output/rightdown/11.raw.high
+✅ Processed: data/rightdown/IMG0047_0704.143153.722.raw -> output/rightdown/23.raw.low
+✅ Processed: data/rightdown/IMG0077_0704.145107.685.raw -> output/rightdown/38.raw.low
+✅ Processed: data/rightdown/IMG0008_0704.140628.472.raw -> output/rightdown/3.raw.high
+✅ Processed: data/rightdown/IMG0045_0704.143036.787.raw -> output/rightdown/22.raw.low
+✅ Processed: data/rightdown/IMG0079_0704.145224.620.raw -> output/rightdown/39.raw.low
+✅ Processed: data/rightdown/IMG0014_0704.141019.230.raw -> output/rightdown/6.raw.high
+✅ Processed: data/rightdown/IMG0048_0704.143207.063.raw -> output/rightdown/23.raw.high
+✅ Processed: data/rightdown/IMG0080_0704.145237.961.raw -> output/rightdown/39.raw.high
+Processing completed in 1.97 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/center/on', output='output/center/on', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/center/on/IMG0021_0703.114029.424.raw -> output/center/on/10.raw.low
+✅ Processed: data/center/on/IMG0052_0703.115956.698.raw -> output/center/on/25.raw.high
+✅ Processed: data/center/on/IMG0016_0703.113651.991.raw -> output/center/on/7.raw.high
+✅ Processed: data/center/on/IMG0050_0703.115839.779.raw -> output/center/on/24.raw.high
+✅ Processed: data/center/on/IMG0020_0703.113925.846.raw -> output/center/on/9.raw.high
+✅ Processed: data/center/on/IMG0051_0703.115943.357.raw -> output/center/on/25.raw.low
+✅ Processed: data/center/on/IMG0026_0703.114316.619.raw -> output/center/on/12.raw.high
+✅ Processed: data/center/on/IMG0049_0703.115826.422.raw -> output/center/on/24.raw.low
+✅ Processed: data/center/on/IMG0017_0703.113755.586.raw -> output/center/on/8.raw.low
+✅ Processed: data/center/on/IMG0053_0703.120100.293.raw -> output/center/on/26.raw.low
+✅ Processed: data/center/on/IMG0014_0703.113535.072.raw -> output/center/on/6.raw.high
+✅ Processed: data/center/on/IMG0056_0703.120230.568.raw -> output/center/on/27.raw.high
+✅ Processed: data/center/on/IMG0015_0703.113638.651.raw -> output/center/on/7.raw.low
+✅ Processed: data/center/on/IMG0054_0703.120113.633.raw -> output/center/on/26.raw.high
+✅ Processed: data/center/on/IMG0005_0703.113014.007.raw -> output/center/on/2.raw.low
+✅ Processed: data/center/on/IMG0055_0703.120217.228.raw -> output/center/on/27.raw.low
+✅ Processed: data/center/on/IMG0012_0703.113418.153.raw -> output/center/on/5.raw.high
+✅ Processed: data/center/on/IMG0057_0703.120334.147.raw -> output/center/on/28.raw.low
+✅ Processed: data/center/on/IMG0004_0703.112910.428.raw -> output/center/on/1.raw.high
+✅ Processed: data/center/on/IMG0038_0703.115058.183.raw -> output/center/on/18.raw.high
+✅ Processed: data/center/on/IMG0060_0703.120504.407.raw -> output/center/on/29.raw.high
+✅ Processed: data/center/on/IMG0031_0703.114654.053.raw -> output/center/on/15.raw.low
+✅ Processed: data/center/on/IMG0042_0703.115332.053.raw -> output/center/on/20.raw.high
+✅ Processed: data/center/on/IMG0059_0703.120451.067.raw -> output/center/on/29.raw.low
+✅ Processed: data/center/on/IMG0007_0703.113130.927.raw -> output/center/on/3.raw.low
+✅ Processed: data/center/on/IMG0036_0703.114941.264.raw -> output/center/on/17.raw.high
+✅ Processed: data/center/on/IMG0062_0703.120621.389.raw -> output/center/on/30.raw.high
+✅ Processed: data/center/on/IMG0032_0703.114707.394.raw -> output/center/on/15.raw.high
+✅ Processed: data/center/on/IMG0058_0703.120347.487.raw -> output/center/on/28.raw.high
+✅ Processed: data/center/on/IMG0028_0703.114433.539.raw -> output/center/on/13.raw.high
+✅ Processed: data/center/on/IMG0037_0703.115044.842.raw -> output/center/on/18.raw.low
+✅ Processed: data/center/on/IMG0068_0703.121012.179.raw -> output/center/on/33.raw.high
+✅ Processed: data/center/on/IMG0006_0703.113027.348.raw -> output/center/on/2.raw.high
+✅ Processed: data/center/on/IMG0041_0703.115318.713.raw -> output/center/on/20.raw.low
+✅ Processed: data/center/on/IMG0065_0703.120841.919.raw -> output/center/on/32.raw.low
+✅ Processed: data/center/on/IMG0022_0703.114042.765.raw -> output/center/on/10.raw.high
+✅ Processed: data/center/on/IMG0061_0703.120608.033.raw -> output/center/on/30.raw.low
+✅ Processed: data/center/on/IMG0013_0703.113521.731.raw -> output/center/on/6.raw.low
+✅ Processed: data/center/on/IMG0034_0703.114824.313.raw -> output/center/on/16.raw.high
+✅ Processed: data/center/on/IMG0064_0703.120738.325.raw -> output/center/on/31.raw.high
+✅ Processed: data/center/on/IMG0024_0703.114159.700.raw -> output/center/on/11.raw.high
+✅ Processed: data/center/on/IMG0044_0703.115448.973.raw -> output/center/on/21.raw.high
+✅ Processed: data/center/on/IMG0066_0703.120855.260.raw -> output/center/on/32.raw.high
+✅ Processed: data/center/on/IMG0029_0703.114537.133.raw -> output/center/on/14.raw.low
+✅ Processed: data/center/on/IMG0063_0703.120724.984.raw -> output/center/on/31.raw.low
+✅ Processed: data/center/on/IMG0019_0703.113912.505.raw -> output/center/on/9.raw.low
+✅ Processed: data/center/on/IMG0072_0703.121246.065.raw -> output/center/on/35.raw.high
+✅ Processed: data/center/on/IMG0003_0703.112857.088.raw -> output/center/on/1.raw.low
+✅ Processed: data/center/on/IMG0069_0703.121115.758.raw -> output/center/on/34.raw.low
+✅ Processed: data/center/on/IMG0002_0703.112753.509.raw -> output/center/on/0.raw.high
+✅ Processed: data/center/on/IMG0067_0703.120958.839.raw -> output/center/on/33.raw.low
+✅ Processed: data/center/on/IMG0008_0703.113144.267.raw -> output/center/on/3.raw.high
+✅ Processed: data/center/on/IMG0035_0703.114927.908.raw -> output/center/on/17.raw.low
+✅ Processed: data/center/on/IMG0070_0703.121129.114.raw -> output/center/on/34.raw.high
+✅ Processed: data/center/on/IMG0011_0703.113404.796.raw -> output/center/on/5.raw.low
+✅ Processed: data/center/on/IMG0039_0703.115201.793.raw -> output/center/on/19.raw.low
+✅ Processed: data/center/on/IMG0073_0703.121349.659.raw -> output/center/on/36.raw.low
+✅ Processed: data/center/on/IMG0018_0703.113808.926.raw -> output/center/on/8.raw.high
+✅ Processed: data/center/on/IMG0074_0703.121403.000.raw -> output/center/on/36.raw.high
+✅ Processed: data/center/on/IMG0010_0703.113301.202.raw -> output/center/on/4.raw.high
+✅ Processed: data/center/on/IMG0033_0703.114810.973.raw -> output/center/on/16.raw.low
+✅ Processed: data/center/on/IMG0071_0703.121232.724.raw -> output/center/on/35.raw.low
+✅ Processed: data/center/on/IMG0025_0703.114303.279.raw -> output/center/on/12.raw.low
+✅ Processed: data/center/on/IMG0043_0703.115435.632.raw -> output/center/on/21.raw.low
+✅ Processed: data/center/on/IMG0076_0703.121519.950.raw -> output/center/on/37.raw.high
+✅ Processed: data/center/on/IMG0009_0703.113247.846.raw -> output/center/on/4.raw.low
+✅ Processed: data/center/on/IMG0046_0703.115605.892.raw -> output/center/on/22.raw.high
+✅ Processed: data/center/on/IMG0077_0703.121623.576.raw -> output/center/on/38.raw.low
+✅ Processed: data/center/on/IMG0030_0703.114550.474.raw -> output/center/on/14.raw.high
+✅ Processed: data/center/on/IMG0045_0703.115552.552.raw -> output/center/on/22.raw.low
+✅ Processed: data/center/on/IMG0078_0703.121636.932.raw -> output/center/on/38.raw.high
+✅ Processed: data/center/on/IMG0023_0703.114146.344.raw -> output/center/on/11.raw.low
+✅ Processed: data/center/on/IMG0048_0703.115722.843.raw -> output/center/on/23.raw.high
+✅ Processed: data/center/on/IMG0080_0703.121753.852.raw -> output/center/on/39.raw.high
+✅ Processed: data/center/on/IMG0027_0703.114420.198.raw -> output/center/on/13.raw.low
+✅ Processed: data/center/on/IMG0047_0703.115709.503.raw -> output/center/on/23.raw.low
+✅ Processed: data/center/on/IMG0079_0703.121740.511.raw -> output/center/on/39.raw.low
+Processing completed in 1.99 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/leftup/on', output='output/leftup/on', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/leftup/on/IMG0023_0703.145926.479.raw -> output/leftup/on/11.raw.low
+✅ Processed: data/leftup/on/IMG0049_0703.151606.634.raw -> output/leftup/on/24.raw.low
+✅ Processed: data/leftup/on/IMG0007_0703.144911.031.raw -> output/leftup/on/3.raw.low
+✅ Processed: data/leftup/on/IMG0050_0703.151619.975.raw -> output/leftup/on/24.raw.high
+✅ Processed: data/leftup/on/IMG0026_0703.150056.755.raw -> output/leftup/on/12.raw.high
+✅ Processed: data/leftup/on/IMG0051_0703.151723.554.raw -> output/leftup/on/25.raw.low
+✅ Processed: data/leftup/on/IMG0009_0703.145027.966.raw -> output/leftup/on/4.raw.low
+✅ Processed: data/leftup/on/IMG0053_0703.151840.473.raw -> output/leftup/on/26.raw.low
+✅ Processed: data/leftup/on/IMG0021_0703.145809.560.raw -> output/leftup/on/10.raw.low
+✅ Processed: data/leftup/on/IMG0054_0703.151853.814.raw -> output/leftup/on/26.raw.high
+✅ Processed: data/leftup/on/IMG0032_0703.150447.544.raw -> output/leftup/on/15.raw.high
+✅ Processed: data/leftup/on/IMG0052_0703.151736.894.raw -> output/leftup/on/25.raw.high
+✅ Processed: data/leftup/on/IMG0027_0703.150200.349.raw -> output/leftup/on/13.raw.low
+✅ Processed: data/leftup/on/IMG0055_0703.151957.408.raw -> output/leftup/on/27.raw.low
+✅ Processed: data/leftup/on/IMG0028_0703.150213.690.raw -> output/leftup/on/13.raw.high
+✅ Processed: data/leftup/on/IMG0056_0703.152010.764.raw -> output/leftup/on/27.raw.high
+✅ Processed: data/leftup/on/IMG0014_0703.145315.192.raw -> output/leftup/on/6.raw.high
+✅ Processed: data/leftup/on/IMG0057_0703.152114.343.raw -> output/leftup/on/28.raw.low
+✅ Processed: data/leftup/on/IMG0013_0703.145301.851.raw -> output/leftup/on/6.raw.low
+✅ Processed: data/leftup/on/IMG0034_0703.150604.479.raw -> output/leftup/on/16.raw.high
+✅ Processed: data/leftup/on/IMG0059_0703.152231.262.raw -> output/leftup/on/29.raw.low
+✅ Processed: data/leftup/on/IMG0001_0703.144520.210.raw -> output/leftup/on/0.raw.low
+✅ Processed: data/leftup/on/IMG0036_0703.150721.445.raw -> output/leftup/on/17.raw.high
+✅ Processed: data/leftup/on/IMG0063_0703.152505.117.raw -> output/leftup/on/31.raw.low
+✅ Processed: data/leftup/on/IMG0005_0703.144754.096.raw -> output/leftup/on/2.raw.low
+✅ Processed: data/leftup/on/IMG0058_0703.152127.683.raw -> output/leftup/on/28.raw.high
+✅ Processed: data/leftup/on/IMG0015_0703.145418.786.raw -> output/leftup/on/7.raw.low
+✅ Processed: data/leftup/on/IMG0060_0703.152244.603.raw -> output/leftup/on/29.raw.high
+✅ Processed: data/leftup/on/IMG0024_0703.145939.820.raw -> output/leftup/on/11.raw.high
+✅ Processed: data/leftup/on/IMG0066_0703.152635.392.raw -> output/leftup/on/32.raw.high
+✅ Processed: data/leftup/on/IMG0008_0703.144924.371.raw -> output/leftup/on/3.raw.high
+✅ Processed: data/leftup/on/IMG0042_0703.151112.235.raw -> output/leftup/on/20.raw.high
+✅ Processed: data/leftup/on/IMG0069_0703.152855.875.raw -> output/leftup/on/34.raw.low
+✅ Processed: data/leftup/on/IMG0030_0703.150330.609.raw -> output/leftup/on/14.raw.high
+✅ Processed: data/leftup/on/IMG0061_0703.152348.181.raw -> output/leftup/on/30.raw.low
+✅ Processed: data/leftup/on/IMG0011_0703.145144.916.raw -> output/leftup/on/5.raw.low
+✅ Processed: data/leftup/on/IMG0037_0703.150825.040.raw -> output/leftup/on/18.raw.low
+✅ Processed: data/leftup/on/IMG0062_0703.152401.522.raw -> output/leftup/on/30.raw.high
+✅ Processed: data/leftup/on/IMG0018_0703.145549.046.raw -> output/leftup/on/8.raw.high
+✅ Processed: data/leftup/on/IMG0041_0703.151058.894.raw -> output/leftup/on/20.raw.low
+✅ Processed: data/leftup/on/IMG0073_0703.153129.729.raw -> output/leftup/on/36.raw.low
+✅ Processed: data/leftup/on/IMG0025_0703.150043.414.raw -> output/leftup/on/12.raw.low
+✅ Processed: data/leftup/on/IMG0033_0703.150551.139.raw -> output/leftup/on/16.raw.low
+✅ Processed: data/leftup/on/IMG0071_0703.153012.810.raw -> output/leftup/on/35.raw.low
+✅ Processed: data/leftup/on/IMG0012_0703.145158.257.raw -> output/leftup/on/5.raw.high
+✅ Processed: data/leftup/on/IMG0044_0703.151229.185.raw -> output/leftup/on/21.raw.high
+✅ Processed: data/leftup/on/IMG0070_0703.152909.231.raw -> output/leftup/on/34.raw.high
+✅ Processed: data/leftup/on/IMG0016_0703.145432.127.raw -> output/leftup/on/7.raw.high
+✅ Processed: data/leftup/on/IMG0035_0703.150708.105.raw -> output/leftup/on/17.raw.low
+✅ Processed: data/leftup/on/IMG0064_0703.152518.457.raw -> output/leftup/on/31.raw.high
+✅ Processed: data/leftup/on/IMG0010_0703.145041.306.raw -> output/leftup/on/4.raw.high
+✅ Processed: data/leftup/on/IMG0038_0703.150838.380.raw -> output/leftup/on/18.raw.high
+✅ Processed: data/leftup/on/IMG0072_0703.153026.150.raw -> output/leftup/on/35.raw.high
+✅ Processed: data/leftup/on/IMG0019_0703.145652.609.raw -> output/leftup/on/9.raw.low
+✅ Processed: data/leftup/on/IMG0040_0703.150955.315.raw -> output/leftup/on/19.raw.high
+✅ Processed: data/leftup/on/IMG0068_0703.152752.312.raw -> output/leftup/on/33.raw.high
+✅ Processed: data/leftup/on/IMG0029_0703.150317.269.raw -> output/leftup/on/14.raw.low
+✅ Processed: data/leftup/on/IMG0065_0703.152622.052.raw -> output/leftup/on/32.raw.low
+✅ Processed: data/leftup/on/IMG0006_0703.144807.452.raw -> output/leftup/on/2.raw.high
+✅ Processed: data/leftup/on/IMG0067_0703.152738.971.raw -> output/leftup/on/33.raw.low
+✅ Processed: data/leftup/on/IMG0004_0703.144650.501.raw -> output/leftup/on/1.raw.high
+✅ Processed: data/leftup/on/IMG0039_0703.150941.975.raw -> output/leftup/on/19.raw.low
+✅ Processed: data/leftup/on/IMG0076_0703.153300.004.raw -> output/leftup/on/37.raw.high
+✅ Processed: data/leftup/on/IMG0020_0703.145705.965.raw -> output/leftup/on/9.raw.high
+✅ Processed: data/leftup/on/IMG0074_0703.153143.070.raw -> output/leftup/on/36.raw.high
+✅ Processed: data/leftup/on/IMG0022_0703.145822.900.raw -> output/leftup/on/10.raw.high
+✅ Processed: data/leftup/on/IMG0043_0703.151215.829.raw -> output/leftup/on/21.raw.low
+✅ Processed: data/leftup/on/IMG0075_0703.153246.664.raw -> output/leftup/on/37.raw.low
+✅ Processed: data/leftup/on/IMG0003_0703.144637.160.raw -> output/leftup/on/1.raw.low
+✅ Processed: data/leftup/on/IMG0046_0703.151346.105.raw -> output/leftup/on/22.raw.high
+✅ Processed: data/leftup/on/IMG0077_0703.153403.599.raw -> output/leftup/on/38.raw.low
+✅ Processed: data/leftup/on/IMG0002_0703.144533.550.raw -> output/leftup/on/0.raw.high
+✅ Processed: data/leftup/on/IMG0045_0703.151332.764.raw -> output/leftup/on/22.raw.low
+✅ Processed: data/leftup/on/IMG0078_0703.153416.939.raw -> output/leftup/on/38.raw.high
+✅ Processed: data/leftup/on/IMG0031_0703.150434.188.raw -> output/leftup/on/15.raw.low
+✅ Processed: data/leftup/on/IMG0048_0703.151503.024.raw -> output/leftup/on/23.raw.high
+✅ Processed: data/leftup/on/IMG0079_0703.153520.549.raw -> output/leftup/on/39.raw.low
+✅ Processed: data/leftup/on/IMG0017_0703.145535.705.raw -> output/leftup/on/8.raw.low
+✅ Processed: data/leftup/on/IMG0047_0703.151449.683.raw -> output/leftup/on/23.raw.low
+✅ Processed: data/leftup/on/IMG0080_0703.153533.890.raw -> output/leftup/on/39.raw.high
+Processing completed in 2.00 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/leftdown/on', output='output/leftdown/on', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/leftdown/on/IMG0031_0707.151256.827.raw -> output/leftdown/on/15.raw.low
+✅ Processed: data/leftdown/on/IMG0051_0707.152546.193.raw -> output/leftdown/on/25.raw.low
+✅ Processed: data/leftdown/on/IMG0027_0707.151022.973.raw -> output/leftdown/on/13.raw.low
+✅ Processed: data/leftdown/on/IMG0049_0707.152429.258.raw -> output/leftdown/on/24.raw.low
+✅ Processed: data/leftdown/on/IMG0025_0707.150906.053.raw -> output/leftdown/on/12.raw.low
+✅ Processed: data/leftdown/on/IMG0050_0707.152442.599.raw -> output/leftdown/on/24.raw.high
+✅ Processed: data/leftdown/on/IMG0004_0707.145513.107.raw -> output/leftdown/on/1.raw.high
+✅ Processed: data/leftdown/on/IMG0052_0707.152559.534.raw -> output/leftdown/on/25.raw.high
+✅ Processed: data/leftdown/on/IMG0024_0707.150802.459.raw -> output/leftdown/on/11.raw.high
+✅ Processed: data/leftdown/on/IMG0053_0707.152703.128.raw -> output/leftdown/on/26.raw.low
+✅ Processed: data/leftdown/on/IMG0028_0707.151036.313.raw -> output/leftdown/on/13.raw.high
+✅ Processed: data/leftdown/on/IMG0056_0707.152833.404.raw -> output/leftdown/on/27.raw.high
+✅ Processed: data/leftdown/on/IMG0023_0707.150749.118.raw -> output/leftdown/on/11.raw.low
+✅ Processed: data/leftdown/on/IMG0054_0707.152716.469.raw -> output/leftdown/on/26.raw.high
+✅ Processed: data/leftdown/on/IMG0013_0707.150124.427.raw -> output/leftdown/on/6.raw.low
+✅ Processed: data/leftdown/on/IMG0055_0707.152820.048.raw -> output/leftdown/on/27.raw.low
+✅ Processed: data/leftdown/on/IMG0022_0707.150645.493.raw -> output/leftdown/on/10.raw.high
+✅ Processed: data/leftdown/on/IMG0058_0707.152950.323.raw -> output/leftdown/on/28.raw.high
+✅ Processed: data/leftdown/on/IMG0016_0707.150254.686.raw -> output/leftdown/on/7.raw.high
+✅ Processed: data/leftdown/on/IMG0033_0707.151413.778.raw -> output/leftdown/on/16.raw.low
+✅ Processed: data/leftdown/on/IMG0064_0707.153341.097.raw -> output/leftdown/on/31.raw.high
+✅ Processed: data/leftdown/on/IMG0030_0707.151153.248.raw -> output/leftdown/on/14.raw.high
+✅ Processed: data/leftdown/on/IMG0035_0707.151530.728.raw -> output/leftdown/on/17.raw.low
+✅ Processed: data/leftdown/on/IMG0066_0707.153458.017.raw -> output/leftdown/on/32.raw.high
+✅ Processed: data/leftdown/on/IMG0007_0707.145733.652.raw -> output/leftdown/on/3.raw.low
+✅ Processed: data/leftdown/on/IMG0057_0707.152936.983.raw -> output/leftdown/on/28.raw.low
+✅ Processed: data/leftdown/on/IMG0003_0707.145459.750.raw -> output/leftdown/on/1.raw.low
+✅ Processed: data/leftdown/on/IMG0060_0707.153107.259.raw -> output/leftdown/on/29.raw.high
+✅ Processed: data/leftdown/on/IMG0021_0707.150632.152.raw -> output/leftdown/on/10.raw.low
+✅ Processed: data/leftdown/on/IMG0059_0707.153053.918.raw -> output/leftdown/on/29.raw.low
+✅ Processed: data/leftdown/on/IMG0005_0707.145616.732.raw -> output/leftdown/on/2.raw.low
+✅ Processed: data/leftdown/on/IMG0061_0707.153210.837.raw -> output/leftdown/on/30.raw.low
+✅ Processed: data/leftdown/on/IMG0026_0707.150919.394.raw -> output/leftdown/on/12.raw.high
+✅ Processed: data/leftdown/on/IMG0062_0707.153224.178.raw -> output/leftdown/on/30.raw.high
+✅ Processed: data/leftdown/on/IMG0018_0707.150411.606.raw -> output/leftdown/on/8.raw.high
+✅ Processed: data/leftdown/on/IMG0063_0707.153327.757.raw -> output/leftdown/on/31.raw.low
+✅ Processed: data/leftdown/on/IMG0002_0707.145356.124.raw -> output/leftdown/on/0.raw.high
+✅ Processed: data/leftdown/on/IMG0040_0707.151817.923.raw -> output/leftdown/on/19.raw.high
+✅ Processed: data/leftdown/on/IMG0070_0707.153731.887.raw -> output/leftdown/on/34.raw.high
+✅ Processed: data/leftdown/on/IMG0010_0707.145903.928.raw -> output/leftdown/on/4.raw.high
+✅ Processed: data/leftdown/on/IMG0034_0707.151427.118.raw -> output/leftdown/on/16.raw.high
+✅ Processed: data/leftdown/on/IMG0069_0707.153718.531.raw -> output/leftdown/on/34.raw.low
+✅ Processed: data/leftdown/on/IMG0014_0707.150137.767.raw -> output/leftdown/on/6.raw.high
+✅ Processed: data/leftdown/on/IMG0039_0707.151804.583.raw -> output/leftdown/on/19.raw.low
+✅ Processed: data/leftdown/on/IMG0068_0707.153614.937.raw -> output/leftdown/on/33.raw.high
+✅ Processed: data/leftdown/on/IMG0006_0707.145630.073.raw -> output/leftdown/on/2.raw.high
+✅ Processed: data/leftdown/on/IMG0036_0707.151544.069.raw -> output/leftdown/on/17.raw.high
+✅ Processed: data/leftdown/on/IMG0065_0707.153444.677.raw -> output/leftdown/on/32.raw.low
+✅ Processed: data/leftdown/on/IMG0009_0707.145850.587.raw -> output/leftdown/on/4.raw.low
+✅ Processed: data/leftdown/on/IMG0067_0707.153601.596.raw -> output/leftdown/on/33.raw.low
+✅ Processed: data/leftdown/on/IMG0017_0707.150358.250.raw -> output/leftdown/on/8.raw.low
+✅ Processed: data/leftdown/on/IMG0037_0707.151647.648.raw -> output/leftdown/on/18.raw.low
+✅ Processed: data/leftdown/on/IMG0072_0707.153848.823.raw -> output/leftdown/on/35.raw.high
+✅ Processed: data/leftdown/on/IMG0029_0707.151139.892.raw -> output/leftdown/on/14.raw.low
+✅ Processed: data/leftdown/on/IMG0038_0707.151700.988.raw -> output/leftdown/on/18.raw.high
+✅ Processed: data/leftdown/on/IMG0073_0707.153952.401.raw -> output/leftdown/on/36.raw.low
+✅ Processed: data/leftdown/on/IMG0019_0707.150515.202.raw -> output/leftdown/on/9.raw.low
+✅ Processed: data/leftdown/on/IMG0041_0707.151921.502.raw -> output/leftdown/on/20.raw.low
+✅ Processed: data/leftdown/on/IMG0071_0707.153835.482.raw -> output/leftdown/on/35.raw.low
+✅ Processed: data/leftdown/on/IMG0012_0707.150020.848.raw -> output/leftdown/on/5.raw.high
+✅ Processed: data/leftdown/on/IMG0044_0707.152051.779.raw -> output/leftdown/on/21.raw.high
+✅ Processed: data/leftdown/on/IMG0074_0707.154005.742.raw -> output/leftdown/on/36.raw.high
+✅ Processed: data/leftdown/on/IMG0015_0707.150241.346.raw -> output/leftdown/on/7.raw.low
+✅ Processed: data/leftdown/on/IMG0042_0707.151934.843.raw -> output/leftdown/on/20.raw.high
+✅ Processed: data/leftdown/on/IMG0076_0707.154122.678.raw -> output/leftdown/on/37.raw.high
+✅ Processed: data/leftdown/on/IMG0020_0707.150528.542.raw -> output/leftdown/on/9.raw.high
+✅ Processed: data/leftdown/on/IMG0043_0707.152038.422.raw -> output/leftdown/on/21.raw.low
+✅ Processed: data/leftdown/on/IMG0075_0707.154109.337.raw -> output/leftdown/on/37.raw.low
+✅ Processed: data/leftdown/on/IMG0008_0707.145746.992.raw -> output/leftdown/on/3.raw.high
+✅ Processed: data/leftdown/on/IMG0047_0707.152312.339.raw -> output/leftdown/on/23.raw.low
+✅ Processed: data/leftdown/on/IMG0080_0707.154356.517.raw -> output/leftdown/on/39.raw.high
+✅ Processed: data/leftdown/on/IMG0011_0707.150007.507.raw -> output/leftdown/on/5.raw.low
+✅ Processed: data/leftdown/on/IMG0045_0707.152155.420.raw -> output/leftdown/on/22.raw.low
+✅ Processed: data/leftdown/on/IMG0077_0707.154226.256.raw -> output/leftdown/on/38.raw.low
+✅ Processed: data/leftdown/on/IMG0032_0707.151310.168.raw -> output/leftdown/on/15.raw.high
+✅ Processed: data/leftdown/on/IMG0048_0707.152325.680.raw -> output/leftdown/on/23.raw.high
+✅ Processed: data/leftdown/on/IMG0078_0707.154239.597.raw -> output/leftdown/on/38.raw.high
+✅ Processed: data/leftdown/on/IMG0001_0707.145342.784.raw -> output/leftdown/on/0.raw.low
+✅ Processed: data/leftdown/on/IMG0046_0707.152208.760.raw -> output/leftdown/on/22.raw.high
+✅ Processed: data/leftdown/on/IMG0079_0707.154343.176.raw -> output/leftdown/on/39.raw.low
+Processing completed in 1.98 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/rightup/on', output='output/rightup/on', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/rightup/on/IMG0008_0704.113219.142.raw -> output/rightup/on/3.raw.high
+✅ Processed: data/rightup/on/IMG0050_0704.115914.460.raw -> output/rightup/on/24.raw.high
+✅ Processed: data/rightup/on/IMG0019_0704.113947.242.raw -> output/rightup/on/9.raw.low
+✅ Processed: data/rightup/on/IMG0052_0704.120031.380.raw -> output/rightup/on/25.raw.high
+✅ Processed: data/rightup/on/IMG0022_0704.114117.518.raw -> output/rightup/on/10.raw.high
+✅ Processed: data/rightup/on/IMG0051_0704.120018.040.raw -> output/rightup/on/25.raw.low
+✅ Processed: data/rightup/on/IMG0023_0704.114221.113.raw -> output/rightup/on/11.raw.low
+✅ Processed: data/rightup/on/IMG0049_0704.115901.104.raw -> output/rightup/on/24.raw.low
+✅ Processed: data/rightup/on/IMG0032_0704.114742.149.raw -> output/rightup/on/15.raw.high
+✅ Processed: data/rightup/on/IMG0053_0704.120134.944.raw -> output/rightup/on/26.raw.low
+✅ Processed: data/rightup/on/IMG0024_0704.114234.453.raw -> output/rightup/on/11.raw.high
+✅ Processed: data/rightup/on/IMG0056_0704.120305.188.raw -> output/rightup/on/27.raw.high
+✅ Processed: data/rightup/on/IMG0015_0704.113713.450.raw -> output/rightup/on/7.raw.low
+✅ Processed: data/rightup/on/IMG0055_0704.120251.848.raw -> output/rightup/on/27.raw.low
+✅ Processed: data/rightup/on/IMG0006_0704.113102.191.raw -> output/rightup/on/2.raw.high
+✅ Processed: data/rightup/on/IMG0054_0704.120148.284.raw -> output/rightup/on/26.raw.high
+✅ Processed: data/rightup/on/IMG0025_0704.114338.001.raw -> output/rightup/on/12.raw.low
+✅ Processed: data/rightup/on/IMG0060_0704.120539.011.raw -> output/rightup/on/29.raw.high
+✅ Processed: data/rightup/on/IMG0001_0704.112815.042.raw -> output/rightup/on/0.raw.low
+✅ Processed: data/rightup/on/IMG0062_0704.120655.946.raw -> output/rightup/on/30.raw.high
+✅ Processed: data/rightup/on/IMG0011_0704.113439.593.raw -> output/rightup/on/5.raw.low
+✅ Processed: data/rightup/on/IMG0033_0704.114845.728.raw -> output/rightup/on/16.raw.low
+✅ Processed: data/rightup/on/IMG0058_0704.120422.107.raw -> output/rightup/on/28.raw.high
+✅ Processed: data/rightup/on/IMG0002_0704.112828.367.raw -> output/rightup/on/0.raw.high
+✅ Processed: data/rightup/on/IMG0037_0704.115119.536.raw -> output/rightup/on/18.raw.low
+✅ Processed: data/rightup/on/IMG0066_0704.120929.771.raw -> output/rightup/on/32.raw.high
+✅ Processed: data/rightup/on/IMG0020_0704.114000.598.raw -> output/rightup/on/9.raw.high
+✅ Processed: data/rightup/on/IMG0034_0704.114859.069.raw -> output/rightup/on/16.raw.high
+✅ Processed: data/rightup/on/IMG0057_0704.120408.751.raw -> output/rightup/on/28.raw.low
+✅ Processed: data/rightup/on/IMG0003_0704.112931.947.raw -> output/rightup/on/1.raw.low
+✅ Processed: data/rightup/on/IMG0039_0704.115236.456.raw -> output/rightup/on/19.raw.low
+✅ Processed: data/rightup/on/IMG0068_0704.121046.690.raw -> output/rightup/on/33.raw.high
+✅ Processed: data/rightup/on/IMG0013_0704.113556.514.raw -> output/rightup/on/6.raw.low
+✅ Processed: data/rightup/on/IMG0061_0704.120642.606.raw -> output/rightup/on/30.raw.low
+✅ Processed: data/rightup/on/IMG0021_0704.114104.162.raw -> output/rightup/on/10.raw.low
+✅ Processed: data/rightup/on/IMG0040_0704.115249.796.raw -> output/rightup/on/19.raw.high
+✅ Processed: data/rightup/on/IMG0063_0704.120759.526.raw -> output/rightup/on/31.raw.low
+✅ Processed: data/rightup/on/IMG0026_0704.114351.357.raw -> output/rightup/on/12.raw.high
+✅ Processed: data/rightup/on/IMG0067_0704.121033.334.raw -> output/rightup/on/33.raw.low
+✅ Processed: data/rightup/on/IMG0004_0704.112945.272.raw -> output/rightup/on/1.raw.high
+✅ Processed: data/rightup/on/IMG0038_0704.115132.877.raw -> output/rightup/on/18.raw.high
+✅ Processed: data/rightup/on/IMG0059_0704.120525.686.raw -> output/rightup/on/29.raw.low
+✅ Processed: data/rightup/on/IMG0005_0704.113048.851.raw -> output/rightup/on/2.raw.low
+✅ Processed: data/rightup/on/IMG0071_0704.121307.189.raw -> output/rightup/on/35.raw.low
+✅ Processed: data/rightup/on/IMG0010_0704.113336.046.raw -> output/rightup/on/4.raw.high
+✅ Processed: data/rightup/on/IMG0036_0704.115015.972.raw -> output/rightup/on/17.raw.high
+✅ Processed: data/rightup/on/IMG0064_0704.120812.866.raw -> output/rightup/on/31.raw.high
+✅ Processed: data/rightup/on/IMG0029_0704.114611.888.raw -> output/rightup/on/14.raw.low
+✅ Processed: data/rightup/on/IMG0072_0704.121320.530.raw -> output/rightup/on/35.raw.high
+✅ Processed: data/rightup/on/IMG0007_0704.113205.802.raw -> output/rightup/on/3.raw.low
+✅ Processed: data/rightup/on/IMG0035_0704.115002.632.raw -> output/rightup/on/17.raw.low
+✅ Processed: data/rightup/on/IMG0065_0704.120916.430.raw -> output/rightup/on/32.raw.low
+✅ Processed: data/rightup/on/IMG0009_0704.113322.705.raw -> output/rightup/on/4.raw.low
+✅ Processed: data/rightup/on/IMG0042_0704.115406.779.raw -> output/rightup/on/20.raw.high
+✅ Processed: data/rightup/on/IMG0070_0704.121203.594.raw -> output/rightup/on/34.raw.high
+✅ Processed: data/rightup/on/IMG0016_0704.113726.790.raw -> output/rightup/on/7.raw.high
+✅ Processed: data/rightup/on/IMG0041_0704.115353.407.raw -> output/rightup/on/20.raw.low
+✅ Processed: data/rightup/on/IMG0069_0704.121150.254.raw -> output/rightup/on/34.raw.low
+✅ Processed: data/rightup/on/IMG0028_0704.114508.309.raw -> output/rightup/on/13.raw.high
+✅ Processed: data/rightup/on/IMG0073_0704.121424.109.raw -> output/rightup/on/36.raw.low
+✅ Processed: data/rightup/on/IMG0031_0704.114728.793.raw -> output/rightup/on/15.raw.low
+✅ Processed: data/rightup/on/IMG0074_0704.121437.434.raw -> output/rightup/on/36.raw.high
+✅ Processed: data/rightup/on/IMG0014_0704.113609.855.raw -> output/rightup/on/6.raw.high
+✅ Processed: data/rightup/on/IMG0043_0704.115510.343.raw -> output/rightup/on/21.raw.low
+✅ Processed: data/rightup/on/IMG0076_0704.121554.354.raw -> output/rightup/on/37.raw.high
+✅ Processed: data/rightup/on/IMG0012_0704.113452.950.raw -> output/rightup/on/5.raw.high
+✅ Processed: data/rightup/on/IMG0044_0704.115523.684.raw -> output/rightup/on/21.raw.high
+✅ Processed: data/rightup/on/IMG0075_0704.121541.014.raw -> output/rightup/on/37.raw.low
+✅ Processed: data/rightup/on/IMG0017_0704.113830.354.raw -> output/rightup/on/8.raw.low
+✅ Processed: data/rightup/on/IMG0046_0704.115640.636.raw -> output/rightup/on/22.raw.high
+✅ Processed: data/rightup/on/IMG0077_0704.121657.933.raw -> output/rightup/on/38.raw.low
+✅ Processed: data/rightup/on/IMG0027_0704.114454.937.raw -> output/rightup/on/13.raw.low
+✅ Processed: data/rightup/on/IMG0048_0704.115757.540.raw -> output/rightup/on/23.raw.high
+✅ Processed: data/rightup/on/IMG0080_0704.121828.178.raw -> output/rightup/on/39.raw.high
+✅ Processed: data/rightup/on/IMG0018_0704.113843.695.raw -> output/rightup/on/8.raw.high
+✅ Processed: data/rightup/on/IMG0045_0704.115627.295.raw -> output/rightup/on/22.raw.low
+✅ Processed: data/rightup/on/IMG0078_0704.121711.273.raw -> output/rightup/on/38.raw.high
+✅ Processed: data/rightup/on/IMG0030_0704.114625.213.raw -> output/rightup/on/14.raw.high
+✅ Processed: data/rightup/on/IMG0047_0704.115744.215.raw -> output/rightup/on/23.raw.low
+✅ Processed: data/rightup/on/IMG0079_0704.121814.853.raw -> output/rightup/on/39.raw.low
+Processing completed in 1.98 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Namespace(input='data/rightdown/on', output='output/rightdown/on', top=20, bottom=20, left=20, right=460)
+Processing 80 raw files...
+✅ Processed: data/rightdown/on/IMG0003_0707.145459.750.raw -> output/rightdown/on/1.raw.low
+✅ Processed: data/rightdown/on/IMG0049_0707.152429.258.raw -> output/rightdown/on/24.raw.low
+✅ Processed: data/rightdown/on/IMG0018_0707.150411.606.raw -> output/rightdown/on/8.raw.high
+✅ Processed: data/rightdown/on/IMG0050_0707.152442.599.raw -> output/rightdown/on/24.raw.high
+✅ Processed: data/rightdown/on/IMG0010_0707.145903.928.raw -> output/rightdown/on/4.raw.high
+✅ Processed: data/rightdown/on/IMG0052_0707.152559.534.raw -> output/rightdown/on/25.raw.high
+✅ Processed: data/rightdown/on/IMG0025_0707.150906.053.raw -> output/rightdown/on/12.raw.low
+✅ Processed: data/rightdown/on/IMG0051_0707.152546.193.raw -> output/rightdown/on/25.raw.low
+✅ Processed: data/rightdown/on/IMG0019_0707.150515.202.raw -> output/rightdown/on/9.raw.low
+✅ Processed: data/rightdown/on/IMG0055_0707.152820.048.raw -> output/rightdown/on/27.raw.low
+✅ Processed: data/rightdown/on/IMG0002_0707.145356.124.raw -> output/rightdown/on/0.raw.high
+✅ Processed: data/rightdown/on/IMG0054_0707.152716.469.raw -> output/rightdown/on/26.raw.high
+✅ Processed: data/rightdown/on/IMG0032_0707.151310.168.raw -> output/rightdown/on/15.raw.high
+✅ Processed: data/rightdown/on/IMG0053_0707.152703.128.raw -> output/rightdown/on/26.raw.low
+✅ Processed: data/rightdown/on/IMG0022_0707.150645.493.raw -> output/rightdown/on/10.raw.high
+✅ Processed: data/rightdown/on/IMG0057_0707.152936.983.raw -> output/rightdown/on/28.raw.low
+✅ Processed: data/rightdown/on/IMG0004_0707.145513.107.raw -> output/rightdown/on/1.raw.high
+✅ Processed: data/rightdown/on/IMG0033_0707.151413.778.raw -> output/rightdown/on/16.raw.low
+✅ Processed: data/rightdown/on/IMG0056_0707.152833.404.raw -> output/rightdown/on/27.raw.high
+✅ Processed: data/rightdown/on/IMG0013_0707.150124.427.raw -> output/rightdown/on/6.raw.low
+✅ Processed: data/rightdown/on/IMG0039_0707.151804.583.raw -> output/rightdown/on/19.raw.low
+✅ Processed: data/rightdown/on/IMG0064_0707.153341.097.raw -> output/rightdown/on/31.raw.high
+✅ Processed: data/rightdown/on/IMG0006_0707.145630.073.raw -> output/rightdown/on/2.raw.high
+✅ Processed: data/rightdown/on/IMG0040_0707.151817.923.raw -> output/rightdown/on/19.raw.high
+✅ Processed: data/rightdown/on/IMG0062_0707.153224.178.raw -> output/rightdown/on/30.raw.high
+✅ Processed: data/rightdown/on/IMG0008_0707.145746.992.raw -> output/rightdown/on/3.raw.high
+✅ Processed: data/rightdown/on/IMG0036_0707.151544.069.raw -> output/rightdown/on/17.raw.high
+✅ Processed: data/rightdown/on/IMG0058_0707.152950.323.raw -> output/rightdown/on/28.raw.high
+✅ Processed: data/rightdown/on/IMG0011_0707.150007.507.raw -> output/rightdown/on/5.raw.low
+✅ Processed: data/rightdown/on/IMG0035_0707.151530.728.raw -> output/rightdown/on/17.raw.low
+✅ Processed: data/rightdown/on/IMG0060_0707.153107.259.raw -> output/rightdown/on/29.raw.high
+✅ Processed: data/rightdown/on/IMG0001_0707.145342.784.raw -> output/rightdown/on/0.raw.low
+✅ Processed: data/rightdown/on/IMG0034_0707.151427.118.raw -> output/rightdown/on/16.raw.high
+✅ Processed: data/rightdown/on/IMG0059_0707.153053.918.raw -> output/rightdown/on/29.raw.low
+✅ Processed: data/rightdown/on/IMG0015_0707.150241.346.raw -> output/rightdown/on/7.raw.low
+✅ Processed: data/rightdown/on/IMG0037_0707.151647.648.raw -> output/rightdown/on/18.raw.low
+✅ Processed: data/rightdown/on/IMG0065_0707.153444.677.raw -> output/rightdown/on/32.raw.low
+✅ Processed: data/rightdown/on/IMG0012_0707.150020.848.raw -> output/rightdown/on/5.raw.high
+✅ Processed: data/rightdown/on/IMG0066_0707.153458.017.raw -> output/rightdown/on/32.raw.high
+✅ Processed: data/rightdown/on/IMG0016_0707.150254.686.raw -> output/rightdown/on/7.raw.high
+✅ Processed: data/rightdown/on/IMG0042_0707.151934.843.raw -> output/rightdown/on/20.raw.high
+✅ Processed: data/rightdown/on/IMG0063_0707.153327.757.raw -> output/rightdown/on/31.raw.low
+✅ Processed: data/rightdown/on/IMG0014_0707.150137.767.raw -> output/rightdown/on/6.raw.high
+✅ Processed: data/rightdown/on/IMG0038_0707.151700.988.raw -> output/rightdown/on/18.raw.high
+✅ Processed: data/rightdown/on/IMG0061_0707.153210.837.raw -> output/rightdown/on/30.raw.low
+✅ Processed: data/rightdown/on/IMG0029_0707.151139.892.raw -> output/rightdown/on/14.raw.low
+✅ Processed: data/rightdown/on/IMG0045_0707.152155.420.raw -> output/rightdown/on/22.raw.low
+✅ Processed: data/rightdown/on/IMG0070_0707.153731.887.raw -> output/rightdown/on/34.raw.high
+✅ Processed: data/rightdown/on/IMG0005_0707.145616.732.raw -> output/rightdown/on/2.raw.low
+✅ Processed: data/rightdown/on/IMG0043_0707.152038.422.raw -> output/rightdown/on/21.raw.low
+✅ Processed: data/rightdown/on/IMG0067_0707.153601.596.raw -> output/rightdown/on/33.raw.low
+✅ Processed: data/rightdown/on/IMG0009_0707.145850.587.raw -> output/rightdown/on/4.raw.low
+✅ Processed: data/rightdown/on/IMG0044_0707.152051.779.raw -> output/rightdown/on/21.raw.high
+✅ Processed: data/rightdown/on/IMG0068_0707.153614.937.raw -> output/rightdown/on/33.raw.high
+✅ Processed: data/rightdown/on/IMG0026_0707.150919.394.raw -> output/rightdown/on/12.raw.high
+✅ Processed: data/rightdown/on/IMG0069_0707.153718.531.raw -> output/rightdown/on/34.raw.low
+✅ Processed: data/rightdown/on/IMG0020_0707.150528.542.raw -> output/rightdown/on/9.raw.high
+✅ Processed: data/rightdown/on/IMG0074_0707.154005.742.raw -> output/rightdown/on/36.raw.high
+✅ Processed: data/rightdown/on/IMG0028_0707.151036.313.raw -> output/rightdown/on/13.raw.high
+✅ Processed: data/rightdown/on/IMG0072_0707.153848.823.raw -> output/rightdown/on/35.raw.high
+✅ Processed: data/rightdown/on/IMG0017_0707.150358.250.raw -> output/rightdown/on/8.raw.low
+✅ Processed: data/rightdown/on/IMG0041_0707.151921.502.raw -> output/rightdown/on/20.raw.low
+✅ Processed: data/rightdown/on/IMG0071_0707.153835.482.raw -> output/rightdown/on/35.raw.low
+✅ Processed: data/rightdown/on/IMG0021_0707.150632.152.raw -> output/rightdown/on/10.raw.low
+✅ Processed: data/rightdown/on/IMG0075_0707.154109.337.raw -> output/rightdown/on/37.raw.low
+✅ Processed: data/rightdown/on/IMG0031_0707.151256.827.raw -> output/rightdown/on/15.raw.low
+✅ Processed: data/rightdown/on/IMG0076_0707.154122.678.raw -> output/rightdown/on/37.raw.high
+✅ Processed: data/rightdown/on/IMG0007_0707.145733.652.raw -> output/rightdown/on/3.raw.low
+✅ Processed: data/rightdown/on/IMG0077_0707.154226.256.raw -> output/rightdown/on/38.raw.low
+✅ Processed: data/rightdown/on/IMG0024_0707.150802.459.raw -> output/rightdown/on/11.raw.high
+✅ Processed: data/rightdown/on/IMG0073_0707.153952.401.raw -> output/rightdown/on/36.raw.low
+✅ Processed: data/rightdown/on/IMG0030_0707.151153.248.raw -> output/rightdown/on/14.raw.high
+✅ Processed: data/rightdown/on/IMG0046_0707.152208.760.raw -> output/rightdown/on/22.raw.high
+✅ Processed: data/rightdown/on/IMG0078_0707.154239.597.raw -> output/rightdown/on/38.raw.high
+✅ Processed: data/rightdown/on/IMG0023_0707.150749.118.raw -> output/rightdown/on/11.raw.low
+✅ Processed: data/rightdown/on/IMG0047_0707.152312.339.raw -> output/rightdown/on/23.raw.low
+✅ Processed: data/rightdown/on/IMG0080_0707.154356.517.raw -> output/rightdown/on/39.raw.high
+✅ Processed: data/rightdown/on/IMG0027_0707.151022.973.raw -> output/rightdown/on/13.raw.low
+✅ Processed: data/rightdown/on/IMG0048_0707.152325.680.raw -> output/rightdown/on/23.raw.high
+✅ Processed: data/rightdown/on/IMG0079_0707.154343.176.raw -> output/rightdown/on/39.raw.low
+Processing completed in 1.89 seconds.
+Original image size(H,W)=(2560,2048)
+Cropped  image size(H,W)=(2520,1568)
+Loading raw files from 'output/empty' …
+Loaded 200 files, each with 3951360 pixels.
+Estimating correction factors and gains …
+iteration 0
+Cp= ... [0.92109726 0.92231385 0.92258096 0.92385415 0.9223259 ] ...
+Gi= ... [3.51866423 3.53740867 3.51825312 3.51660656 3.51745274] ...
+tol=1e-08, delta_Cp=0.2246587023177311, delta_Gi=2.5643064808229177
+iteration 1
+Cp= ... [0.92109726 0.92231384 0.92258096 0.92385415 0.9223259 ] ...
+Gi= ... [3.54095704 3.55988458 3.54054101 3.53888803 3.53974103] ...
+tol=1e-08, delta_Cp=5.3939697597371605e-08, delta_Gi=0.02260546152363352
+iteration 2
+Cp= ... [0.92109726 0.92231384 0.92258096 0.92385415 0.9223259 ] ...
+Gi= ... [3.54095704 3.55988458 3.54054101 3.53888803 3.53974103] ...
+tol=1e-08, delta_Cp=1.709743457922741e-14, delta_Gi=2.2927526543981003e-10
+Converged after 3 iterations.
+Correction factors written to 'output/correction_low.csv'.
+
+Estimated Gi for first file using helper: 3.586912
+Loading raw files from 'output/empty' …
+Loaded 200 files, each with 3951360 pixels.
+Estimating correction factors and gains …
+iteration 0
+Cp= ... [0.92941336 0.93075721 0.93087724 0.93197082 0.93098756] ...
+Gi= ... [2.06927719 2.07954048 2.0676832  2.06844606 2.06724725] ...
+tol=1e-08, delta_Cp=0.19376518556817346, delta_Gi=1.0898555796655534
+iteration 1
+Cp= ... [0.92941336 0.93075722 0.93087725 0.93197082 0.93098756] ...
+Gi= ... [2.07892577 2.08927218 2.07732423 2.07809133 2.07688459] ...
+tol=1e-08, delta_Cp=2.3718031094688286e-08, delta_Gi=0.009771365998628934
+iteration 2
+Cp= ... [0.92941336 0.93075722 0.93087725 0.93197082 0.93098756] ...
+Gi= ... [2.07892577 2.08927218 2.07732423 2.07809133 2.07688459] ...
+tol=1e-08, delta_Cp=7.105427357601002e-15, delta_Gi=9.828804437006511e-11
+Converged after 3 iterations.
+Correction factors written to 'output/correction_high.csv'.
+
+Estimated Gi for first file using helper: 2.099615
+Processing 200 raw files...
+✅ Processed: output/empty 105.raw.low (and high) -> output/empty
+✅ Processed: output/empty 106.raw.low (and high) -> output/empty
+✅ Processed: output/empty 163.raw.low (and high) -> output/empty
+✅ Processed: output/empty 164.raw.low (and high) -> output/empty
+✅ Processed: output/empty 41.raw.low (and high) -> output/empty
+✅ Processed: output/empty 42.raw.low (and high) -> output/empty
+✅ Processed: output/empty 107.raw.low (and high) -> output/empty
+✅ Processed: output/empty 108.raw.low (and high) -> output/empty
+✅ Processed: output/empty 165.raw.low (and high) -> output/empty
+✅ Processed: output/empty 166.raw.low (and high) -> output/empty
+✅ Processed: output/empty 43.raw.low (and high) -> output/empty
+✅ Processed: output/empty 44.raw.low (and high) -> output/empty
+✅ Processed: output/empty 112.raw.low (and high) -> output/empty
+✅ Processed: output/empty 113.raw.low (and high) -> output/empty
+✅ Processed: output/empty 169.raw.low (and high) -> output/empty
+✅ Processed: output/empty 17.raw.low (and high) -> output/empty
+✅ Processed: output/empty 47.raw.low (and high) -> output/empty
+✅ Processed: output/empty 48.raw.low (and high) -> output/empty
+✅ Processed: output/empty 110.raw.low (and high) -> output/empty
+✅ Processed: output/empty 111.raw.low (and high) -> output/empty
+✅ Processed: output/empty 170.raw.low (and high) -> output/empty
+✅ Processed: output/empty 171.raw.low (and high) -> output/empty
+✅ Processed: output/empty 49.raw.low (and high) -> output/empty
+✅ Processed: output/empty 5.raw.low (and high) -> output/empty
+✅ Processed: output/empty 109.raw.low (and high) -> output/empty
+✅ Processed: output/empty 11.raw.low (and high) -> output/empty
+✅ Processed: output/empty 167.raw.low (and high) -> output/empty
+✅ Processed: output/empty 168.raw.low (and high) -> output/empty
+✅ Processed: output/empty 45.raw.low (and high) -> output/empty
+✅ Processed: output/empty 46.raw.low (and high) -> output/empty
+✅ Processed: output/empty 114.raw.low (and high) -> output/empty
+✅ Processed: output/empty 115.raw.low (and high) -> output/empty
+✅ Processed: output/empty 172.raw.low (and high) -> output/empty
+✅ Processed: output/empty 173.raw.low (and high) -> output/empty
+✅ Processed: output/empty 50.raw.low (and high) -> output/empty
+✅ Processed: output/empty 51.raw.low (and high) -> output/empty
+✅ Processed: output/empty 118.raw.low (and high) -> output/empty
+✅ Processed: output/empty 119.raw.low (and high) -> output/empty
+✅ Processed: output/empty 176.raw.low (and high) -> output/empty
+✅ Processed: output/empty 177.raw.low (and high) -> output/empty
+✅ Processed: output/empty 52.raw.low (and high) -> output/empty
+✅ Processed: output/empty 53.raw.low (and high) -> output/empty
+✅ Processed: output/empty 116.raw.low (and high) -> output/empty
+✅ Processed: output/empty 117.raw.low (and high) -> output/empty
+✅ Processed: output/empty 174.raw.low (and high) -> output/empty
+✅ Processed: output/empty 175.raw.low (and high) -> output/empty
+✅ Processed: output/empty 54.raw.low (and high) -> output/empty
+✅ Processed: output/empty 55.raw.low (and high) -> output/empty
+✅ Processed: output/empty 12.raw.low (and high) -> output/empty
+✅ Processed: output/empty 120.raw.low (and high) -> output/empty
+✅ Processed: output/empty 178.raw.low (and high) -> output/empty
+✅ Processed: output/empty 179.raw.low (and high) -> output/empty
+✅ Processed: output/empty 56.raw.low (and high) -> output/empty
+✅ Processed: output/empty 57.raw.low (and high) -> output/empty
+✅ Processed: output/empty 121.raw.low (and high) -> output/empty
+✅ Processed: output/empty 122.raw.low (and high) -> output/empty
+✅ Processed: output/empty 18.raw.low (and high) -> output/empty
+✅ Processed: output/empty 180.raw.low (and high) -> output/empty
+✅ Processed: output/empty 58.raw.low (and high) -> output/empty
+✅ Processed: output/empty 59.raw.low (and high) -> output/empty
+✅ Processed: output/empty 123.raw.low (and high) -> output/empty
+✅ Processed: output/empty 124.raw.low (and high) -> output/empty
+✅ Processed: output/empty 181.raw.low (and high) -> output/empty
+✅ Processed: output/empty 182.raw.low (and high) -> output/empty
+✅ Processed: output/empty 6.raw.low (and high) -> output/empty
+✅ Processed: output/empty 60.raw.low (and high) -> output/empty
+✅ Processed: output/empty 125.raw.low (and high) -> output/empty
+✅ Processed: output/empty 126.raw.low (and high) -> output/empty
+✅ Processed: output/empty 183.raw.low (and high) -> output/empty
+✅ Processed: output/empty 184.raw.low (and high) -> output/empty
+✅ Processed: output/empty 61.raw.low (and high) -> output/empty
+✅ Processed: output/empty 62.raw.low (and high) -> output/empty
+✅ Processed: output/empty 127.raw.low (and high) -> output/empty
+✅ Processed: output/empty 128.raw.low (and high) -> output/empty
+✅ Processed: output/empty 185.raw.low (and high) -> output/empty
+✅ Processed: output/empty 186.raw.low (and high) -> output/empty
+✅ Processed: output/empty 63.raw.low (and high) -> output/empty
+✅ Processed: output/empty 64.raw.low (and high) -> output/empty
+✅ Processed: output/empty 129.raw.low (and high) -> output/empty
+✅ Processed: output/empty 13.raw.low (and high) -> output/empty
+✅ Processed: output/empty 187.raw.low (and high) -> output/empty
+✅ Processed: output/empty 188.raw.low (and high) -> output/empty
+✅ Processed: output/empty 65.raw.low (and high) -> output/empty
+✅ Processed: output/empty 66.raw.low (and high) -> output/empty
+✅ Processed: output/empty 130.raw.low (and high) -> output/empty
+✅ Processed: output/empty 131.raw.low (and high) -> output/empty
+✅ Processed: output/empty 189.raw.low (and high) -> output/empty
+✅ Processed: output/empty 19.raw.low (and high) -> output/empty
+✅ Processed: output/empty 67.raw.low (and high) -> output/empty
+✅ Processed: output/empty 68.raw.low (and high) -> output/empty
+✅ Processed: output/empty 132.raw.low (and high) -> output/empty
+✅ Processed: output/empty 133.raw.low (and high) -> output/empty
+✅ Processed: output/empty 190.raw.low (and high) -> output/empty
+✅ Processed: output/empty 191.raw.low (and high) -> output/empty
+✅ Processed: output/empty 69.raw.low (and high) -> output/empty
+✅ Processed: output/empty 7.raw.low (and high) -> output/empty
+✅ Processed: output/empty 134.raw.low (and high) -> output/empty
+✅ Processed: output/empty 135.raw.low (and high) -> output/empty
+✅ Processed: output/empty 192.raw.low (and high) -> output/empty
+✅ Processed: output/empty 193.raw.low (and high) -> output/empty
+✅ Processed: output/empty 70.raw.low (and high) -> output/empty
+✅ Processed: output/empty 71.raw.low (and high) -> output/empty
+✅ Processed: output/empty 136.raw.low (and high) -> output/empty
+✅ Processed: output/empty 137.raw.low (and high) -> output/empty
+✅ Processed: output/empty 194.raw.low (and high) -> output/empty
+✅ Processed: output/empty 195.raw.low (and high) -> output/empty
+✅ Processed: output/empty 72.raw.low (and high) -> output/empty
+✅ Processed: output/empty 73.raw.low (and high) -> output/empty
+✅ Processed: output/empty 138.raw.low (and high) -> output/empty
+✅ Processed: output/empty 139.raw.low (and high) -> output/empty
+✅ Processed: output/empty 196.raw.low (and high) -> output/empty
+✅ Processed: output/empty 197.raw.low (and high) -> output/empty
+✅ Processed: output/empty 74.raw.low (and high) -> output/empty
+✅ Processed: output/empty 75.raw.low (and high) -> output/empty
+✅ Processed: output/empty 14.raw.low (and high) -> output/empty
+✅ Processed: output/empty 140.raw.low (and high) -> output/empty
+✅ Processed: output/empty 198.raw.low (and high) -> output/empty
+✅ Processed: output/empty 199.raw.low (and high) -> output/empty
+✅ Processed: output/empty 76.raw.low (and high) -> output/empty
+✅ Processed: output/empty 77.raw.low (and high) -> output/empty
+✅ Processed: output/empty 141.raw.low (and high) -> output/empty
+✅ Processed: output/empty 142.raw.low (and high) -> output/empty
+✅ Processed: output/empty 2.raw.low (and high) -> output/empty
+✅ Processed: output/empty 20.raw.low (and high) -> output/empty
+✅ Processed: output/empty 78.raw.low (and high) -> output/empty
+✅ Processed: output/empty 79.raw.low (and high) -> output/empty
+✅ Processed: output/empty 143.raw.low (and high) -> output/empty
+✅ Processed: output/empty 144.raw.low (and high) -> output/empty
+✅ Processed: output/empty 21.raw.low (and high) -> output/empty
+✅ Processed: output/empty 22.raw.low (and high) -> output/empty
+✅ Processed: output/empty 8.raw.low (and high) -> output/empty
+✅ Processed: output/empty 80.raw.low (and high) -> output/empty
+✅ Processed: output/empty 145.raw.low (and high) -> output/empty
+✅ Processed: output/empty 146.raw.low (and high) -> output/empty
+✅ Processed: output/empty 23.raw.low (and high) -> output/empty
+✅ Processed: output/empty 24.raw.low (and high) -> output/empty
+✅ Processed: output/empty 81.raw.low (and high) -> output/empty
+✅ Processed: output/empty 82.raw.low (and high) -> output/empty
+✅ Processed: output/empty 147.raw.low (and high) -> output/empty
+✅ Processed: output/empty 148.raw.low (and high) -> output/empty
+✅ Processed: output/empty 25.raw.low (and high) -> output/empty
+✅ Processed: output/empty 26.raw.low (and high) -> output/empty
+✅ Processed: output/empty 83.raw.low (and high) -> output/empty
+✅ Processed: output/empty 84.raw.low (and high) -> output/empty
+✅ Processed: output/empty 149.raw.low (and high) -> output/empty
+✅ Processed: output/empty 15.raw.low (and high) -> output/empty
+✅ Processed: output/empty 27.raw.low (and high) -> output/empty
+✅ Processed: output/empty 28.raw.low (and high) -> output/empty
+✅ Processed: output/empty 85.raw.low (and high) -> output/empty
+✅ Processed: output/empty 86.raw.low (and high) -> output/empty
+✅ Processed: output/empty 150.raw.low (and high) -> output/empty
+✅ Processed: output/empty 151.raw.low (and high) -> output/empty
+✅ Processed: output/empty 29.raw.low (and high) -> output/empty
+✅ Processed: output/empty 3.raw.low (and high) -> output/empty
+✅ Processed: output/empty 87.raw.low (and high) -> output/empty
+✅ Processed: output/empty 88.raw.low (and high) -> output/empty
+✅ Processed: output/empty 152.raw.low (and high) -> output/empty
+✅ Processed: output/empty 153.raw.low (and high) -> output/empty
+✅ Processed: output/empty 30.raw.low (and high) -> output/empty
+✅ Processed: output/empty 31.raw.low (and high) -> output/empty
+✅ Processed: output/empty 89.raw.low (and high) -> output/empty
+✅ Processed: output/empty 9.raw.low (and high) -> output/empty
+✅ Processed: output/empty 154.raw.low (and high) -> output/empty
+✅ Processed: output/empty 155.raw.low (and high) -> output/empty
+✅ Processed: output/empty 32.raw.low (and high) -> output/empty
+✅ Processed: output/empty 33.raw.low (and high) -> output/empty
+✅ Processed: output/empty 90.raw.low (and high) -> output/empty
+✅ Processed: output/empty 91.raw.low (and high) -> output/empty
+✅ Processed: output/empty 0.raw.low (and high) -> output/empty
+✅ Processed: output/empty 1.raw.low (and high) -> output/empty
+✅ Processed: output/empty 156.raw.low (and high) -> output/empty
+✅ Processed: output/empty 157.raw.low (and high) -> output/empty
+✅ Processed: output/empty 34.raw.low (and high) -> output/empty
+✅ Processed: output/empty 35.raw.low (and high) -> output/empty
+✅ Processed: output/empty 92.raw.low (and high) -> output/empty
+✅ Processed: output/empty 93.raw.low (and high) -> output/empty
+✅ Processed: output/empty 103.raw.low (and high) -> output/empty
+✅ Processed: output/empty 104.raw.low (and high) -> output/empty
+✅ Processed: output/empty 161.raw.low (and high) -> output/empty
+✅ Processed: output/empty 162.raw.low (and high) -> output/empty
+✅ Processed: output/empty 4.raw.low (and high) -> output/empty
+✅ Processed: output/empty 40.raw.low (and high) -> output/empty
+✅ Processed: output/empty 98.raw.low (and high) -> output/empty
+✅ Processed: output/empty 99.raw.low (and high) -> output/empty
+✅ Processed: output/empty 10.raw.low (and high) -> output/empty
+✅ Processed: output/empty 100.raw.low (and high) -> output/empty
+✅ Processed: output/empty 158.raw.low (and high) -> output/empty
+✅ Processed: output/empty 159.raw.low (and high) -> output/empty
+✅ Processed: output/empty 36.raw.low (and high) -> output/empty
+✅ Processed: output/empty 37.raw.low (and high) -> output/empty
+✅ Processed: output/empty 94.raw.low (and high) -> output/empty
+✅ Processed: output/empty 95.raw.low (and high) -> output/empty
+Processing completed in 20.09 seconds.
+Processing 40 raw files...
+✅ Processed: output/center 17.raw.low (and high) -> output/center
+✅ Processed: output/center 16.raw.low (and high) -> output/center
+✅ Processed: output/center 18.raw.low (and high) -> output/center
+✅ Processed: output/center 2.raw.low (and high) -> output/center
+✅ Processed: output/center 19.raw.low (and high) -> output/center
+✅ Processed: output/center 21.raw.low (and high) -> output/center
+✅ Processed: output/center 20.raw.low (and high) -> output/center
+✅ Processed: output/center 22.raw.low (and high) -> output/center
+✅ Processed: output/center 23.raw.low (and high) -> output/center
+✅ Processed: output/center 25.raw.low (and high) -> output/center
+✅ Processed: output/center 24.raw.low (and high) -> output/center
+✅ Processed: output/center 26.raw.low (and high) -> output/center
+✅ Processed: output/center 27.raw.low (and high) -> output/center
+✅ Processed: output/center 28.raw.low (and high) -> output/center
+✅ Processed: output/center 29.raw.low (and high) -> output/center
+✅ Processed: output/center 3.raw.low (and high) -> output/center
+✅ Processed: output/center 30.raw.low (and high) -> output/center
+✅ Processed: output/center 31.raw.low (and high) -> output/center
+✅ Processed: output/center 32.raw.low (and high) -> output/center
+✅ Processed: output/center 33.raw.low (and high) -> output/center
+✅ Processed: output/center 34.raw.low (and high) -> output/center
+✅ Processed: output/center 35.raw.low (and high) -> output/center
+✅ Processed: output/center 36.raw.low (and high) -> output/center
+✅ Processed: output/center 37.raw.low (and high) -> output/center
+✅ Processed: output/center 0.raw.low (and high) -> output/center
+✅ Processed: output/center 38.raw.low (and high) -> output/center
+✅ Processed: output/center 1.raw.low (and high) -> output/center
+✅ Processed: output/center 39.raw.low (and high) -> output/center
+✅ Processed: output/center 10.raw.low (and high) -> output/center
+✅ Processed: output/center 4.raw.low (and high) -> output/center
+✅ Processed: output/center 11.raw.low (and high) -> output/center
+✅ Processed: output/center 5.raw.low (and high) -> output/center
+✅ Processed: output/center 12.raw.low (and high) -> output/center
+✅ Processed: output/center 6.raw.low (and high) -> output/center
+✅ Processed: output/center 13.raw.low (and high) -> output/center
+✅ Processed: output/center 7.raw.low (and high) -> output/center
+✅ Processed: output/center 14.raw.low (and high) -> output/center
+✅ Processed: output/center 8.raw.low (and high) -> output/center
+✅ Processed: output/center 15.raw.low (and high) -> output/center
+✅ Processed: output/center 9.raw.low (and high) -> output/center
+Processing completed in 5.79 seconds.
+Processing 40 raw files...
+✅ Processed: output/leftup 16.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 17.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 18.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 19.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 2.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 20.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 21.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 22.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 23.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 24.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 25.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 26.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 27.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 28.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 29.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 3.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 31.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 32.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 33.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 34.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 36.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 37.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 0.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 38.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 1.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 39.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 10.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 4.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 11.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 5.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 30.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 35.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 12.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 6.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 13.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 7.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 14.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 8.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 15.raw.low (and high) -> output/leftup
+✅ Processed: output/leftup 9.raw.low (and high) -> output/leftup
+Processing completed in 4.70 seconds.
+Processing 40 raw files...
+✅ Processed: output/leftdown 16.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 17.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 18.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 19.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 2.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 20.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 21.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 22.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 23.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 24.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 25.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 27.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 26.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 28.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 29.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 3.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 30.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 31.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 32.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 33.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 34.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 35.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 36.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 37.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 0.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 38.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 1.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 39.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 10.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 4.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 11.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 5.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 12.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 6.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 13.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 7.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 14.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 8.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 15.raw.low (and high) -> output/leftdown
+✅ Processed: output/leftdown 9.raw.low (and high) -> output/leftdown
+Processing completed in 5.67 seconds.
+Processing 40 raw files...
+✅ Processed: output/rightup 15.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 17.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 18.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 19.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 2.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 21.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 20.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 22.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 23.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 24.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 26.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 25.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 28.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 27.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 29.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 30.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 31.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 32.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 3.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 34.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 33.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 35.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 37.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 36.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 0.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 38.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 1.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 39.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 10.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 4.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 11.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 5.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 12.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 6.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 13.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 7.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 14.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 8.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 16.raw.low (and high) -> output/rightup
+✅ Processed: output/rightup 9.raw.low (and high) -> output/rightup
+Processing completed in 5.87 seconds.
+Processing 40 raw files...
+✅ Processed: output/rightdown 16.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 17.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 18.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 19.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 2.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 20.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 21.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 22.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 23.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 24.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 26.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 25.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 27.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 29.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 28.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 3.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 30.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 31.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 32.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 33.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 35.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 34.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 36.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 37.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 0.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 38.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 1.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 39.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 10.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 4.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 11.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 5.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 12.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 6.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 14.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 8.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 15.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 9.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 13.raw.low (and high) -> output/rightdown
+✅ Processed: output/rightdown 7.raw.low (and high) -> output/rightdown
+Processing completed in 5.78 seconds.

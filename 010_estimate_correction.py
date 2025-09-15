@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Least‑squares estimation of per‑pixel correction factors Cp and per‑file gains Gi
-from 16‑bit raw images.
+Least-squares estimation of per-pixel correction factors Cp and per-file gains Gi
+from 16-bit raw images.
 
 Usage:
     python estimate_correction.py /path/to/raw_folder
@@ -23,7 +23,7 @@ import numpy as np
 
 def load_raw_files(folder: str, ext: str) -> Tuple[List[np.ndarray], List[str]]:
     """
-    Load all *.raw files in *folder* into a list of 1‑D float64 arrays.
+    Load all *.raw files in *folder* into a list of 1-D float64 arrays.
     All files must have the same length; otherwise ValueError is raised.
 
     Returns
@@ -65,7 +65,7 @@ def fit_correction_factors(
     tol: float = 1e-8,
 ) -> Tuple[np.ndarray, np.ndarray]:
     """
-    Perform alternating least‑squares to estimate Cp and Gi.
+    Perform alternating least-squares to estimate Cp and Gi.
 
     Parameters
     ----------
@@ -79,11 +79,11 @@ def fit_correction_factors(
     Returns
     -------
     Cp : np.ndarray shape (N,)
-        Per‑pixel correction factors (normalised so mean(Cp)=1)
+        Per-pixel correction factors (normalised so mean(Cp)=1)
     Gi : np.ndarray shape (M,)
-        Per‑file gain scalars (>0)
+        Per-file gain scalars (>0)
     """
-    # Convert to a 2‑D array for easier vectorisation: shape (M, N)
+    # Convert to a 2-D array for easier vectorisation: shape (M, N)
     Y = np.stack(raw_arrays)          # dtype float64
     M, N = Y.shape
 
@@ -133,14 +133,14 @@ def fit_correction_factors(
 
 def estimate_gain_for_raw(raw: np.ndarray, Cp: np.ndarray) -> float:
     """
-    Estimate the gain Gi for a new raw file given the already‑computed Cp.
+    Estimate the gain Gi for a new raw file given the already-computed Cp.
 
     Parameters
     ----------
     raw : np.ndarray shape (N,)
         Raw data of the new file.
     Cp : np.ndarray shape (N,)
-        Per‑pixel correction factors.
+        Per-pixel correction factors.
 
     Returns
     -------
@@ -164,7 +164,7 @@ def save_correction_factors_csv(Cp: np.ndarray, output_path: str = "correctoin.c
     output_path : str
         Path of the CSV file to write.
     """
-    # Ensure Cp is 1‑D
+    # Ensure Cp is 1-D
     Cp = Cp.ravel()
     np.savetxt(output_path, Cp, delimiter=",")
     print(f"Correction factors written to '{output_path}'.")
@@ -172,7 +172,7 @@ def save_correction_factors_csv(Cp: np.ndarray, output_path: str = "correctoin.c
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Estimate per‑pixel correction factors and per‑file gains."
+        description="Estimate per-pixel correction factors and per-file gains."
     )
     parser.add_argument("--input", required=True, help="Folder containing raw files")
     parser.add_argument("--ext", required=True, help="file extension to process (.high or .low)")
