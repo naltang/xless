@@ -1,51 +1,3 @@
-import numpy as np
-
-def estimate_gain_org(array_this, array_correction):
-    eps = 1e-12
-    denom = np.sum((array_this * array_correction) ** 2) + eps
-    numer = np.sum(array_this * array_correction) * 50000.0
-    return numer / denom
-
-def estimate_gain(array_this, array_correction):
-    eps = 1e-12
-    
-    # Compute element-wise products
-    products = array_this * array_correction
-    
-    # Flatten to 1D for processing
-    flat_products = products.flatten()
-    
-    if len(flat_products) == 0:
-        return 0.0  # Return 0 for empty arrays
-    
-    # Get absolute values and sort them in descending order
-    abs_products = np.abs(flat_products)
-    sorted_indices = np.argsort(abs_products)[::-1]  # Sort in descending order
-    
-    # Take the first half (largest elements)
-    n_elements = len(flat_products)
-    n_full_intensity = max(1, n_elements // 2)  # Ensure at least 1 element
-    n_too_big_outliers = n_elements // 10
-    
-    # Get indices of the largest half elements
-    largest_indices = sorted_indices[n_too_big_outliers:n_full_intensity]
-    
-    # Extract the largest half elements
-    filtered_products = flat_products[largest_indices]
-    
-    # Compute gain
-    denom = np.sum(filtered_products ** 2) + eps
-    numer = np.sum(filtered_products) * 50000.0
-    
-    return numer / denom
-
-
-
-def correct_image(array_this, array_correction):
-    gain = estimate_gain(array_this, array_correction)
-    array_corrected = array_this * array_correction * gain
-    return array_corrected.astype(np.uint16)
-
 
 import numpy as np
 import os
@@ -54,6 +6,7 @@ from scipy import ndimage
 import argparse
 import multiprocessing
 import time
+import dexa_correction
 
 # Define image dimensions
 IMAGE_HEIGHT = 2560
@@ -78,7 +31,7 @@ def process_single_image(args):
         filepath_on = os.path.join(input_folder, "on/", filename)
         filepath_on_low = filepath_on + ".low"
         filepath_on_high = filepath_on + ".high"
-        filepath_on_ratio = filepath_on + ".ratios"
+        filepath_on_ratio = filepath_on + ".ratio"
 
         # Read 16-bit grayscale raw data. We do not need 2d reshaping
         image_low = np.fromfile(filepath_low, dtype=np.uint16)
@@ -86,8 +39,8 @@ def process_single_image(args):
 
         #print(f"IL={image_low.shape}, IH={image_high.shape}, CH={array_correction_high.shape}, CL={array_correction_low.shape}")
     
-        image_low_corrected = correct_image(image_low, array_correction_low)
-        image_high_corrected = correct_image(image_high, array_correction_high)
+        image_low_corrected = dexa_correction.correct_image(image_low, array_correction_low)
+        image_high_corrected = dexa_correction.correct_image(image_high, array_correction_high)
         image_ratio_corrected = image_low_corrected / image_high_corrected
         
         image_low_corrected.astype(np.uint16).tofile(filepath_low_cor)    # np.uint16
@@ -145,13 +98,13 @@ def main():
         print(f"No .raw files found in {input_folder}")
         sys.exit(1)
 
-    array_cor_high = np.loadtxt(filename_correction_high)
     array_cor_low = np.loadtxt(filename_correction_low)
+    array_cor_high = np.loadtxt(filename_correction_high)
 
     print(f"Processing {len(list_filename)} raw files...")
     
     # Prepare arguments for each process
-    process_args = [(input_folder, output_folder, filename, array_cor_high, array_cor_low)
+    process_args = [(input_folder, output_folder, filename, array_cor_low, array_cor_high)
                      for filename in list_filename]
     
     # Process images in parallel

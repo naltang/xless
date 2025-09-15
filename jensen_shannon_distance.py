@@ -46,7 +46,7 @@ def jensen_shannon_distance(array1, array2):
         print(f"Error processing images: {e}")
         raise
 
-def float_to_uint16(arr, min_val=0.5, max_val=1.5):
+def float_to_uint16(arr, min_val=0.0, max_val=2.0):
     """
     Map a float array in [min_val, max_val] to uint16 in [0, 65535].
 
