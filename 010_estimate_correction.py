@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Least-squares estimation of per-pixel correction factors Cp and per-file gains Gi
+Least-squares estimation of per-pixel correction factors Cpixel and per-file gains Gimage
 from 16-bit raw images.
 
 Usage:
@@ -8,10 +8,10 @@ Usage:
 
 The program will:
     - read all *.raw files in the supplied folder (they must have identical length)
-    - compute Cp and Gi that minimise Σ_i,k [RAW_i[k] * Cp[k] * Gi[i] – 50000]^2
-      with mean(Cp)=1
-    - write Cp to correctoin.csv
-    - print the Gi values for all files
+    - compute Cpixel and Gimage that minimise Σ_i,k [RAW_i[k] * Cpixel[k] * Gimage[i] – 50000]^2
+      with mean(Cpixel)=1
+    - write Cpixel to correction.csv
+    - print the Gimage values for all files
 """
 
 import os
@@ -65,7 +65,7 @@ def fit_correction_factors(
     tol: float = 1e-8,
 ) -> Tuple[np.ndarray, np.ndarray]:
     """
-    Perform alternating least-squares to estimate Cp and Gi.
+    Perform alternating least-squares to estimate Cpixel and Gimage.
 
     Parameters
     ----------
@@ -74,13 +74,13 @@ def fit_correction_factors(
     max_iter : int, optional
         Maximum number of ALS iterations.
     tol : float, optional
-        Convergence tolerance on the maximum change in Cp or Gi.
+        Convergence tolerance on the maximum change in Cpixel or Gimage.
 
     Returns
     -------
-    Cp : np.ndarray shape (N,)
-        Per-pixel correction factors (normalised so mean(Cp)=1)
-    Gi : np.ndarray shape (M,)
+    Cpixel : np.ndarray shape (N,)
+        Per-pixel correction factors (normalised so mean(Cpixel)=1)
+    Gimage : np.ndarray shape (M,)
         Per-file gain scalars (>0)
     """
     # Convert to a 2-D array for easier vectorisation: shape (M, N)
@@ -89,38 +89,38 @@ def fit_correction_factors(
 
     eps = 1e-12                      # avoid division by zero
 
-    Cp = np.ones(N, dtype=np.float64)
+    Cpixel = np.ones(N, dtype=np.float64)
 
-    Gi = np.ones(M, dtype=np.float64)   # initial guess (will be updated)
+    Gimage = np.ones(M, dtype=np.float64)   # initial guess (will be updated)
     for it in range(max_iter):
         print(f"iteration {it}")
-        old_Cp = Cp.copy()
-        old_Gi = Gi.copy()
+        old_Cpixel = Cpixel.copy()
+        old_Gimage = Gimage.copy()
 
-        # ---------- Update Gi ----------
-        # For each file i: minimise Σ_k [Cp[k]*Gi[i]*Y[i,k] – 50000]^2
-        denom_Gi = np.sum((Cp * Y)**2, axis=1) + eps          # shape (M,)
-        numer_Gi = np.sum(Cp * Y, axis=1) * 50000.0           # shape (M,)
-        Gi = numer_Gi / denom_Gi
+        # ---------- Update Gimage ----------
+        # For each file i: minimise Σ_k [Cpixel[k]*Gimage[i]*Y[i,k] – 50000]^2
+        denom_Gimage = np.sum((Cpixel * Y)**2, axis=1) + eps          # shape (M,)
+        numer_Gimage = np.sum(Cpixel * Y, axis=1) * 50000.0           # shape (M,)
+        Gimage = numer_Gimage / denom_Gimage
 
-        # ---------- Update Cp ----------
-        # For each pixel k: minimise Σ_i [Cp[k]*Gi[i]*Y[i,k] – 50000]^2
+        # ---------- Update Cpixel ----------
+        # For each pixel k: minimise Σ_i [Cpixel[k]*Gimage[i]*Y[i,k] – 50000]^2
         # Vectorised over all pixels:
-        Gi_col = Gi[:, None]                                 # shape (M,1)
-        denom_Cp = np.sum((Gi_col * Y)**2, axis=0) + eps     # shape (N,)
-        numer_Cp = np.sum(Gi_col * Y, axis=0) * 50000.0      # shape (N,)
-        Cp = numer_Cp / denom_Cp
+        Gimage_col = Gimage[:, None]                                 # shape (M,1)
+        denom_Cpixel = np.sum((Gimage_col * Y)**2, axis=0) + eps     # shape (N,)
+        numer_Cpixel = np.sum(Gimage_col * Y, axis=0) * 50000.0      # shape (N,)
+        Cpixel = numer_Cpixel / denom_Cpixel
 
-        # Normalise Cp so that its mean is 1
-        Cp /= Cp.mean()
+        # Normalise Cpixel so that its mean is 1
+        Cpixel /= Cpixel.mean()
 
         # ---------- Convergence check ----------
-        delta_Cp = np.max(np.abs(Cp - old_Cp))
-        delta_Gi = np.max(np.abs(Gi - old_Gi))
-        print(f"Cp= ... {Cp[N//2 + 1000 : N//2 + 1005]} ...")
-        print(f"Gi= ... {Gi[M//2 : M//2 + 5]} ...")
-        print(f"tol={tol}, delta_Cp={delta_Cp}, delta_Gi={delta_Gi}")
-        if max(delta_Cp, delta_Gi) < tol:
+        delta_Cpixel = np.max(np.abs(Cpixel - old_Cpixel))
+        delta_Gimage = np.max(np.abs(Gimage - old_Gimage))
+        print(f"Cpixel= ... {Cpixel[N//2 + 1000 : N//2 + 1005]} ...")
+        print(f"Gimage= ... {Gimage[M//2 : M//2 + 5]} ...")
+        print(f"tol={tol}, delta_Cpixel={delta_Cpixel}, delta_Gimage={delta_Gimage}")
+        if max(delta_Cpixel, delta_Gimage) < tol:
             print(f"Converged after {it+1} iterations.")
             break
     else:
@@ -128,45 +128,45 @@ def fit_correction_factors(
             f"Reached maximum iterations ({max_iter}) without full convergence."
         )
 
-    return Cp, Gi
+    return Cpixel, Gimage
 
 
-def estimate_gain_for_raw(raw: np.ndarray, Cp: np.ndarray) -> float:
+def estimate_gain_for_raw(raw: np.ndarray, Cpixel: np.ndarray) -> float:
     """
-    Estimate the gain Gi for a new raw file given the already-computed Cp.
+    Estimate the gain Gimage for a new raw file given the already-computed Cpixel.
 
     Parameters
     ----------
     raw : np.ndarray shape (N,)
         Raw data of the new file.
-    Cp : np.ndarray shape (N,)
+    Cpixel : np.ndarray shape (N,)
         Per-pixel correction factors.
 
     Returns
     -------
-    Gi : float
+    Gimage : float
         Estimated gain (>0).
     """
     eps = 1e-12
-    denom = np.sum((Cp * raw) ** 2) + eps
-    numer = np.sum(Cp * raw) * 50000.0
+    denom = np.sum((Cpixel * raw) ** 2) + eps
+    numer = np.sum(Cpixel * raw) * 50000.0
     return numer / denom
 
 
-def save_correction_factors_csv(Cp: np.ndarray, output_path: str = "correctoin.csv"):
+def save_correction_factors_csv(Cpixel: np.ndarray, output_path: str = "correction.csv"):
     """
-    Save Cp to a CSV file (one column).
+    Save Cpixel to a CSV file (one column).
 
     Parameters
     ----------
-    Cp : np.ndarray
+    Cpixel : np.ndarray
         Correction factors.
     output_path : str
         Path of the CSV file to write.
     """
-    # Ensure Cp is 1-D
-    Cp = Cp.ravel()
-    np.savetxt(output_path, Cp, delimiter=",")
+    # Ensure Cpixel is 1-D
+    Cpixel = Cpixel.ravel()
+    np.savetxt(output_path, Cpixel, delimiter=",")
     print(f"Correction factors written to '{output_path}'.")
 
 
@@ -188,21 +188,21 @@ def main():
     print(f"Loaded {len(raw_arrays)} files, each with {raw_arrays[0].size} pixels.")
 
     print("Estimating correction factors and gains …")
-    Cp, Gi = fit_correction_factors(raw_arrays)
+    Cpixel, Gimage = fit_correction_factors(raw_arrays)
 
-    # Print Gi values
-    #print("\nEstimated gains (Gi) for each file:")
-    #for fn, gi in zip(filenames, Gi):
+    # Print Gimage values
+    #print("\nEstimated gains (Gimage) for each file:")
+    #for fn, gi in zip(filenames, Gimage):
     #    print(f"  {fn:20s} : {gi:.6f}")
 
-    # Save Cp to CSV
-    save_correction_factors_csv(Cp, args.csv)
+    # Save Cpixel to CSV
+    save_correction_factors_csv(Cpixel, args.csv)
 
     # Example of using the helper function on a new raw file
     if raw_arrays:
         example_raw = raw_arrays[0]
-        gi_example = estimate_gain_for_raw(example_raw, Cp)
-        print(f"\nEstimated Gi for first file using helper: {gi_example:.6f}")
+        gi_example = estimate_gain_for_raw(example_raw, Cpixel)
+        print(f"\nEstimated Gimagemage for first file using helper: {gi_example:.6f}")
 
 
 if __name__ == "__main__":
